@@ -1,0 +1,71 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="detailed, video">
+
+	     <image name="convector" extra="true">
+		 <path>./../_assets/convector.png</path>
+		 <color>FFFFFF</color>
+		 <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>5</zIndex>
+		 </image>     
+
+     <image name="md_thumbnail">
+        <pos>0.915 0.435</pos>
+        <origin>1 0.5</origin>
+        <maxSize>0.145 0.45</maxSize>
+        <zIndex>5</zIndex>         
+      </image>          
+
+   </view>
+   
+<view name="detailed">
+      
+      <image name="md_image">
+		<color>707070</color>
+		<origin>1 0</origin>
+         <pos>0.94 0</pos>
+         <size>0.87 0.87</size>
+         <delay>0</delay>
+         <zIndex>1</zIndex>         
+      </image>	  	
+
+   </view>
+   
+<view name="video, grid">
+      
+      <video name="md_video">
+         <pos>0.94 0</pos>
+		 <origin>1 0 </origin>
+         <size>0.87 0.87</size>
+         <zIndex>1</zIndex>         
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+	  
+   </view> 
+ 
+<view name="video">
+      
+      <video name="md_video">
+		 <color>909090</color>
+		 <delay>0.3</delay>
+      </video>
+	  
+   </view>    
+
+
+<view name="grid">
+
+      <video name="md_video">
+		 <color>505050</color>
+         <delay>0.3</delay>
+      </video>
+
+   </view> 
+
+	
+</theme>

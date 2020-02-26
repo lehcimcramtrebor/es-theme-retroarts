@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system, basic, detailed, video, grid">
+
+		<image name="screen_overlay" extra="true">
+			<path>./../_assets/screen_dark_blue.png</path>
+		</image>	  
+		
+	</view>		
+
+</theme>

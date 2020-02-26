@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+		<include subset="Style" name="Dark">./dark.xml</include>	
+		<include subset="Style" name="Dark Bichrome">./dark_bichrome.xml</include>	
+		<include subset="Style" name="Dark Blue">./dark_blue.xml</include>	
+		<include subset="Style" name="Dark Red">./dark_red.xml</include>	
+		<include subset="Style" name="Dark Green">./dark_green.xml</include>	
+
+		<include subset="Style" name="Light">./light.xml</include>	
+		<include subset="Style" name="Light Bichrome">./light_bichrome.xml</include>	
+		<include subset="Style" name="Light Blue">./light_blue.xml</include>	
+		<include subset="Style" name="Light Red">./light_red.xml</include>	
+		<include subset="Style" name="Light Green">./light_green.xml</include>
+
+		<include subset="Style" name="Scumm">./scumm.xml</include>	
+		<include subset="Style" name="Scumm Full">./scumm_full.xml</include>
+		
+		<include subset="Style" name="Smash">./smash.xml</include>	
+		<include subset="Style" name="Smash Full">./smash_full.xml</include>
+
+		<include subset="Style" name="Zelda">./zelda.xml</include>	
+		<include subset="Style" name="Zelda Full">./zelda_full.xml</include>
+		
+</theme>

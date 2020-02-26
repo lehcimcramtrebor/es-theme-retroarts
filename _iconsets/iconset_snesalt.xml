@@ -1,0 +1,105 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	
+	<view name="system">
+
+   	<helpsystem name="help">
+			<iconUpDown>./../_assets/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/icon_snesalt_a.png</iconA>
+			<iconB>./../_assets/icon_snesalt_b.png</iconB>
+			<iconX>./../_assets/icon_snesalt_x.png</iconX>
+			<iconY>./../_assets/icon_snesalt_y.png</iconY>
+			<iconL>./../_assets/icon_snesalt_l.png</iconL>
+			<iconR>./../_assets/icon_snesalt_r.png</iconR>
+			<iconStart>./../_assets/icon_snesalt_start.png</iconStart>
+			<iconSelect>./../arts/snesalt/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  </view>
+	  
+   <view name="detailed">
+	   
+	<helpsystem name="help">
+			<iconUpDown>./../_assets/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/icon_snesalt_a.png</iconA>
+			<iconB>./../_assets/icon_snesalt_b.png</iconB>
+			<iconX>./../_assets/icon_snesalt_x.png</iconX>
+			<iconY>./../_assets/icon_snesalt_y.png</iconY>
+			<iconL>./../_assets/icon_snesalt_l.png</iconL>
+			<iconR>./../_assets/icon_snesalt_r.png</iconR>
+			<iconStart>./../_assets/icon_snesalt_start.png</iconStart>
+			<iconSelect>./../arts/snesalt/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+	   </view>
+
+   <view name="basic">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/icon_snesalt_a.png</iconA>
+			<iconB>./../_assets/icon_snesalt_b.png</iconB>
+			<iconX>./../_assets/icon_snesalt_x.png</iconX>
+			<iconY>./../_assets/icon_snesalt_y.png</iconY>
+			<iconL>./../_assets/icon_snesalt_l.png</iconL>
+			<iconR>./../_assets/icon_snesalt_r.png</iconR>
+			<iconStart>./../_assets/icon_snesalt_start.png</iconStart>
+			<iconSelect>./../arts/snesalt/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+
+   	   </view>
+	   
+	   
+   <view name="video">
+
+      <helpsystem name="help">
+			<iconUpDown>./../_assets/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/icon_snesalt_a.png</iconA>
+			<iconB>./../_assets/icon_snesalt_b.png</iconB>
+			<iconX>./../_assets/icon_snesalt_x.png</iconX>
+			<iconY>./../_assets/icon_snesalt_y.png</iconY>
+			<iconL>./../_assets/icon_snesalt_l.png</iconL>
+			<iconR>./../_assets/icon_snesalt_r.png</iconR>
+			<iconStart>./../_assets/icon_snesalt_start.png</iconStart>
+			<iconSelect>./../arts/snesalt/select.png</iconSelect>
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+   	   </view>
+
+   	<view name="grid">
+	
+		 <helpsystem name="help">
+			<iconUpDown>./../_assets/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./../_assets/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./../_assets/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./../_assets/icon_snesalt_a.png</iconA>
+			<iconB>./../_assets/icon_snesalt_b.png</iconB>
+			<iconX>./../_assets/icon_snesalt_x.png</iconX>
+			<iconY>./../_assets/icon_snesalt_y.png</iconY>
+			<iconL>./../_assets/icon_snesalt_l.png</iconL>
+			<iconR>./../_assets/icon_snesalt_r.png</iconR>
+			<iconStart>./../_assets/icon_snesalt_start.png</iconStart>
+			<iconSelect>./../arts/snesalt/select.png</iconSelect> 
+			<iconColor>ffffff</iconColor>
+
+			</helpsystem>
+	  
+	   	   </view>
+	
+</theme>

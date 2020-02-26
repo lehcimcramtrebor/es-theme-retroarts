@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+	<include>./commons.xml</include>
+		
+<view name="system">
+
+		<carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>-0.075 0.015</pos>
+        <size>1 0.845</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.090 0.090</logoSize>
+        <color>00000000</color>
+		<logoRotation>-5.5</logoRotation>
+		<logoRotationOrigin>5.5 0.5</logoRotationOrigin>
+		<logoAlignment>right</logoAlignment>
+        <maxLogoCount>5</maxLogoCount>
+		<zIndex>8</zIndex>
+		</carousel>
+
+			<image name="art_01" extra="true">
+			<origin>0 0.5</origin>
+			<pos>0.08 0.44</pos>
+			<maxSize>0.16 0.32</maxSize>
+			<zIndex>9</zIndex>
+			</image>
+
+</view>
+   
+
+  
+</theme>

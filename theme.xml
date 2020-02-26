@@ -1,0 +1,199 @@
+<!--
+Retroarts Theme v1.2 For Batocera 5.24
+Based on Nextfull Theme.
+
+By Lechim
+lehcimcramtrebor.ztriw@gmail.com
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+		<include subset="Systemview" name="Wheel Left">./_systemviews/wheel_left.xml</include>
+		<include subset="Systemview" name="Wheel Right">./_systemviews/wheel_right.xml</include>
+		<include subset="Systemview" name="Legacy (Center)">./_systemviews/legacy.xml</include>			
+		<include subset="Systemview" name="Vertical Left">./_systemviews/vertical_left.xml</include>
+		<include subset="Systemview" name="Vertical Right">./_systemviews/vertical_right.xml</include>		
+
+		
+  		<include>./_gamelist/gamelist.xml</include>
+  		<include>./_styles/styles.xml</include>
+
+		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
+		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
+		<include subset="Screen Effects" name="Scanlines Fine">./_effects/screen_effect_scanlines_fine.xml</include>	
+		<include subset="Screen Effects" name="Vertical Scanlines Fine">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
+		<include subset="Screen Effects" name="Phosphore">./_effects/screen_effect_phosphore.xml</include>
+		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
+		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
+
+		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
+		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
+		<include subset="Video Effect" name="GLITCH">./_effects/tv_effect_glitch.xml</include>						
+		<include subset="Video Effect" name="VHS GLITCH">./_effects/tv_effect_vhs_glitch.xml</include>
+		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
+		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+		
+		<include subset="iconset" name="Standard">./_iconsets/iconset_standard.xml</include>		
+		<include subset="iconset" name="Arcade">./_iconsets/iconset_arcade.xml</include>
+		<include subset="iconset" name="Psx">./_iconsets/iconset_psx.xml</include>
+		<include subset="iconset" name="Snes">./_iconsets/iconset_snes.xml</include>
+		<include subset="iconset" name="Snes Alt">./_iconsets/iconset_snesalt.xml</include>
+		<include subset="iconset" name="Xbox">./_iconsets/iconset_xbox.xml</include>	
+		<include subset="iconset" name="Xbox One">./_iconsets/iconset_xboxone.xml</include>	
+
+		<include subset="Number of Players" name="Yes">./nope.xml</include>	
+		<include subset="Number of Players" name="No">./_desactivated/nb_players.xml</include>	
+
+		<include subset="Systems Arts" name="Yes">./nope.xml</include>	
+		<include subset="Systems Arts" name="No">./_desactivated/arts.xml</include>
+
+		<include subset="System logos" name="Carbon Europe">./_logos/carbon_logo.xml</include>
+		<include subset="System logos" name="Carbon World">./_logos/world_carbon_logo.xml</include>
+		<include subset="System logos" name="Simple Europe">./_logos/simple_logo.xml</include>
+		<include subset="System logos" name="Simple World">./_logos/world_simple_logo.xml</include>
+
+		<include subset="Systems Sounds" name="On">./sound.xml</include>
+		<include subset="Systems Sounds" name="Off">./nope.xml</include>		
+
+	<view name="screen">
+
+    <text name="clock">
+      <textColor>777777FF</textColor>
+      <fontSize>0.035</fontSize>
+      <pos>0.94 0.94</pos>
+      <size>0.05 0.058</size>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+
+	</view>
+  
+	<view name="system, basic, detailed, video, grid">
+ 
+		<image name="screen_overlay" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>500</zIndex>
+		</image>	  
+		
+			<image name="screen_effect" extra="true">
+				<size>1 1</size>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<tile>true</tile>
+				<zIndex>10</zIndex>
+			</image>
+	
+	    <video name="tv_effect" extra="true">
+				<size>1 1</size>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<zIndex>11</zIndex>
+		</video>
+
+		<image name="background" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>FFFFFF</color>
+			<zIndex>1</zIndex>                 
+			<path>./_systems/${system.theme}/wallpaper.jpg</path>
+		</image>
+			
+		<image name="art_01" extra="true">
+			<path>./_systems/${system.theme}/art.png</path>
+		</image>
+
+		<helpsystem name="help">
+			<fontPath>./_assets/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.015</fontSize>     
+			<pos>0.02 0.96</pos>      
+			<textColor>ffffff</textColor>
+		</helpsystem>
+	
+	</view>
+ 
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+			<color>7deaea</color>
+		 </image>     
+
+		<text name="md_players">
+			<color>ffffff</color>
+			<glowColor>000000</glowColor>
+			<alignment>center</alignment>		 
+			<fontPath>./_assets/LCDMB.TTF</fontPath>		 
+			<fontSize>0.04</fontSize>
+		</text>
+	  
+	</view>
+ 
+	<view name="system">
+
+
+	  
+			<text name="systemInfo">
+				<pos>0.198 0.91</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<color>1f1e1b</color>
+				<glowColor>7deaea</glowColor>
+				<glowSize>1</glowSize>				
+				<fontPath>./_assets/LCDMB.ttf</fontPath>
+				<fontSize>0.032</fontSize>
+				<zIndex>999</zIndex>	     
+			</text>		
+
+	</view>
+   
+	<view name="menu">
+	
+		<menuText name="menufooter">
+			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontSize>0.020</fontSize>
+			<color>000000ff</color>
+		</menuText>
+		
+		<menuText name="menutext">
+			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontSize>0.027</fontSize>
+			<color>000000ff</color>
+			<separatorColor>808080aa</separatorColor>
+			<selectorColor>008000</selectorColor>
+			<selectedColor>ffffffff</selectedColor>
+		</menuText>
+		
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>		
+			<fontSize>0.028</fontSize>
+			<color>ffffffff</color>
+		</menuTextSmall>
+		
+		<menuText name="menutitle">
+			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontSize>0.050</fontSize>
+			<color>000000ff</color>
+		</menuText>
+		
+			<menuBackground name="menubg">
+				<color>999999aa</color>
+				<fadePath>./_arts/bg_menu_white.png</fadePath>
+			</menuBackground>
+						
+		<menuIcons name="menuicons">
+			<iconGames>./_assets/menu_icon_games.png</iconGames>
+			<iconControllers>./_assets/menu_icon_controllers.png</iconControllers>
+			<iconUI>./_assets/menu_icon_ui.png</iconUI>
+			<iconSound>./_assets/menu_icon_sound.png</iconSound>
+			<iconScraper>./_assets/menu_icon_scraper.png</iconScraper>
+			<iconAdvanced>./_assets/menu_icon_advanced.png</iconAdvanced>
+			<iconQuit>./_assets/menu_icon_quit.png</iconQuit>
+		</menuIcons>
+		
+	</view>
+  
+</theme>
