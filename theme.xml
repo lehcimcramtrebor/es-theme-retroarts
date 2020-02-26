@@ -104,7 +104,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		</image>
 			
 		<image name="art_01" extra="true">
-			<path>./_systems/${system.theme}/art.png</path>
+			<path>./_systems/${system.theme}/console.png</path>
 		</image>
 
 		<helpsystem name="help">
