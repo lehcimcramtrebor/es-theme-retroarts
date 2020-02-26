@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+		<include subset="Colors Set" name="Blue LCD">./colorset_blue_lcd.xml</include>	
+		<include subset="Colors Set" name="Green LCD">./colorset_green_lcd.xml</include>	
+		
+</theme>

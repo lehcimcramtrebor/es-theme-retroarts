@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+		
+  		<include>./../_gamelistviews_framed/gamelist.xml</include>
+  		<include>./../_styles/styles.xml</include>
+  		<include>./back_screen.xml</include>
+  		<include>./frame_screen.xml</include>
+  		<include>./colorset.xml</include>
+
+	<view name="system">
+
+			<text name="systemInfo">
+				<pos>0.198 0.91</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<color>000000</color>
+				<glowSize>1</glowSize>				
+				<fontPath>./_assets/LCDMB.ttf</fontPath>
+				<fontSize>0.032</fontSize>
+				<zIndex>999</zIndex>	     
+			</text>		
+
+	</view>
+
+	<view name="system, basic, detailed, video, grid">
+
+		<image name="background" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.87 0.87</size>
+		</image>
+
+		<image name="screen_back" extra="true">
+			<path>./../_assets/screen_back.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>498</zIndex>
+		</image>
+		
+		<image name="screen_overlay" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>500</zIndex>
+		</image>
+
+		<image name="screen_frame" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>499</zIndex>
+		</image>
+
+		<image name="bayer" extra="true">
+			<path>./../_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.473 0.893</pos>
+			<size>0.365 0.10</size>        
+			<tile>true</tile>
+			<zIndex>496</zIndex>
+		</image>
+
+		<image name="ring" extra="true">
+			<path>./../_assets/ring_retroarts.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9425</pos>
+			<size>0.04271 0.09398</size>        
+			<zIndex>497</zIndex>
+		</image>
+		
+	</view>
+		
+</theme>

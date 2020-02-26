@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+		<include subset="Style" name="Dark">./fixed_dark.xml</include>	
+
+		<include subset="Style" name="Light">./fixed_light.xml</include>	
+
+		<include subset="Style" name="Scumm">./fixed_scumm.xml</include>	
+		<include subset="Style" name="Scumm Full">./fixed_scumm_full.xml</include>
+		
+		<include subset="Style" name="Smash">./fixed_smash.xml</include>	
+		<include subset="Style" name="Smash Full">./fixed_smash_full.xml</include>
+
+		<include subset="Style" name="Zelda">./fixed_zelda.xml</include>	
+		<include subset="Style" name="Zelda Full">./fixed_zelda_full.xml</include>
+		
+</theme>

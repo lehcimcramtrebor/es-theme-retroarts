@@ -8,16 +8,12 @@ lehcimcramtrebor.ztriw@gmail.com
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
-		<include subset="Systemview" name="Wheel Left">./_systemviews/wheel_left.xml</include>
-		<include subset="Systemview" name="Wheel Right">./_systemviews/wheel_right.xml</include>
-		<include subset="Systemview" name="Legacy (Center)">./_systemviews/legacy.xml</include>			
-		<include subset="Systemview" name="Vertical Left">./_systemviews/vertical_left.xml</include>
-		<include subset="Systemview" name="Vertical Right">./_systemviews/vertical_right.xml</include>		
-
+		<include subset="Systemview" name="Framed Wheel Left">./_systemviews_framed/wheel_left.xml</include>
+		<include subset="Systemview" name="Framed Wheel Right">./_systemviews_framed/wheel_right.xml</include>
+		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews_framed/legacy.xml</include>			
+		<include subset="Systemview" name="Framed Vertical Left">./_systemviews_framed/vertical_left.xml</include>
+		<include subset="Systemview" name="Framed Vertical Right">./_systemviews_framed/vertical_right.xml</include>		
 		
-  		<include>./_gamelist/gamelist.xml</include>
-  		<include>./_styles/styles.xml</include>
-
 		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
 		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
 		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
@@ -35,7 +31,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
 		
-		<include subset="iconset" name="Standard">./_iconsets/iconset_standard.xml</include>		
+		<include subset="iconset" name="Standard">./_iconsets/nope.xml</include>		
 		<include subset="iconset" name="Arcade">./_iconsets/iconset_arcade.xml</include>
 		<include subset="iconset" name="Psx">./_iconsets/iconset_psx.xml</include>
 		<include subset="iconset" name="Snes">./_iconsets/iconset_snes.xml</include>
@@ -70,15 +66,7 @@ lehcimcramtrebor.ztriw@gmail.com
 	</view>
   
 	<view name="system, basic, detailed, video, grid">
- 
-		<image name="screen_overlay" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>        
-			<color>FFFFFF</color>
-			<zIndex>500</zIndex>
-		</image>	  
-		
+ 		
 			<image name="screen_effect" extra="true">
 				<size>1 1</size>
 				<pos>0 0</pos>
@@ -95,10 +83,6 @@ lehcimcramtrebor.ztriw@gmail.com
 		</video>
 
 		<image name="background" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<color>FFFFFF</color>
 			<zIndex>1</zIndex>                 
 			<path>./_systems/${system.theme}/wallpaper.jpg</path>
 		</image>
@@ -109,7 +93,7 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<helpsystem name="help">
 			<fontPath>./_assets/fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.015</fontSize>     
+			<fontSize>0.020</fontSize>     
 			<pos>0.02 0.96</pos>      
 			<textColor>ffffff</textColor>
 		</helpsystem>
@@ -120,7 +104,6 @@ lehcimcramtrebor.ztriw@gmail.com
 
 	     <image name="g_players" extra="true">
 			<path>./_assets/players.png</path>
-			<color>7deaea</color>
 		 </image>     
 
 		<text name="md_players">
@@ -133,22 +116,6 @@ lehcimcramtrebor.ztriw@gmail.com
 	  
 	</view>
  
-	<view name="system">
-
-
-	  
-			<text name="systemInfo">
-				<pos>0.198 0.91</pos>
-				<backgroundColor>00000000</backgroundColor>
-				<color>1f1e1b</color>
-				<glowColor>7deaea</glowColor>
-				<glowSize>1</glowSize>				
-				<fontPath>./_assets/LCDMB.ttf</fontPath>
-				<fontSize>0.032</fontSize>
-				<zIndex>999</zIndex>	     
-			</text>		
-
-	</view>
    
 	<view name="menu">
 	

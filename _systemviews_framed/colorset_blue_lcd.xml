@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+		<view name="system, basic, detailed, video, grid">
+		
+		<helpsystem name="help">
+			<iconColor>7deaea</iconColor>
+		</helpsystem>
+		
+		<image name="bayer" extra="true">
+         <color>8effff</color>
+		</image>
+
+		<image name="ring" extra="true">
+         <color>8effff</color>
+		</image>
+		
+   </view>
+		
+		<view name="basic, detailed, video, grid">
+	  
+     <text name="md_description">
+		<glowColor>7deaea</glowColor>
+      </text>
+		
+   </view>
+
+	<view name="basic, detailed, video">
+	
+     <textlist name="gamelist">
+         <selectorColor>7deaea</selectorColor>
+      </textlist>
+	  
+   </view>
+
+	<view name="system">
+
+		<text name="systemInfo">
+			<glowColor>7deaea</glowColor>
+		</text>		
+   </view>
+
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+			<color>7deaea</color>
+		 </image>     
+
+   </view>
+
+	<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>7deaea</backgroundEdgeColor>
+    </gridtile>
+
+   </view>
+			
+</theme>
