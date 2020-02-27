@@ -3,7 +3,8 @@
 <theme>
 	<formatVersion>4</formatVersion>
 	
-		<include subset="Colors Set" name="Blue LCD">./colorset_blue_lcd.xml</include>	
-		<include subset="Colors Set" name="Green LCD">./colorset_green_lcd.xml</include>	
+		<include subset="Colors Set" name="Blue">./colorset_blue_lcd.xml</include>	
+		<include subset="Colors Set" name="Green">./colorset_green_lcd.xml</include>	
+		<include subset="Colors Set" name="Yellow">./colorset_yellow_lcd.xml</include>	
 		
 </theme>

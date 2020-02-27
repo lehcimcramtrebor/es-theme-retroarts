@@ -15,7 +15,6 @@
 			<text name="systemInfo">
 				<pos>0.198 0.91</pos>
 				<backgroundColor>00000000</backgroundColor>
-				<color>000000</color>
 				<glowSize>1</glowSize>				
 				<fontPath>./_assets/LCDMB.ttf</fontPath>
 				<fontSize>0.032</fontSize>
@@ -59,12 +58,37 @@
 		<image name="bayer" extra="true">
 			<path>./../_assets/bayer.png</path>		
 			<origin>0 0</origin>
-			<pos>0.473 0.893</pos>
-			<size>0.365 0.10</size>        
+			<pos>0.575 0.903</pos>
+			<size>0.255 0.083</size>        
 			<tile>true</tile>
 			<zIndex>496</zIndex>
 		</image>
 
+		<image name="ring_bayer" extra="true">
+			<path>./../_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.473 0.895</pos>
+			<size>0.055 0.095</size>        
+			<tile>true</tile>
+			<zIndex>495</zIndex>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+			<path>./../_assets/bloom_ring.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.941</pos>
+			<size>0.0781 0.1389</size>        
+			<zIndex>501</zIndex>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+			<path>./../_assets/bloom_lcd.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.7015 0.9441</pos>
+			<size>0.27615 0.1255</size>        
+			<zIndex>502</zIndex>
+		</image>
+		
 		<image name="ring" extra="true">
 			<path>./../_assets/ring_retroarts.png</path>		
 			<origin>0.5 0.5</origin>
