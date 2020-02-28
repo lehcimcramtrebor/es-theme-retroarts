@@ -8,6 +8,8 @@
 
 		<image name="screen_back" extra="true">
 			<color>ffcb06</color>
+			<colorEnd>ff1515</colorEnd>
+			<gradientType>vertical</gradientType>
 		</image>
 		
 	</view>
