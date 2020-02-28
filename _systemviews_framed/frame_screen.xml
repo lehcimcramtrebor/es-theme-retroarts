@@ -11,6 +11,7 @@
 		<include subset="Screen Frame" name="Blue Smash">./frame_blue_smash.xml</include>	
 		<include subset="Screen Frame" name="Red">./frame_red.xml</include>	
 		<include subset="Screen Frame" name="Green">./frame_green.xml</include>	
+		<include subset="Screen Frame" name="Blue Capcom">./frame_blue_capcom.xml</include>	
 
 
 </theme>

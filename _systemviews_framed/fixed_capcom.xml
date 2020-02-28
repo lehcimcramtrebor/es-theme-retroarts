@@ -7,7 +7,7 @@
 	<view name="system, basic, detailed, video, grid">
 
 		<image name="screen_back" extra="true">
-			<color>505050</color>
+			<color>ffcb06</color>
 		</image>
 		
 	</view>

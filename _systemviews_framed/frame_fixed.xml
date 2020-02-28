@@ -15,5 +15,8 @@
 
 		<include subset="Style" name="Zelda">./frame_bright.xml</include>	
 		<include subset="Style" name="Zelda Full">./frame_bright.xml</include>
+
+		<include subset="Style" name="Capcom">./frame_blue_capcom.xml</include>	
+		<include subset="Style" name="Capcom Full">./frame_blue_capcom.xml</include>
 		
 </theme>

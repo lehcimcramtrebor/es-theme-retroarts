@@ -15,5 +15,8 @@
 
 		<include subset="Style" name="Zelda">./zelda.xml</include>	
 		<include subset="Style" name="Zelda Full">./zelda_full.xml</include>
+
+		<include subset="Style" name="Capcom">./capcom.xml</include>	
+		<include subset="Style" name="Capcom Full">./capcom_full.xml</include>
 		
 </theme>

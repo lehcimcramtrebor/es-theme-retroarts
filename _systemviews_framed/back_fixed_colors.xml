@@ -8,12 +8,14 @@
 		<include subset="Style" name="Light">./fixed_light.xml</include>	
 
 		<include subset="Style" name="Scumm">./fixed_scumm.xml</include>	
-		<include subset="Style" name="Scumm Full">./fixed_scumm_full.xml</include>
+		<include subset="Style" name="Scumm Full">./fixed_scumm.xml</include>
 		
 		<include subset="Style" name="Smash">./fixed_smash.xml</include>	
-		<include subset="Style" name="Smash Full">./fixed_smash_full.xml</include>
+		<include subset="Style" name="Smash Full">./fixed_smash.xml</include>
 
 		<include subset="Style" name="Zelda">./fixed_zelda.xml</include>	
-		<include subset="Style" name="Zelda Full">./fixed_zelda_full.xml</include>
-		
+		<include subset="Style" name="Zelda Full">./fixed_zelda.xml</include>
+
+		<include subset="Style" name="Capcom">./fixed_capcom.xml</include>	
+		<include subset="Style" name="Capcom Full">./fixed_capcom.xml</include>		
 </theme>
