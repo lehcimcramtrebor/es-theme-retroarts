@@ -17,7 +17,7 @@
 		</image>
 
 		<image name="ring" extra="true">
-         <color>4ed344</color>
+         <color>000000</color>
 		</image>
 
 		<image name="bloom_ring" extra="true">

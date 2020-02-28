@@ -7,7 +7,9 @@
 	<view name="system, basic, detailed, video, grid">
 
 		<image name="screen_back" extra="true">
-			<color>0a2b35</color>
+			<color>000000</color>
+			<colorEnd>0a2b35</colorEnd>
+			<gradientType>vertical</gradientType>
 		</image>
 		
 	</view>

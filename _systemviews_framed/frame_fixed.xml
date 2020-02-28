@@ -5,7 +5,7 @@
 	
 		<include subset="Style" name="Dark">./frame_dark.xml</include>	
 
-		<include subset="Style" name="Light">./frame_light.xml</include>	
+		<include subset="Style" name="Light">./frame_bright.xml</include>	
 
 		<include subset="Style" name="Scumm">./frame_dark.xml</include>	
 		<include subset="Style" name="Scumm Full">./frame_dark.xml</include>

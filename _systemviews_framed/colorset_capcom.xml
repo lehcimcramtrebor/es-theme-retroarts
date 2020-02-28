@@ -5,11 +5,13 @@
 		<view name="system, basic, detailed, video, grid">
 		
 		<helpsystem name="help">
-			<iconColor>e1c329</iconColor>
+			<iconColor>ffff00</iconColor>
 		</helpsystem>
 
 		<image name="ring_bayer" extra="true">
-         <color>ff5000</color>		 
+         <color>009ee0</color>		 		
+         <colorEnd>0c4da1</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 		
 		<image name="bayer" extra="true">
@@ -17,11 +19,15 @@
 		</image>
 
 		<image name="ring" extra="true">
-         <color>e1c329</color>
+         <color>101010</color>		 		
+         <colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 
 		<image name="bloom_ring" extra="true">
-         <color>ffcb0670</color>
+         <color>009ee090</color>		 		
+         <colorEnd>0c4da190</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 
 		<image name="bloom_lcd" extra="true">
@@ -33,7 +39,7 @@
 		<view name="basic, detailed, video, grid">
 	  
      <text name="md_description">
-		<glowColor>ffcb06</glowColor>
+		<glowColor>ffcb0650</glowColor>
       </text>
 		
    </view>
@@ -51,7 +57,7 @@
 
 		<text name="systemInfo">
 			<color>000000</color>
-			<glowColor>ffcb06</glowColor>
+			<glowColor>ffcb0650</glowColor>
 		</text>		
    </view>
 
@@ -59,7 +65,7 @@
 
 	     <image name="g_players" extra="true">
 			<path>./_assets/players.png</path>
-			<color>7deaea</color>
+			<color>ffcb06</color>
 		 </image>     
 
    </view>
@@ -67,7 +73,7 @@
 	<view name="grid">
 
     <gridtile name="selected">
-      <backgroundEdgeColor>7deaea</backgroundEdgeColor>
+      <backgroundEdgeColor>ffcb06</backgroundEdgeColor>
     </gridtile>
 
    </view>
@@ -75,7 +81,9 @@
 	<view name="menu">
 
 		<menuText name="menutext">
-			<selectorColor>2aa5a5</selectorColor>
+			<selectorColor>ffcb06</selectorColor>
+			<selectorColorEnd>ff1515</selectorColorEnd>
+
 		</menuText>
 
    </view>

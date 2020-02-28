@@ -9,13 +9,13 @@
 <view name="basic, detailed, video, grid">
 	  
      <text name="md_description">
-		<color>000000ee</color>
+		<color>000000</color>
 		<glowSize>1</glowSize>
-        <fontPath>./../_assets/Gooseberry_Juice.otf</fontPath>		 
+        <fontPath>./../_assets/abduction2002.ttf</fontPath>		 
         <pos>0.5783 0.9057</pos>
         <size>0.25 0.0777</size>
 		<alignment>center</alignment>
-        <fontSize>0.024</fontSize>
+        <fontSize>0.026</fontSize>
         <zIndex>800</zIndex>         
       </text>
 

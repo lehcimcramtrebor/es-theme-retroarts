@@ -17,7 +17,7 @@
 				<backgroundColor>00000000</backgroundColor>
 				<glowSize>1</glowSize>				
 				<fontPath>./_assets/LCDMB.ttf</fontPath>
-				<fontSize>0.032</fontSize>
+				<fontSize>0.030</fontSize>
 				<zIndex>999</zIndex>	     
 			</text>		
 

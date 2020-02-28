@@ -92,9 +92,9 @@ lehcimcramtrebor.ztriw@gmail.com
 		</image>
 
 		<helpsystem name="help">
-			<fontPath>./_assets/fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.020</fontSize>     
-			<pos>0.02 0.96</pos>      
+			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontSize>0.016</fontSize>     
+			<pos>0.02 0.9625</pos>      
 			<textColor>ffffff</textColor>
 		</helpsystem>
 	

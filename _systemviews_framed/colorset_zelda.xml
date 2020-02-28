@@ -5,27 +5,33 @@
 		<view name="system, basic, detailed, video, grid">
 		
 		<helpsystem name="help">
-			<iconColor>2aa5a5</iconColor>
+			<iconColor>ff0000</iconColor>
 		</helpsystem>
 
 		<image name="ring_bayer" extra="true">
-         <color>7deaea</color>
+         <color>aa9ff1</color>		 		
+         <colorEnd>5b53a3</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 		
 		<image name="bayer" extra="true">
-         <color>7deaea</color>
+         <color>f3d218</color>
 		</image>
 
 		<image name="ring" extra="true">
-         <color>7deaea</color>
+         <color>101010</color>		 		
+         <colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 
 		<image name="bloom_ring" extra="true">
-         <color>7deaea70</color>
+         <color>aa9ff190</color>		 		
+         <colorEnd>5b53a390</colorEnd>
+		<gradientType>vertical</gradientType>
 		</image>
 
 		<image name="bloom_lcd" extra="true">
-         <color>7deaea70</color>
+         <color>f3d21870</color>
 		</image>
 		
    </view>
@@ -33,7 +39,7 @@
 		<view name="basic, detailed, video, grid">
 	  
      <text name="md_description">
-		<glowColor>7deaea</glowColor>
+		<glowColor>f3d21850</glowColor>
       </text>
 		
    </view>
@@ -41,8 +47,9 @@
 	<view name="basic, detailed, video">
 	
      <textlist name="gamelist">
-         <selectorColor>7deaea</selectorColor>
-      </textlist>
+			<selectorColor>00e01a</selectorColor>
+			<selectorColorEnd>00800d</selectorColorEnd>
+			</textlist>
 	  
    </view>
 
@@ -50,7 +57,7 @@
 
 		<text name="systemInfo">
 			<color>000000</color>
-			<glowColor>7deaea</glowColor>
+			<glowColor>f3d21850</glowColor>
 		</text>		
    </view>
 
@@ -58,7 +65,7 @@
 
 	     <image name="g_players" extra="true">
 			<path>./_assets/players.png</path>
-			<color>7deaea</color>
+			<color>aa9ff1</color>
 		 </image>     
 
    </view>
@@ -66,7 +73,7 @@
 	<view name="grid">
 
     <gridtile name="selected">
-      <backgroundEdgeColor>7deaea</backgroundEdgeColor>
+      <backgroundEdgeColor>00e01a</backgroundEdgeColor>
     </gridtile>
 
    </view>
@@ -74,7 +81,9 @@
 	<view name="menu">
 
 		<menuText name="menutext">
-			<selectorColor>2aa5a5</selectorColor>
+			<selectorColor>00e01a</selectorColor>
+			<selectorColorEnd>00800d</selectorColorEnd>
+
 		</menuText>
 
    </view>
