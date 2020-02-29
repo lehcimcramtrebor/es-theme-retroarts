@@ -33,7 +33,15 @@
       <zIndex>1</zIndex>      
     </video>
 	
-			
+			<image name="art_01" extra="true">
+			<maxSize>0.16 0.32</maxSize>			
+			<zIndex>9</zIndex>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+				
 </view>
   
 </theme>

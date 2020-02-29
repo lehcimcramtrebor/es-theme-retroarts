@@ -10,9 +10,14 @@
 		</image>	  
 
 		<text name="os_logo" extra="true">
-		<color>808080</color>
-		<glowColor>101010</glowColor>
+		<color>ffffff99</color>
+		<glowColor>000000</glowColor>
 		</text>
+
+		<image name="system_tv" extra="true">
+			<path>./../../_assets/tv.png</path>
+			<color>606060</color>
+		</image>
 		
 	</view>		
 

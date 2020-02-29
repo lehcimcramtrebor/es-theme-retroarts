@@ -4,7 +4,11 @@
 	
 
 <view name="basic, detailed, video, grid">
-	  
+
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+		  
      <text name="md_description">
 		<color>000000</color>
 		<glowSize>1</glowSize>

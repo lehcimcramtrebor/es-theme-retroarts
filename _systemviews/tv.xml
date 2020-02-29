@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+
+   
+		<include subset="Carousel" name="Wheel Left">./tv_wl.xml</include>
+
+		<include subset="Carousel" name="Wheel Right">./tv_wr.xml</include>
+
+		<include subset="Carousel" name="Legacy (Center)">./tv_lg.xml</include>			
+
+		<include subset="Carousel" name="Vertical Left">./tv_vl.xml</include>
+
+		<include subset="Carousel" name="Vertical Right">./tv_vr.xml</include>		
+
+<view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<size>0.09 0.13</size>	
+		<path>{random}</path>                 
+		<delay>0</delay>
+	  		 <default>./../_assets/effect_vhs_glitch.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+      <color>ffffff</color>
+      <zIndex>3</zIndex>      
+    </video>
+	
+			<image name="art_01" extra="true">
+			<maxSize>0.06 0.12</maxSize>			
+			<zIndex>9</zIndex>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<maxSize>0.16 0.32</maxSize>			
+				<zIndex>8</zIndex>
+			</image>
+
+			<image name="system_tv_back" extra="true">
+				<path>./../_assets/frame.png</path>
+				<size>0.09 0.13</size>					
+				<color>000000</color>
+				<zIndex>2</zIndex>
+			</image>			
+</view>
+  
+</theme>

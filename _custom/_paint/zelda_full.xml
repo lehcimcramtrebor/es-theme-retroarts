@@ -13,7 +13,11 @@
 		<color>808080</color>
 		<glowColor>101010</glowColor>
 		</text>
-		
+
+		<image name="system_tv" extra="true">
+			<path>./../../_assets/tv_green.png</path>
+		</image>		
+						
 	</view>		
 
 </theme>
