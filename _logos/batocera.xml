@@ -8,11 +8,9 @@
 		<text name="os_logo" extra="true">
 		<text>BATOCERA</text>
 		<fontPath>./../_assets/LCDMB.TTF</fontPath>
-		<fontSize>0.028</fontSize>
+		<fontSize>0.036</fontSize>
 		<origin>0 0.5</origin>
-		<pos>0.12 0.9125</pos>
-		<color>ffffff</color>
-		<glowColor>202020</glowColor>
+		<pos>0.12 0.9132</pos>
 		<glowSize>1</glowSize>
 		<zIndex>600</zIndex>
 		</text>
