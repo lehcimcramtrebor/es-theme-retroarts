@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+		<include subset="Music" name="By System">./sound.xml</include>
+		<include subset="Music" name="Batocera Musics">./jukebox.xml</include>
+		
+	<view name="system, basic, detailed, video, grid">
+	
+		<text name="os_logo" extra="true">
+		<text>RETROBAT</text>
+		<fontPath>./_assets/Sega.TTF</fontPath>
+		<fontSize>0.036</fontSize>
+		<origin>0 0.5</origin>
+		<pos>0.12 0.9125</pos>
+		<glowSize>1</glowSize>
+		<zIndex>600</zIndex>
+		</text>
+	</view>
+				    
+</theme>

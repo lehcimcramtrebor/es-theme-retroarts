@@ -2,10 +2,7 @@
 
 	<formatVersion>4</formatVersion>
 	
-		<include subset="Snapshots & Videos" name="Standard">./snapshots_videos_standard.xml</include>
-		<include subset="Snapshots & Videos" name="Full Screen">./snapshots_videos_full.xml</include>
-		
-	
+
 <view name="basic, detailed, video, grid">
 	  
      <text name="md_description">

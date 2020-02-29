@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+<!------STYLES------------------------------------------------------------------------------------------------------------->
+	
+		<include subset="Style" name="Dark">./_paint/dark.xml</include>	
+
+		<include subset="Style" name="Light">./_paint/light.xml</include>	
+
+		<include subset="Style" name="Scumm">./_paint/scumm.xml</include>	
+
+		<include subset="Style" name="Scumm Full">./_paint/scumm_full.xml</include>
+		
+		<include subset="Style" name="Smash">./_paint/smash.xml</include>	
+
+		<include subset="Style" name="Smash Full">./_paint/smash_full.xml</include>
+
+		<include subset="Style" name="Zelda">./_paint/zelda.xml</include>	
+
+		<include subset="Style" name="Zelda Full">./_paint/zelda_full.xml</include>
+
+		<include subset="Style" name="Capcom">./_paint/capcom.xml</include>	
+
+		<include subset="Style" name="Capcom Full">./_paint/capcom_full.xml</include>
+		
+<!------FRAMES------------------------------------------------------------------------------------------------------------->
+		
+		<include subset="Screen Frame" name="Automatic (By Style)">./by_style_frame.xml</include>	
+
+		<include subset="Screen Frame" name="Dark">./_framescreen/dark.xml</include>	
+
+		<include subset="Screen Frame" name="Light">./_framescreen/light.xml</include>	
+
+		<include subset="Screen Frame" name="Bright">./_framescreen/bright.xml</include>	
+
+		<include subset="Screen Frame" name="Blue Smash">./_framescreen/blue_smash.xml</include>	
+
+		<include subset="Screen Frame" name="Red">./_framescreen/red.xml</include>	
+
+		<include subset="Screen Frame" name="Green">./_framescreen/green.xml</include>	
+
+		<include subset="Screen Frame" name="Blue Capcom">./_framescreen/blue_capcom.xml</include>			
+
+<!------COLORSETS---------------------------------------------------------------------------------------------------------->
+
+		<include subset="Colors Set" name="Automatic (By Style)">./by_style_colorset.xml</include>		
+
+		<include subset="Colors Set" name="Blue">./_colorset/blue.xml</include>	
+
+		<include subset="Colors Set" name="Green">./_colorset/green.xml</include>	
+
+		<include subset="Colors Set" name="Yellow">./_colorset/yellow.xml</include>	
+
+<!------BACKCREENS--------------------------------------------------------------------------------------------------------->
+
+		<include subset="Back Screen Colors" name="Automatic (By Style)">./by_style_backscreen.xml</include>	
+
+ 		<include subset="Back Screen Colors" name="Automatic (By System)">./../_systems/${system.theme}/config_color_custom_overlay_back.xml</include>	
+
+		<include subset="Back Screen Colors" name="Dark">./_backscreen/dark.xml</include>	
+
+		<include subset="Back Screen Colors" name="Light">./_backscreen/light.xml</include>	
+
+		<include subset="Back Screen Colors" name="Blue Smash">./_backscreen/smash.xml</include>	
+
+		<include subset="Back Screen Colors" name="Blue LCD">./_backscreen/blue_lcd.xml</include>	
+
+		<include subset="Back Screen Colors" name="Red">./_backscreen/red.xml</include>	
+
+		<include subset="Back Screen Colors" name="Green">./_backscreen/green.xml</include>	
+
+		<include subset="Back Screen Colors" name="Yellow">./_backscreen/yellow.xml</include>	
+
+		<include subset="Back Screen Colors" name="Orange">./_backscreen/orange.xml</include>	
+
+		<include subset="Back Screen Colors" name="Pink">./_backscreen/pink.xml</include>	
+
+		<include subset="Back Screen Colors" name="Bright">./_backscreen/bright.xml</include>
+
+		
+</theme>

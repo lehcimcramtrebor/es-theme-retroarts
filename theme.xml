@@ -8,53 +8,109 @@ lehcimcramtrebor.ztriw@gmail.com
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+
+<!------OS CHOICE FOR LOGO, JUKEBOX, CONTROLLER ACTIVITY------>
+
+		<include subset="Os" name="Batocera">./batocera.xml</include>
+
+		<include subset="Os" name="Retrobat">./retrobat.xml</include>
+
+<!------CAROUSEL CHOICE------>
    
 		<include subset="Systemview" name="Framed Wheel Left">./_systemviews_framed/wheel_left.xml</include>
+
 		<include subset="Systemview" name="Framed Wheel Right">./_systemviews_framed/wheel_right.xml</include>
+
 		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews_framed/legacy.xml</include>			
+
 		<include subset="Systemview" name="Framed Vertical Left">./_systemviews_framed/vertical_left.xml</include>
+
 		<include subset="Systemview" name="Framed Vertical Right">./_systemviews_framed/vertical_right.xml</include>		
+
+<!------GAMELISTS CONFIG------>
+ 
+		<include>./_gamelistviews_framed/gamelist.xml</include>
+
+  		<include>./_custom/custom_config.xml</include>
+
+		<include subset="Snapshots & Videos" name="Standard">./_gamelistviews_framed/snapshots_videos_standard.xml</include>
+
+		<include subset="Snapshots & Videos" name="Full Screen">./_gamelistviews_framed/snapshots_videos_full.xml</include>
 		
+<!------STATIC EFFECTS------>
+
 		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+
 		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
+
 		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
+
 		<include subset="Screen Effects" name="Scanlines Fine">./_effects/screen_effect_scanlines_fine.xml</include>	
+
 		<include subset="Screen Effects" name="Vertical Scanlines Fine">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
+
 		<include subset="Screen Effects" name="Phosphore">./_effects/screen_effect_phosphore.xml</include>
+
 		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
+
 		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
 
+<!------VIDEO EFFECTS------>
+
 		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
+
 		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+
 		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
+
 		<include subset="Video Effect" name="GLITCH">./_effects/tv_effect_glitch.xml</include>						
+
 		<include subset="Video Effect" name="VHS GLITCH">./_effects/tv_effect_vhs_glitch.xml</include>
+
 		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
+
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+
+<!------ICONSETS CONFIG------>
 		
 		<include subset="iconset" name="Standard">./_iconsets/nope.xml</include>		
+
 		<include subset="iconset" name="Arcade">./_iconsets/iconset_arcade.xml</include>
+
 		<include subset="iconset" name="Psx">./_iconsets/iconset_psx.xml</include>
+
 		<include subset="iconset" name="Snes">./_iconsets/iconset_snes.xml</include>
+
 		<include subset="iconset" name="Snes Alt">./_iconsets/iconset_snesalt.xml</include>
+
 		<include subset="iconset" name="Xbox">./_iconsets/iconset_xbox.xml</include>	
+
 		<include subset="iconset" name="Xbox One">./_iconsets/iconset_xboxone.xml</include>	
 
+<!------NUMBER OF PLAYERS ON/OFF------>
+
 		<include subset="Number of Players" name="Yes">./nope.xml</include>	
+
 		<include subset="Number of Players" name="No">./_desactivated/nb_players.xml</include>	
 
+<!------CONSOLE ARTS ON/OFF------>
+
 		<include subset="Systems Arts" name="Yes">./nope.xml</include>	
+
 		<include subset="Systems Arts" name="No">./_desactivated/arts.xml</include>
 
+<!------LOGOS STYLES & REGIONS------>
+
 		<include subset="System logos" name="Carbon Europe">./_logos/carbon_logo.xml</include>
+
 		<include subset="System logos" name="Carbon World">./_logos/world_carbon_logo.xml</include>
+
 		<include subset="System logos" name="Simple Europe">./_logos/simple_logo.xml</include>
+
 		<include subset="System logos" name="Simple World">./_logos/world_simple_logo.xml</include>
 
-		<include subset="Systems Sounds" name="On">./sound.xml</include>
-		<include subset="Systems Sounds" name="Off">./nope.xml</include>		
 
-		<include subset="Os" name="Batocera">./_logos/batocera.xml</include>
+<!------THEME------>
 
 	<view name="screen">
 
@@ -67,7 +123,20 @@ lehcimcramtrebor.ztriw@gmail.com
     </text>
 
 	</view>
-  
+ 
+	<view name="system">
+
+			<text name="systemInfo">
+				<pos>0.198 0.91</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<glowSize>1</glowSize>				
+				<fontPath>./_assets/LCDMB.ttf</fontPath>
+				<fontSize>0.030</fontSize>
+				<zIndex>999</zIndex>	     
+			</text>		
+
+	</view>
+	
 	<view name="system, basic, detailed, video, grid">
  		
 			<image name="screen_effect" extra="true">
@@ -100,7 +169,79 @@ lehcimcramtrebor.ztriw@gmail.com
 			<pos>0.02 0.9625</pos>      
 			<textColor>ffffff</textColor>
 		</helpsystem>
-	
+
+		<image name="background" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.87 0.87</size>
+		</image>
+
+		<image name="screen_back" extra="true">
+			<path>./_assets/screen_back.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>498</zIndex>
+		</image>
+		
+		<image name="screen_overlay" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>500</zIndex>
+		</image>
+
+		<image name="screen_frame" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>499</zIndex>
+		</image>
+
+		<image name="bayer" extra="true">
+			<path>./_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.575 0.903</pos>
+			<size>0.255 0.083</size>        
+			<tile>true</tile>
+			<zIndex>496</zIndex>
+		</image>
+
+		<image name="ring_bayer" extra="true">
+			<path>./_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.473 0.895</pos>
+			<size>0.055 0.095</size>        
+			<tile>true</tile>
+			<zIndex>495</zIndex>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+			<path>./_assets/bloom_ring.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.941</pos>
+			<size>0.0781 0.1389</size>        
+			<zIndex>501</zIndex>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+			<path>./_assets/bloom_lcd.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.7015 0.9441</pos>
+			<size>0.27615 0.1255</size>        
+			<zIndex>502</zIndex>
+		</image>
+		
+		<image name="ring" extra="true">
+			<path>./_assets/ring_retroarts.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9425</pos>
+			<size>0.04271 0.09398</size>        
+			<zIndex>497</zIndex>
+		</image>
+		
 	</view>
  
 	<view name="detailed, video, grid">

@@ -3,16 +3,17 @@
 <theme>
 	<formatVersion>4</formatVersion>
 
+		<include subset="Systems Music" name="On">./sound.xml</include>
+		<include subset="Systems Music" name="Off">./nope.xml</include>
+		
 	<view name="system, basic, detailed, video, grid">
 	
 		<text name="os_logo" extra="true">
 		<text>BATOCERA</text>
-		<fontPath>./../_assets/LCDMB.TTF</fontPath>
+		<fontPath>./_assets/Sega.TTF</fontPath>
 		<fontSize>0.028</fontSize>
 		<origin>0 0.5</origin>
 		<pos>0.12 0.9125</pos>
-		<color>ffffff</color>
-		<glowColor>202020</glowColor>
 		<glowSize>1</glowSize>
 		<zIndex>600</zIndex>
 		</text>

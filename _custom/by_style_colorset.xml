@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+<!------COLORSETS---------------------------------------------------------------------------------------------------------->
+	
+		<include subset="Style" name="Dark">./_colorset/dark.xml</include>	
+
+		<include subset="Style" name="Light">./_colorset/light.xml</include>	
+
+		<include subset="Style" name="Scumm">./_colorset/scumm.xml</include>	
+
+		<include subset="Style" name="Scumm Full">./_colorset/scumm.xml</include>
+		
+		<include subset="Style" name="Smash">./_colorset/smash.xml</include>	
+
+		<include subset="Style" name="Smash Full">./_colorset/smash.xml</include>
+
+		<include subset="Style" name="Zelda">./_colorset/zelda.xml</include>	
+
+		<include subset="Style" name="Zelda Full">./_colorset/zelda.xml</include>
+
+		<include subset="Style" name="Capcom">./_colorset/capcom.xml</include>	
+
+		<include subset="Style" name="Capcom Full">./_colorset/capcom.xml</include>
+		
+</theme>
