@@ -1,13 +1,20 @@
 <!--
-Retroarts Theme v1.2 For Batocera 5.24
-Based on Nextfull Theme.
 
-By Lechim
+RETRO'ARTS THEME FOR BATOCERA 5.25 & RETROBAT WINDOWS
+
+VERSION 1.2
+
+BY LEHCIM.
+
 lehcimcramtrebor.ztriw@gmail.com
+
 -->
+
 <?xml version="1.0" encoding="UTF-8"?>
+
 <theme>
-   <formatVersion>7</formatVersion>
+
+		<formatVersion>7</formatVersion>
 
 <!------OS CHOICE FOR LOGO, JUKEBOX, CONTROLLER ACTIVITY------>
 
@@ -27,11 +34,13 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Systemview" name="Framed Vertical Right">./_systemviews_framed/vertical_right.xml</include>		
 
+<!------CONFIG FOR GRAPHIC STYLES------>
+
+  		<include>./_custom/custom_config.xml</include>
+
 <!------GAMELISTS CONFIG------>
  
 		<include>./_gamelistviews_framed/gamelist.xml</include>
-
-  		<include>./_custom/custom_config.xml</include>
 
 		<include subset="Snapshots & Videos" name="Standard">./_gamelistviews_framed/snapshots_videos_standard.xml</include>
 
