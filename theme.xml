@@ -24,15 +24,15 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------CAROUSEL CHOICE------>
    
-		<include subset="Systemview" name="Framed Wheel Left">./_systemviews_framed/wheel_left.xml</include>
+		<include subset="Systemview" name="Framed Wheel Left">./_systemviews/wheel_left.xml</include>
 
-		<include subset="Systemview" name="Framed Wheel Right">./_systemviews_framed/wheel_right.xml</include>
+		<include subset="Systemview" name="Framed Wheel Right">./_systemviews/wheel_right.xml</include>
 
-		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews_framed/legacy.xml</include>			
+		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews/legacy.xml</include>			
 
-		<include subset="Systemview" name="Framed Vertical Left">./_systemviews_framed/vertical_left.xml</include>
+		<include subset="Systemview" name="Framed Vertical Left">./_systemviews/vertical_left.xml</include>
 
-		<include subset="Systemview" name="Framed Vertical Right">./_systemviews_framed/vertical_right.xml</include>		
+		<include subset="Systemview" name="Framed Vertical Right">./_systemviews/vertical_right.xml</include>		
 
 <!------CONFIG FOR GRAPHIC STYLES------>
 
@@ -40,11 +40,11 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------GAMELISTS CONFIG------>
  
-		<include>./_gamelistviews_framed/gamelist.xml</include>
+		<include>./_gamelistviews/gamelist.xml</include>
 
-		<include subset="Snapshots & Videos" name="Standard">./_gamelistviews_framed/snapshots_videos_standard.xml</include>
+		<include subset="Snapshots & Videos" name="Standard">./_gamelistviews/snapshots_videos_standard.xml</include>
 
-		<include subset="Snapshots & Videos" name="Full Screen">./_gamelistviews_framed/snapshots_videos_full.xml</include>
+		<include subset="Snapshots & Videos" name="Full Screen">./_gamelistviews/snapshots_videos_full.xml</include>
 		
 <!------STATIC EFFECTS------>
 
