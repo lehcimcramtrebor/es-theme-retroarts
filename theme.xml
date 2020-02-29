@@ -22,17 +22,24 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Os" name="Retrobat">./retrobat.xml</include>
 
+<!------SYSTEMVIEW TYPE CHOICE------>
+
+		<include subset="System View" name="Standard">./_systemviews/standard.xml</include>
+
+		<include subset="System View" name="Full Videos">./_systemviews/full_screen.xml</include>
+
+
 <!------CAROUSEL CHOICE------>
    
-		<include subset="Systemview" name="Framed Wheel Left">./_systemviews/wheel_left.xml</include>
+		<include subset="Carousel" name="Wheel Left">./_carousels/wheel_left.xml</include>
 
-		<include subset="Systemview" name="Framed Wheel Right">./_systemviews/wheel_right.xml</include>
+		<include subset="Carousel" name="Wheel Right">./_carousels/wheel_right.xml</include>
 
-		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews/legacy.xml</include>			
+		<include subset="Carousel" name="Legacy (Center)">./_carousels/legacy.xml</include>			
 
-		<include subset="Systemview" name="Framed Vertical Left">./_systemviews/vertical_left.xml</include>
+		<include subset="Carousel" name="Vertical Left">./_carousels/vertical_left.xml</include>
 
-		<include subset="Systemview" name="Framed Vertical Right">./_systemviews/vertical_right.xml</include>		
+		<include subset="Carousel" name="Vertical Right">./_carousels/vertical_right.xml</include>		
 
 <!------CONFIG FOR GRAPHIC STYLES------>
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+
+   
+		<include subset="Carousel" name="Wheel Left">./standard_wl.xml</include>
+
+		<include subset="Carousel" name="Wheel Right">./standard_wr.xml</include>
+
+		<include subset="Carousel" name="Legacy (Center)">./standard_lg.xml</include>			
+
+		<include subset="Carousel" name="Vertical Left">./standard_vl.xml</include>
+
+		<include subset="Carousel" name="Vertical Right">./standard_vr.xml</include>		
+
+
+  
+</theme>

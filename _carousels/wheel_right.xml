@@ -22,12 +22,7 @@
 		<zIndex>8</zIndex>
 		</carousel>
 
-			<image name="art_01" extra="true">
-			<origin>0 0.5</origin>
-			<pos>0.08 0.44</pos>
-			<maxSize>0.16 0.32</maxSize>
-			<zIndex>9</zIndex>
-			</image>
+
 
 </view>
    

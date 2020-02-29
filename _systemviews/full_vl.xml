@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+			<image name="art_01" extra="true">
+			<origin>1 0.5</origin>
+			<pos>0.92 0.44</pos>
+			<maxSize>0.16 0.32</maxSize>
+			<zIndex>9</zIndex>
+			</image>
+			
+</view>
+   
+
+  
+</theme>

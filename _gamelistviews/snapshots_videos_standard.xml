@@ -1,6 +1,7 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
+
 	<view name="basic, detailed, video">
 
 	     <image name="list_frame" extra="true">
