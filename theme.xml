@@ -8,6 +8,7 @@ lehcimcramtrebor.ztriw@gmail.com
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+   
 		<include subset="Systemview" name="Framed Wheel Left">./_systemviews_framed/wheel_left.xml</include>
 		<include subset="Systemview" name="Framed Wheel Right">./_systemviews_framed/wheel_right.xml</include>
 		<include subset="Systemview" name="Framed Legacy (Center)">./_systemviews_framed/legacy.xml</include>			
@@ -52,6 +53,8 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Systems Sounds" name="On">./sound.xml</include>
 		<include subset="Systems Sounds" name="Off">./nope.xml</include>		
+
+		<include subset="Os" name="Batocera">./_logos/batocera.xml</include>
 
 	<view name="screen">
 
