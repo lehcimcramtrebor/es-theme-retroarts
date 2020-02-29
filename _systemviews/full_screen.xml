@@ -26,7 +26,7 @@
 		<pos>0.5 0</pos>
 		<size>0.87 0.87</size>
 		<delay>0</delay>
-	  		 <default>./../_assets/effect_vhs_glitch.mp4</default>
+	  		 <default>./../_assets/scrap.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
       <color>ffffff</color>

@@ -28,7 +28,6 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="System View" name="Full Videos">./_systemviews/full_screen.xml</include>
 
-
 <!------CAROUSEL CHOICE------>
    
 		<include subset="Carousel" name="Wheel Left">./_carousels/wheel_left.xml</include>
