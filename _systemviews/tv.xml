@@ -20,7 +20,7 @@
 		<size>0.09 0.13</size>	
 		<path>{random}</path>                 
 		<delay>0</delay>
-	  		 <default>./../_assets/effect_vhs_glitch.mp4</default>
+	  		 <default>./../_assets/no_video.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
       <color>ffffff</color>

@@ -2,14 +2,61 @@
 
 	<formatVersion>4</formatVersion>
 
+<view name="basic, detailed, video, grid">
+
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+		  
+   </view>
+ 
+<view name="detailed, video, grid">
+
+			<image name="background" extra="true">
+				<visible>false</visible>			
+			</image>
+		  
+   </view>
+   
+	<view name="basic, detailed, video">
+
+	     <image name="list_frame" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>00000025</color>
+		 <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <size>0.52 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>000000</color>
+		 <origin>0.5 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+	     <image name="list_border_right" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>000000</color>
+		 <origin>0.5 0</origin>
+         <pos>0.7605 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+   </view>
+   
 	<view name="detailed, video">
 
 	     <image name="convector" extra="true">
 		 <path>./../_assets/convector.png</path>
 		 <color>FFFFFF</color>
-		 <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
+		 <origin>0.5 0.5</origin>
+         <pos>0.155 0.44</pos>
+         <size>0.15755208333 0.41111111111</size>
          <zIndex>5</zIndex>
 		 </image>     
 
@@ -25,7 +72,7 @@
 <view name="detailed">
       
       <image name="md_image">
-		<color>707070</color>
+		<color>ffffff</color>
 		<origin>1 0</origin>
          <pos>0.94 0</pos>
          <size>0.87 0.87</size>
@@ -41,7 +88,7 @@
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>
          <size>0.87 0.87</size>
-         <zIndex>1</zIndex>         
+         <zIndex>2</zIndex>         
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
       </video>
@@ -51,7 +98,7 @@
 <view name="video">
       
       <video name="md_video">
-		 <color>909090</color>
+		 <color>ffffff</color>
 		 <delay>0.3</delay>
       </video>
 	  
@@ -61,7 +108,7 @@
 <view name="grid">
 
       <video name="md_video">
-		 <color>505050</color>
+		 <color>ffffff</color>
          <delay>0.3</delay>
       </video>
 

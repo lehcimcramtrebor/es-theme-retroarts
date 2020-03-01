@@ -5,18 +5,15 @@
 
 <view name="basic, detailed, video, grid">
 
-			<image name="system_tv" extra="true">
-				<visible>false</visible>			
-			</image>
 		  
      <text name="md_description">
 		<color>000000</color>
 		<glowSize>1</glowSize>
-        <fontPath>./../_assets/ABDUCTION.TTF</fontPath>		 
-        <pos>0.5783 0.9057</pos>
-        <size>0.25 0.0777</size>
+        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
+        <pos>0.5783 0.908</pos>
+        <size>0.25 0.073</size>
 		<alignment>center</alignment>
-        <fontSize>0.026</fontSize>
+        <fontSize>0.022</fontSize>
         <zIndex>800</zIndex>         
       </text>
 
@@ -62,83 +59,57 @@
 			<size>0.1 0.042</size>
 			<zIndex>9</zIndex>
       </text>	
-
-	  	    <text name="md_lbl_releasedate">
-			<color>ff7a00bb</color>
-			<pos>0.093 0.3846</pos>
-			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
-			<zIndex>6</zIndex>
-      </text>
-	  
+  
 	  	    <datetime name="md_releasedate">
 			<color>ff7a00bb</color>      
-			<pos>0.143 0.3846</pos>
-			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
+			<pos>0.089 0.385</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
 			<zIndex>6</zIndex>
       </datetime>
 
-	  	    <text name="md_lbl_developer">
-			<color>06b900bb</color>      
-			<pos>0.093 0.4456</pos>
-			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
-			<zIndex>6</zIndex>
-      </text>
+
 	  
 	  	    <text name="md_developer">
 			<color>06b900bb</color>      
-			<pos>0.143 0.4456</pos>
-			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
+			<pos>0.089 0.4495</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
 			<zIndex>6</zIndex>
       </text>
 	  
-	  	    <text name="md_lbl_publisher">
-			<color>ff7a00bb</color>      
-			<pos>0.093 0.5076</pos>
-			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
-			<zIndex>6</zIndex>
-      </text>
+
 	  
 	  	    <text name="md_publisher">
 			<color>ff7a00bb</color>      
-			<pos>0.143 0.5076</pos>
-			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
+			<pos>0.089 0.517</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
 			<zIndex>6</zIndex>
       </text>
 
-	  	    <text name="md_lbl_genre">
-			<color>06b900bb</color>      
-			<pos>0.093 0.5696</pos>
-			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
-			<zIndex>6</zIndex>
-      </text>
+
 	  
 	  	    <text name="md_genre">
 			<color>06b900bb</color>      
-			<pos>0.143 0.5696</pos>
-			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
-			<fontSize>0.013</fontSize>
+			<pos>0.089 0.582</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
 			<zIndex>6</zIndex>
       </text>
 
       <image name="md_marquee">
-         <pos>0.1553 0.306</pos>
+         <pos>0.1556 0.3024</pos>
          <origin>0.5 0.5</origin>
-         <maxSize>0.090 0.0847</maxSize>
+         <maxSize>0.096 0.0858</maxSize>
          <zIndex>6</zIndex>         
       </image>                   
 
@@ -189,12 +160,12 @@
 		 <origin>0.5 0.5</origin>
          <pos>0.885 0.066</pos>
          <size>0.06 0.10665</size>
-         <zIndex>8</zIndex>
+         <zIndex>10</zIndex>
 		 </image>     
 
       <text name="md_players">
          <pos>0.795 0.035</pos>
-         <zIndex>9</zIndex>         
+         <zIndex>11</zIndex>         
       </text>
 
 	  	    <text name="md_rating">
@@ -207,7 +178,7 @@
       <pos>0.02 0.0</pos>
       <size>0.95 0.87</size>
       <margin>0.05 0.010</margin>
-      <padding>0.1 0.13 0.1 0.05</padding>
+      <padding>0.1 0.13 0.1 0.1</padding>
       <autoLayout>4 2</autoLayout>
       <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
@@ -230,8 +201,8 @@
     <text name="gridtile">
       <color>D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
-      <fontSize>0.022</fontSize>
-      <fontPath>./../../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
       <alignment>center</alignment>
       <size>1 0.24</size>
     </text>
@@ -239,9 +210,14 @@
     <text name="gridtile_selected">
       <color>00ff00</color>
       <glowColor>101010</glowColor>
-      <glowSize>2</glowSize>
+      <glowSize>5</glowSize>
     </text>
 
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>ffffff00</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
    </view> 
 
 	

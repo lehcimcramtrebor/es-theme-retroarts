@@ -147,8 +147,8 @@ lehcimcramtrebor.ztriw@gmail.com
 				<pos>0.198 0.91</pos>
 				<backgroundColor>00000000</backgroundColor>
 				<glowSize>1</glowSize>				
-				<fontPath>./_assets/LCDMB.TTF</fontPath>
-				<fontSize>0.030</fontSize>
+				<fontPath>./_assets/DIGITAL.TTF</fontPath>
+				<fontSize>0.026</fontSize>
 				<zIndex>999</zIndex>	     
 			</text>		
 
