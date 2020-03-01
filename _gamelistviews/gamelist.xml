@@ -67,7 +67,7 @@
 			<color>ff7a00bb</color>
 			<pos>0.093 0.3846</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -76,7 +76,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.143 0.3846</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </datetime>
@@ -85,7 +85,7 @@
 			<color>06b900bb</color>      
 			<pos>0.093 0.4456</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -94,7 +94,7 @@
 			<color>06b900bb</color>      
 			<pos>0.143 0.4456</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -103,7 +103,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.093 0.5076</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -112,7 +112,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.143 0.5076</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -121,7 +121,7 @@
 			<color>06b900bb</color>      
 			<pos>0.093 0.5696</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -130,7 +130,7 @@
 			<color>06b900bb</color>      
 			<pos>0.143 0.5696</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>

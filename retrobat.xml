@@ -10,7 +10,7 @@
 	
 		<text name="os_logo" extra="true">
 		<text>RETROBAT</text>
-		<fontPath>./_assets/Sega.TTF</fontPath>
+		<fontPath>./_assets/SEGA.ttf</fontPath>
 		<fontSize>0.026</fontSize>
 		<origin>0 0.5</origin>
 		<pos>0.12 0.9125</pos>

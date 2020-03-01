@@ -271,7 +271,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<color>ffffff</color>
 			<glowColor>000000</glowColor>
 			<alignment>center</alignment>		 
-			<fontPath>./_assets/LCDMB.TTF</fontPath>		 
+			<fontPath>./_assets/LCDMB.ttf</fontPath>		 
 			<fontSize>0.04</fontSize>
 		</text>
 	  
