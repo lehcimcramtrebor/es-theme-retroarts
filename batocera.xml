@@ -10,7 +10,7 @@
 	
 		<text name="os_logo" extra="true">
 		<text>BATOCERA</text>
-		<fontPath>./_assets/SEGA.ttf</fontPath>
+		<fontPath>./_assets/SEGA.TTF</fontPath>
 		<fontSize>0.026</fontSize>
 		<origin>0 0.5</origin>
 		<pos>0.12 0.9125</pos>

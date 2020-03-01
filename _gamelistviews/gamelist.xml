@@ -12,7 +12,7 @@
      <text name="md_description">
 		<color>000000</color>
 		<glowSize>1</glowSize>
-        <fontPath>./../_assets/abduction2002.ttf</fontPath>		 
+        <fontPath>./../_assets/ABDUCTION.TTF</fontPath>		 
         <pos>0.5783 0.9057</pos>
         <size>0.25 0.0777</size>
 		<alignment>center</alignment>
@@ -32,7 +32,7 @@
          <selectedColor>000000</selectedColor>
          <primaryColor>909090</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./../_assets/Gooseberry_Juice.otf</fontPath>
+         <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>
          <fontSize>0.050</fontSize>
          <alignment>center</alignment>
 		 <lineSpacing>2</lineSpacing>
@@ -67,7 +67,7 @@
 			<color>ff7a00bb</color>
 			<pos>0.093 0.3846</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -76,7 +76,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.143 0.3846</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </datetime>
@@ -85,7 +85,7 @@
 			<color>06b900bb</color>      
 			<pos>0.093 0.4456</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -94,7 +94,7 @@
 			<color>06b900bb</color>      
 			<pos>0.143 0.4456</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -103,7 +103,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.093 0.5076</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -112,7 +112,7 @@
 			<color>ff7a00bb</color>      
 			<pos>0.143 0.5076</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -121,7 +121,7 @@
 			<color>06b900bb</color>      
 			<pos>0.093 0.5696</pos>
 			<size>0.040 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -130,7 +130,7 @@
 			<color>06b900bb</color>      
 			<pos>0.143 0.5696</pos>
 			<size>0.07 0.020</size>
-			<fontPath>./../_assets/LCDMB.ttf</fontPath>		 			
+			<fontPath>./../_assets/LCDMB.TTF</fontPath>		 			
 			<fontSize>0.013</fontSize>
 			<zIndex>6</zIndex>
       </text>
@@ -231,7 +231,7 @@
       <color>D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
       <fontSize>0.022</fontSize>
-      <fontPath>./../../_assets/Gooseberry_Juice.otf</fontPath>		 	  
+      <fontPath>./../../_assets/GOOSEBERRY.OTF</fontPath>		 	  
       <alignment>center</alignment>
       <size>1 0.24</size>
     </text>

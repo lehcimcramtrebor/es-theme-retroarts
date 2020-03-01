@@ -147,7 +147,7 @@ lehcimcramtrebor.ztriw@gmail.com
 				<pos>0.198 0.91</pos>
 				<backgroundColor>00000000</backgroundColor>
 				<glowSize>1</glowSize>				
-				<fontPath>./_assets/LCDMB.ttf</fontPath>
+				<fontPath>./_assets/LCDMB.TTF</fontPath>
 				<fontSize>0.030</fontSize>
 				<zIndex>999</zIndex>	     
 			</text>		
@@ -181,7 +181,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		</image>
 
 		<helpsystem name="help">
-			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
 			<fontSize>0.016</fontSize>     
 			<pos>0.02 0.9625</pos>      
 			<textColor>ffffff</textColor>
@@ -271,7 +271,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<color>ffffff</color>
 			<glowColor>000000</glowColor>
 			<alignment>center</alignment>		 
-			<fontPath>./_assets/LCDMB.ttf</fontPath>		 
+			<fontPath>./_assets/LCDMB.TTF</fontPath>		 
 			<fontSize>0.04</fontSize>
 		</text>
 	  
@@ -281,13 +281,13 @@ lehcimcramtrebor.ztriw@gmail.com
 	<view name="menu">
 	
 		<menuText name="menufooter">
-			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
 			<fontSize>0.020</fontSize>
 			<color>000000ff</color>
 		</menuText>
 		
 		<menuText name="menutext">
-			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
 			<fontSize>0.027</fontSize>
 			<color>000000ff</color>
 			<separatorColor>808080aa</separatorColor>
@@ -295,13 +295,13 @@ lehcimcramtrebor.ztriw@gmail.com
 		</menuText>
 		
 		<menuTextSmall name="menutextsmall">
-			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>		
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>		
 			<fontSize>0.028</fontSize>
 			<color>ffffffff</color>
 		</menuTextSmall>
 		
 		<menuText name="menutitle">
-			<fontPath>./_assets/Gooseberry_Juice.otf</fontPath>
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
 			<fontSize>0.050</fontSize>
 			<color>000000ff</color>
 		</menuText>
