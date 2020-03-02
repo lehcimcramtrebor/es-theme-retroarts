@@ -48,12 +48,20 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------GAMELISTS CONFIG------>
  
-		<include>./_gamelistviews/gamelist.xml</include>
+		<include>./_gamelistviews/basic.xml</include>
 
-		<include subset="Snapshots & Videos" name="Standard">./_gamelistviews/snapshots_videos_standard.xml</include>
+		<include subset="Gamelist Detailed View" name="Standard">./_gamelistviews/detailed.xml</include>
 
-		<include subset="Snapshots & Videos" name="Full Screen">./_gamelistviews/snapshots_videos_full.xml</include>
+		<include subset="Gamelist Detailed View" name="Full Screen">./_gamelistviews/detailed_full_screen.xml</include>
+
+		<include subset="Gamelist Video View" name="Standard">./_gamelistviews/video.xml</include>
 		
+		<include subset="Gamelist Video View" name="Full Screen">./_gamelistviews/video_full_screen.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Standard">./_gamelistviews/grid.xml</include>
+
+		<include subset="Gamelist Gridview" name="Full Screen">./_gamelistviews/grid_full_screen.xml</include>
+	
 <!------STATIC EFFECTS------>
 
 		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		

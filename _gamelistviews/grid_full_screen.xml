@@ -1,0 +1,28 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<include>./grid.xml</include>
+
+
+ 
+<view name="grid">
+
+			<image name="background" extra="true">
+				<visible>false</visible>			
+			</image>
+      
+      <video name="md_video">
+		 <color>ffffff</color>
+         <delay>0.3</delay>		 
+         <pos>0.94 0</pos>
+		 <origin>1 0 </origin>
+         <size>0.87 0.87</size>
+         <zIndex>2</zIndex>         
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+	  
+   </view> 
+	
+</theme>

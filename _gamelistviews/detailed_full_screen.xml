@@ -1,0 +1,32 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<include>./detailed.xml</include>
+
+   
+<view name="detailed">
+
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
+			<image name="background" extra="true">
+				<visible>false</visible>			
+			</image>
+			
+      <image name="md_image">
+		<color>ffffff</color>
+		<origin>1 0</origin>
+         <pos>0.94 0</pos>
+         <size>0.87 0.87</size>
+         <delay>0</delay>
+         <zIndex>1</zIndex>         
+      </image>	  	
+
+   </view>
+   
+
+
+	
+</theme>
