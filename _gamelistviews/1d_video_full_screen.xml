@@ -2,12 +2,17 @@
 
 	<formatVersion>4</formatVersion>
 
-	<include>./video.xml</include>
-
-
+	<include>./1_detailed_video_commons.xml</include>
  
 <view name="video">
 
+     <image name="md_thumbnail">
+        <pos>0.915 0.46</pos>
+        <origin>1 0.5</origin>
+        <maxSize>0.145 0.45</maxSize>
+        <zIndex>7</zIndex>         
+      </image>        
+	  
 			<image name="gamelist_tv_back" extra="true">
 				<visible>false</visible>			
 			</image>
@@ -21,12 +26,13 @@
 			</image>
       
       <video name="md_video">
-		 <color>ffffff</color>
+		 <color>909090</color>
          <delay>0.3</delay>		 
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>
          <size>0.87 0.87</size>
-         <zIndex>2</zIndex>         
+         <zIndex>2</zIndex>
+	  	 <default>./../_assets/noise.mp4</default>         
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
       </video>

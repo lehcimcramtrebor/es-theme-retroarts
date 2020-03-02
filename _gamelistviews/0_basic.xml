@@ -5,6 +5,10 @@
 
 <view name="basic">
 
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+		
 			<image name="system_tv" extra="true">
 				<visible>false</visible>			
 			</image>

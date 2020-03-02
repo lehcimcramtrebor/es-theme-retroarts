@@ -1,0 +1,22 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2_grid_commons.xml</include>
+
+<view name="grid">
+
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+		
+    <imagegrid name="gamegrid">
+      <pos>0.02 0.0</pos>
+      <size>0.95 0.87</size>
+      <padding>0.1 0.13 0.1 0.1</padding>
+      <autoLayout>4 2</autoLayout>
+    </imagegrid>
+
+   </view> 
+	
+</theme>

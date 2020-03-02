@@ -2,15 +2,18 @@
 
 	<formatVersion>4</formatVersion>
 
-	<include>./detailed.xml</include>
+	<include>./1_detailed_video_commons.xml</include>
 
    
 <view name="detailed">
 
-			<image name="gamelist_tv_back" extra="true">
-				<visible>false</visible>			
-			</image>			
-			
+     <image name="md_thumbnail">
+        <pos>0.915 0.46</pos>
+        <origin>1 0.5</origin>
+        <maxSize>0.145 0.45</maxSize>
+        <zIndex>7</zIndex>         
+      </image>    
+	  
 			<image name="system_tv" extra="true">
 				<visible>false</visible>			
 			</image>
@@ -20,11 +23,12 @@
 			</image>
 			
       <image name="md_image">
-		<color>ffffff</color>
+		<color>909090</color>
 		<origin>1 0</origin>
          <pos>0.94 0</pos>
          <size>0.87 0.87</size>
          <delay>0</delay>
+		 <default>./../_assets/noise.jpg</default>         
          <zIndex>1</zIndex>         
       </image>	  	
 

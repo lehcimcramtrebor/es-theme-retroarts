@@ -2,23 +2,31 @@
 
 	<formatVersion>4</formatVersion>
 
-	<include>./grid.xml</include>
+	<include>./2_grid_commons.xml</include>
 
 
  
 <view name="grid">
 
+    <imagegrid name="gamegrid">
+      <pos>0.02 0.0</pos>
+      <size>0.95 0.87</size>
+      <padding>0.1 0.13 0.1 0.1</padding>
+      <autoLayout>4 2</autoLayout>
+    </imagegrid>
+	
 			<image name="background" extra="true">
 				<visible>false</visible>			
 			</image>
       
       <video name="md_video">
-		 <color>ffffff</color>
+		 <color>909090</color>
          <delay>0.3</delay>		 
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>
          <size>0.87 0.87</size>
-         <zIndex>2</zIndex>         
+         <zIndex>2</zIndex>
+	  	 <default>./../_assets/noise.mp4</default>         
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
       </video>

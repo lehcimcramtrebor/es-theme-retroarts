@@ -26,9 +26,9 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="System View" name="Standard">./_systemviews/standard.xml</include>
 
-		<include subset="System View" name="Full Videos">./_systemviews/full_screen.xml</include>
+		<include subset="System View" name="Full Screen Videos">./_systemviews/full_screen.xml</include>
 
-		<include subset="System View" name="TV Videos">./_systemviews/tv.xml</include>
+		<include subset="System View" name="in'TV Videos">./_systemviews/tv.xml</include>
 
 <!------CAROUSEL CHOICE------>
    
@@ -48,19 +48,19 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------GAMELISTS CONFIG------>
  
-		<include>./_gamelistviews/basic.xml</include>
+		<include>./_gamelistviews/0_basic.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Standard">./_gamelistviews/detailed.xml</include>
+		<include subset="Gamelist Detailed View" name="Standard">./_gamelistviews/1a_detailed_standard.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Full Screen">./_gamelistviews/detailed_full_screen.xml</include>
+		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/1b_detailed_full_screen.xml</include>
 
-		<include subset="Gamelist Video View" name="Standard">./_gamelistviews/video.xml</include>
+		<include subset="Gamelist Video View" name="Standard">./_gamelistviews/1c_video_standard.xml</include>
 		
-		<include subset="Gamelist Video View" name="Full Screen">./_gamelistviews/video_full_screen.xml</include>		
+		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1d_video_full_screen.xml</include>		
 
-		<include subset="Gamelist Gridview" name="Standard">./_gamelistviews/grid.xml</include>
+		<include subset="Gamelist Gridview" name="Basic">./_gamelistviews/2a_grid_basic.xml</include>
 
-		<include subset="Gamelist Gridview" name="Full Screen">./_gamelistviews/grid_full_screen.xml</include>
+		<include subset="Gamelist Gridview" name="Basic + Full Screen Videos">./_gamelistviews/2b_grid_basic_full_video.xml</include>
 	
 <!------STATIC EFFECTS------>
 
@@ -180,6 +180,9 @@ lehcimcramtrebor.ztriw@gmail.com
 		</video>
 
 		<image name="background" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.87 0.87</size>
 			<zIndex>1</zIndex>                 
 			<path>./_systems/${system.theme}/wallpaper.jpg</path>
 		</image>
@@ -195,11 +198,6 @@ lehcimcramtrebor.ztriw@gmail.com
 			<textColor>ffffff</textColor>
 		</helpsystem>
 
-		<image name="background" extra="true">
-			<origin>0.5 0</origin>
-			<pos>0.5 0</pos>
-			<size>0.87 0.87</size>
-		</image>
 
 		<image name="screen_back" extra="true">
 			<path>./_assets/screen_back.png</path>

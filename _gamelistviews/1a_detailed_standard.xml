@@ -1,0 +1,47 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./1_detailed_video_commons.xml</include>
+
+<view name="detailed">
+
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+		
+     <image name="md_thumbnail">
+        <pos>0.915 0.85</pos>
+        <origin>1 1</origin>
+        <maxSize>0.145 0.45</maxSize>
+        <zIndex>7</zIndex>         
+      </image>        
+	  
+      <image name="md_image">
+        <pos>0.8237 0.19</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.086 0.135</maxSize>
+		<default>./../_assets/noise.jpg</default>         
+        <zIndex>3</zIndex>          
+      </image>
+	  
+			<image name="system_tv" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.84 0.18</pos>
+				<maxSize>0.16 0.32</maxSize>			
+				<zIndex>15</zIndex>
+			</image>
+
+			<image name="gamelist_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.8237 0.19</pos>
+				<path>./../_assets/frame.png</path>
+				<size>0.09 0.13</size>					
+				<color>000000</color>
+				<zIndex>2</zIndex>
+			</image>			                  	
+
+   </view> 
+
+	
+</theme>
