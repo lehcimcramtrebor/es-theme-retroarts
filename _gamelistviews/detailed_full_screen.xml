@@ -7,6 +7,10 @@
    
 <view name="detailed">
 
+			<image name="gamelist_tv_back" extra="true">
+				<visible>false</visible>			
+			</image>			
+			
 			<image name="system_tv" extra="true">
 				<visible>false</visible>			
 			</image>

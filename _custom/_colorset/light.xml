@@ -39,7 +39,11 @@
    </view>
 
 	<view name="basic, detailed, video">
-	
+
+	     <image name="list_frame" extra="true">
+		 <color>7deaea25</color>
+		 </image>     
+		 
      <textlist name="gamelist">
          <selectorColor>7deaea</selectorColor>
       </textlist>

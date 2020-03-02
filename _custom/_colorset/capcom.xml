@@ -46,6 +46,11 @@
 
 	<view name="basic, detailed, video">
 	
+	     <image name="list_frame" extra="true">
+		 <color>3030ff25</color>
+		 </image>     
+
+	
      <textlist name="gamelist">
 			<selectorColor>ffcb06</selectorColor>
 			<selectorColorEnd>ff1515</selectorColorEnd>

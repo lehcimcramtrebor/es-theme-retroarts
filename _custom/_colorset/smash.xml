@@ -45,10 +45,14 @@
    </view>
 
 	<view name="basic, detailed, video">
+
+	     <image name="list_frame" extra="true">
+		 <color>ff303025</color>
+		 </image>     
 	
      <textlist name="gamelist">
-         <selectorColor>7dea30</selectorColor>
-         <selectorColorEnd>00ff00</selectorColorEnd>		 
+         <selectorColor>ff3030</selectorColor>
+         <selectorColorEnd>ff0000</selectorColorEnd>		 
       </textlist>
 	  
    </view>
