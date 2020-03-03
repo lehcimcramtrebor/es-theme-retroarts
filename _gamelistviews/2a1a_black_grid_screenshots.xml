@@ -1,0 +1,15 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2a1_grid_screenshots.xml</include>
+
+<view name="grid">
+
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+
+   </view> 
+	
+</theme>
