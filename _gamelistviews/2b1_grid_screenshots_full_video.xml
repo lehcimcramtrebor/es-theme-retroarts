@@ -2,7 +2,7 @@
 
 	<formatVersion>4</formatVersion>
 	
-	<include>./2b_grid_basic_full_video.xml</include>
+	<include>./2b_grid_boxes_full_video.xml</include>
 
 <view name="grid">
 

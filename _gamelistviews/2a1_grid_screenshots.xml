@@ -2,7 +2,7 @@
 
 	<formatVersion>4</formatVersion>
 	
-	<include>./2a_grid_basic.xml</include>
+	<include>./2a_grid_boxes.xml</include>
 
 <view name="grid">
 

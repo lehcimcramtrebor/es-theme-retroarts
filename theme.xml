@@ -65,7 +65,7 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Gamelist Gridview" name="Boxes + Full Screen Videos">./_gamelistviews/2b_grid_boxes_full_video.xml</include>
 
-		<include subset="Gamelist Gridview" name="Screenhots">./_gamelistviews/2a1_grid_screenshots.xml</include>
+		<include subset="Gamelist Gridview" name="Screenshots">./_gamelistviews/2a1_grid_screenshots.xml</include>
 
 		<include subset="Gamelist Gridview" name="Screenhots + Full Screen Videos">./_gamelistviews/2b1_grid_screenshots_full_video.xml</include>
 
