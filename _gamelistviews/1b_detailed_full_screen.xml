@@ -23,7 +23,7 @@
 			</image>
 			
       <image name="md_image">
-		<color>909090</color>
+		<color>404040</color>
 		<origin>1 0</origin>
          <pos>0.94 0</pos>
          <size>0.87 0.87</size>
