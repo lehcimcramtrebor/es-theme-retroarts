@@ -6,6 +6,10 @@
 
 <view name="grid">
 
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
 		<image name="background" extra="true">
 			<color>909090</color>
 		</image>

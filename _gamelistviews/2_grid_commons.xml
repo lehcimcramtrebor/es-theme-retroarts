@@ -31,9 +31,7 @@
          <zIndex>5</zIndex>
 		 </image>     
 		 
-			<image name="system_tv" extra="true">
-				<visible>false</visible>			
-			</image>
+
 		  
      <text name="md_description">
 		<color>000000</color>

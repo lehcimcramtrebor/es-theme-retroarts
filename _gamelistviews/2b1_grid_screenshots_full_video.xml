@@ -6,6 +6,10 @@
 
 <view name="grid">
 
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
     <imagegrid name="gamegrid">
 	<imageSource>image</imageSource> 
     </imagegrid>
