@@ -1,37 +1,24 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-
+	
 	<include>./2_grid_commons.xml</include>
 
-
- 
 <view name="grid">
-	
-			<image name="background" extra="true">
-				<visible>false</visible>			
-			</image>
-      
-      <video name="md_video">
-		 <color>909090</color>
-         <delay>0</delay>		 
-         <pos>0.94 0</pos>
-		 <origin>1 0 </origin>
-         <size>0.87 0.87</size>
-         <zIndex>2</zIndex>
-	  	 <default>./../_assets/noise.mp4</default>         
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>false</showSnapshotDelay>
-      </video>
+
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+
 
     <imagegrid name="gamegrid">
-      <pos>0.02 0.0</pos>
-      <size>0.95 0.87</size>
+      <pos>0.18 0.0</pos>
+      <size>0.8 0.87</size>
       <padding>0.1 0.13 0.1 0.1</padding>
-      <autoLayout>4 2</autoLayout>	
+      <autoLayout>3 2</autoLayout>
       <margin>0.05 0.010</margin>
       <padding>0.1 0.13 0.1 0.1</padding>
-      <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
          <zIndex>9</zIndex>         		
     </imagegrid>
@@ -68,7 +55,6 @@
       <animateColor>ffffff00</animateColor>
       <animateColorTime>350</animateColorTime>
     </ninepatch>
-	
    </view> 
 	
 </theme>

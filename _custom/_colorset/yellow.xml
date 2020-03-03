@@ -30,7 +30,11 @@
    </view>
 		
 		<view name="basic, detailed, video, grid">
-	  
+
+	     <image name="list_frame" extra="true">
+		 <color>ffff3025</color>
+		 </image>  
+		 
      <text name="md_description">
 		<glowColor>e1c329</glowColor>
       </text>
@@ -39,9 +43,7 @@
 
 	<view name="basic, detailed, video">
 
-	     <image name="list_frame" extra="true">
-		 <color>ffff3025</color>
-		 </image>     
+   
 		 
      <textlist name="gamelist">
          <selectorColor>e1c329</selectorColor>

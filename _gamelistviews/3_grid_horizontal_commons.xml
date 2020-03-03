@@ -1,0 +1,54 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2_grid_commons.xml</include>
+
+<view name="grid">
+
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+
+
+    <imagegrid name="gamegrid">
+	  <pos>0.23 0.0</pos>
+      <size>0.7 1</size>
+      <padding>0.0 0 0.0 0.13</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>9</zIndex>         		
+    </imagegrid>
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>ffffff</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+
+
+   </view> 
+	
+</theme>
