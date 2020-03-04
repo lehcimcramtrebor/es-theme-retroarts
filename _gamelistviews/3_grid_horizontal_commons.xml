@@ -33,7 +33,7 @@
       <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
       <imageSizeMode>maxSize</imageSizeMode>
       <imageColor>ffffff</imageColor>
-      <reflexion>0.24 0.0</reflexion>
+      <reflexion>0.75 0.0</reflexion>
     </gridtile>
     <gridtile name="selected">
       <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
@@ -41,15 +41,22 @@
       <padding>64 16</padding>
     </gridtile>
     <text name="gridtile">
-      <visible>false</visible>
-      <color>80808080</color>
-      <fontSize>0.016</fontSize>
-      <size>1 0</size>
+     <color>00000000</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
     </text>
     <text name="gridtile:selected">
-      <color>FFFFFF00</color>
-      <fontSize>0.035</fontSize>
-      <size>1 0</size>
+      <color>00ff00</color>
+      <glowColor>101010</glowColor>
+      <glowSize>5</glowSize>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
     </text>
 
 
