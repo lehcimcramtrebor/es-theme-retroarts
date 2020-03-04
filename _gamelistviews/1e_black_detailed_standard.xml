@@ -11,11 +11,11 @@
 		</image>
 		
      <image name="md_thumbnail">
-        <pos>0.915 0.85</pos>
-        <origin>1 1</origin>
+        <pos>0.84 0.59</pos>
+        <origin>0.5 0.5</origin>
         <maxSize>0.145 0.45</maxSize>
         <zIndex>7</zIndex>         
-      </image>        
+      </image>     
 	  
       <image name="md_image">
         <pos>0.8237 0.19</pos>
