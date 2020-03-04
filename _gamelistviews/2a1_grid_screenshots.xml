@@ -11,7 +11,9 @@
 			</image>
 			
     <imagegrid name="gamegrid">
-	<imageSource>image</imageSource> 
+	<imageSource>image</imageSource>
+     <showVideoAtDelay>800</showVideoAtDelay>
+	 
     </imagegrid>
 
 
