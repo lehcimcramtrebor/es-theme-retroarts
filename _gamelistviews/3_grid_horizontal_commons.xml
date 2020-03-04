@@ -6,9 +6,7 @@
 
 <view name="grid">
 
-			<image name="system_tv" extra="true">
-				<visible>false</visible>			
-			</image>
+
 			
 		<image name="background" extra="true">
 			<color>909090</color>
@@ -54,11 +52,31 @@
       <glowSize>5</glowSize>
       <backgroundColor>00000000</backgroundColor>
       <fontSize>0.030</fontSize>
-      <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 	  
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
       <alignment>center</alignment>
       <size>1 0.24</size>
     </text>
 
+   <image name="gridtile.marquee">
+      <color>00000000</color>
+      <pos>0.5 1.2</pos>
+      <origin>0.5 0</origin>
+      <size>1 1</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <origin>0.5 0</origin>
+      <pos>0.5 1.15</pos>
+      <color>FFFFFFFF</color>
+      <size>1.4 1.4</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+      <origin>1 0.5</origin>
+      <color>FFFFFF00</color>
+      <pos>1 1.15</pos>
+      <size>0.50 0.2</size>
+    </image>
 
    </view> 
 	

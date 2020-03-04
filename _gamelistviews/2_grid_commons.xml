@@ -6,7 +6,8 @@
 <view name="grid">
 
 	     <image name="list_frame" extra="true">
-		 <path>./../_assets/frame.png</path>
+		 <path>./../_assets/glass.jpg</path>
+		 <tile>true</tile>
 		 <origin>0 0</origin>
          <pos>0.2395 0</pos>
          <size>0.80 0.87</size>
@@ -15,7 +16,7 @@
 
 	     <image name="list_border_left" extra="true">
 		 <path>./../_assets/frame.png</path>
-		 <color>000000</color>
+		 <color>606060</color>
 		 <origin>0.5 0</origin>
          <pos>0.2395 0</pos>
          <size>0.001 0.87</size>

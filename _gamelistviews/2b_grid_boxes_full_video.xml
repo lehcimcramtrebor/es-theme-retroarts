@@ -49,7 +49,7 @@
     </gridtile>
 	
     <gridtile name="selected">
-      <backgroundCenterColor>FFFFFF</backgroundCenterColor>
+      <backgroundCenterColor>FFFFFF50</backgroundCenterColor>
       <imageColor>FFFFFFFF</imageColor>
     </gridtile>
 	
@@ -57,7 +57,7 @@
       <color>D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
       <fontSize>0.030</fontSize>
-      <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 	  
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
       <alignment>center</alignment>
       <size>1 0.24</size>
     </text>

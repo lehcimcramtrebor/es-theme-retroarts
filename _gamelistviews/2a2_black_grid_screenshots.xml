@@ -1,0 +1,56 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2a_grid_boxes.xml</include>
+
+<view name="grid">
+
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+		
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
+    <imagegrid name="gamegrid">
+	<imageSource>image</imageSource>
+     <showVideoAtDelay>2400</showVideoAtDelay>
+	 
+    </imagegrid>
+
+    <gridtile name="default">
+      <backgroundCornerSize>0 0</backgroundCornerSize>
+      <backgroundCornerSize>0.06</backgroundCornerSize>
+    </gridtile>
+
+    <image name="gridtile.image">
+      <roundCorners>0.06</roundCorners>
+    </image>
+
+   <image name="gridtile.marquee">
+      <color>FFFFFFFF</color>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <size>1 1</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <origin>0 0.5</origin>
+      <pos>0 1.15</pos>
+      <color>FFFFFFFF</color>
+      <size>0.50 0.2</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+      <origin>1 0.5</origin>
+      <color>FFFFFF00</color>
+      <pos>1 1.15</pos>
+      <size>0.50 0.2</size>
+    </image>
+
+	
+   </view> 
+	
+</theme>
