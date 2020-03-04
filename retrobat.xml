@@ -3,8 +3,15 @@
 <theme>
 	<formatVersion>4</formatVersion>
 
-		<include subset="Music" name="By System">./sound.xml</include>
-		<include subset="Music" name="Batocera Musics">./jukebox.xml</include>
+		<include subset="Music / Jukebox" name="By System + Batocera Jukebox">./sound.xml</include>
+		<include subset="Music / Jukebox" name="By System + Batocera Jukebox">./_assets/_retrobat_jukebox/jukebox.xml</include>
+
+		<include subset="Music / Jukebox" name="By System Only">./sound.xml</include>
+		
+		<include subset="Music / Jukebox" name="Batocera Jukebox Only">./_assets/_retrobat_jukebox/jukebox.xml</include>
+		
+		<include subset="Music / Jukebox" name="No">./nope.xml</include>
+
 		
 	<view name="system, basic, detailed, video, grid">
 	
