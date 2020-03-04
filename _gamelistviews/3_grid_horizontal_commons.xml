@@ -19,7 +19,7 @@
     <imagegrid name="gamegrid">
 	  <pos>0.2408 0</pos>
       <size>0.683 1</size>
-      <padding>0 0.15 0 0.4</padding>
+      <padding>0 0.15 0 0.45</padding>
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>3 1</autoLayout>
       <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
