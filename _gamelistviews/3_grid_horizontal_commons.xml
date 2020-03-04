@@ -6,7 +6,10 @@
 
 <view name="grid">
 
-
+	     <image name="list_frame" extra="true">
+         <colorEnd>000000</colorEnd>
+		 <gradientType>vertical</gradientType>
+		 </image>  
 			
 		<image name="background" extra="true">
 			<color>909090</color>
@@ -31,7 +34,7 @@
       <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
       <imageSizeMode>maxSize</imageSizeMode>
       <imageColor>ffffff</imageColor>
-      <reflexion>0.75 0.0</reflexion>
+      <reflexion>0.5 0.0</reflexion>
     </gridtile>
     <gridtile name="selected">
       <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
