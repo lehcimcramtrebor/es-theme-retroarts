@@ -20,4 +20,13 @@
 						
 	</view>		
 
+	<view name="detailed, video, grid">
+	
+    <rating name="md_rating">
+      <filledPath>./../../_assets/megaman_f.png</filledPath>	
+      <unfilledPath>./../../_assets/megaman_u.png</unfilledPath>
+    </rating>
+
+	</view>	
+	
 </theme>

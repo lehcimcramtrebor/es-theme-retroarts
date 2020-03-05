@@ -19,4 +19,13 @@
 		</image>		
 	</view>		
 
+	<view name="detailed, video, grid">
+	
+    <rating name="md_rating">
+      <filledPath>./../../_assets/tentacle_f.png</filledPath>	
+      <unfilledPath>./../../_assets/tentacle_u.png</unfilledPath>
+    </rating>
+
+	</view>	
+	
 </theme>

@@ -23,10 +23,10 @@
 	<view name="detailed, video, grid">
 	
     <rating name="md_rating">
-      <color>ff0000</color>
-      <unfilledColor>808080</unfilledColor>
+      <filledPath>./../../_assets/star_f.png</filledPath>	
+      <unfilledPath>./../../_assets/star_u.png</unfilledPath>
     </rating>
-	
-	</view>		
 
+	</view>	
+	
 </theme>
