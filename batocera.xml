@@ -9,11 +9,11 @@
 	<view name="system, basic, detailed, video, grid">
 	
 		<text name="os_logo" extra="true">
-		<text>Batocera</text>
-		<fontPath>./_assets/MAHESWARI.TTF</fontPath>
-		<fontSize>0.040</fontSize>
+		<text>BATOCERA</text>
+		<fontPath>./_assets/LOGO.TTF</fontPath>
+		<fontSize>0.030</fontSize>
 		<origin>0 0.5</origin>
-		<pos>0.12 0.9125</pos>
+		<pos>0.117 0.9125</pos>
 		<glowSize>1</glowSize>
 		<zIndex>600</zIndex>
 		</text>
