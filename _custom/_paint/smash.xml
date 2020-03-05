@@ -18,6 +18,17 @@
 			<path>./../../_assets/tv_red.png</path>
 		</image>		
 		
+	</view>	
+	
+	<view name="detailed, video, grid">
+	
+    <rating name="md_rating">
+      <filledPath>./../../_assets/mushroom_f</filledPath>	
+      <unfilledPath>./../../_assets/mushroom_u</unfilledPath>
+    </rating>
+	
 	</view>		
+
+</theme>
 
 </theme>

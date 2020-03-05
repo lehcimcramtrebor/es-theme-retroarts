@@ -18,7 +18,15 @@
 			<path>./../../_assets/tv.png</path>
 			<color>303030</color>
 		</image>
-			
+	</view>		
+		
+	<view name="detailed, video, grid">
+	
+    <rating name="md_rating">
+      <color>ff0000</color>
+      <unfilledColor>808080</unfilledColor>
+    </rating>
+	
 	</view>		
 
 </theme>

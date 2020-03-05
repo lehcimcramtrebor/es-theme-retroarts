@@ -59,11 +59,11 @@
 		<zIndex>5</zIndex>
 		</image>   	
 
-	  	    <text name="md_rating">
+    <rating name="md_rating">
 			<pos>0.097 0.80</pos>
 			<size>0.1 0.042</size>
 			<zIndex>9</zIndex>
-      </text>	
+    </rating>	
   
 	  	    <datetime name="md_releasedate">
 			<color>ff7a00bb</color>      
