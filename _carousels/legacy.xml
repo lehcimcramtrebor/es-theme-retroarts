@@ -20,6 +20,7 @@
 		<logoAlignment>right</logoAlignment>
         <maxLogoCount>3</maxLogoCount>
 		<zIndex>8</zIndex>
+		<defaultTransition>instant</defaultTransition>				
 		</carousel>
 
 
