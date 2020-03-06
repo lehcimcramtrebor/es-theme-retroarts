@@ -27,8 +27,10 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="System View" name="Standard">./_systemviews/standard.xml</include>
 
 		<include subset="System View" name="Full Screen Videos">./_systemviews/full_screen.xml</include>
+		<include subset="System View" name="Full Screen Videos">./mute.xml</include>
 
 		<include subset="System View" name="in'TV Videos">./_systemviews/tv.xml</include>
+		<include subset="System View" name="in'TV Videos">./mute.xml</include>
 
 <!------CAROUSEL CHOICE------>
    

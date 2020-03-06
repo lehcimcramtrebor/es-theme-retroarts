@@ -2,7 +2,6 @@
 
 <theme>
 
-
    
 		<include subset="Carousel" name="Wheel Left">./full_wl.xml</include>
 
@@ -15,10 +14,6 @@
 		<include subset="Carousel" name="Vertical Right">./full_vr.xml</include>		
 
 <view name="system">
-
-		<sound name="bgsound">
-		<path>./../_systems/zx81/system.ogg</path>
-		</sound>
 		
 		<image name="background" extra="true">
 			<visible>false</visible>                 

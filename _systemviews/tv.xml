@@ -2,7 +2,6 @@
 
 <theme>
 
-
    
 		<include subset="Carousel" name="Wheel Left">./tv_wl.xml</include>
 
