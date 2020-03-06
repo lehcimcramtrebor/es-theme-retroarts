@@ -4,7 +4,7 @@
 
 	<view name="system">
 	
-	<!-- DEFAULT MUSIC WHEN SYSTEM MUSIC IS MISSING -->
+	<!-- DEFAULT MUSIC -->
 		<sound name="directory">
 			<path>./</path>
 		</sound>
