@@ -2,11 +2,6 @@
 
 <theme>
 
-	<view name="system">
-	
-	<!-- DEFAULT MUSIC -->
-		<sound name="directory">
-			<path>./</path>
-		</sound>
-	</view>
+		<include subset="System View" name="Standard">./play.xml</include>
+
 </theme>		
