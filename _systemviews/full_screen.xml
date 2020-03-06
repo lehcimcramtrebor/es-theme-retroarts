@@ -16,6 +16,10 @@
 
 <view name="system">
 
+		<sound name="bgsound">
+		<path>./../_systems/zx81/system.ogg</path>
+		</sound>
+		
 		<image name="background" extra="true">
 			<visible>false</visible>                 
 		</image>

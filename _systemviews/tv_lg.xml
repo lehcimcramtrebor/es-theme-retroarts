@@ -7,6 +7,10 @@
 		
 <view name="system">
 
+		<sound name="bgsound">
+		<path>./../_systems/zx81/system.ogg</path>
+		</sound>
+		
     <video name="backgroundvideo" extra="true">
 				<origin>0.5 0.5</origin>
 				<pos>0.485 0.70</pos>
