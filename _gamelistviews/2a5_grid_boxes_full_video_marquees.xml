@@ -1,0 +1,35 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2b_grid_boxes_full_video.xml</include>
+
+<view name="grid">
+
+   <image name="gridtile.marquee">
+      <origin>0.5 0</origin>
+      <pos>0.5 1.01</pos>
+      <color>FFFFFFFF</color>
+      <size>1 0.40</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+     <origin>0.5 0</origin>
+      <pos>0.5 1.01</pos>
+      <color>FFFFFFFF</color>
+      <size>1 0.40</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+      <origin>0.5 0</origin>
+      <color>FFFFFF00</color>
+      <pos>0.5 1.01</pos>
+      <size>1 0.40</size>
+    </image>
+
+
+
+   </view> 
+
+	
+</theme>
