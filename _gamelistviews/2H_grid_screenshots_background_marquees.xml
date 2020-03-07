@@ -1,0 +1,95 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<include>./2_grid_commons.xml</include>
+
+<view name="grid">
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
+		<image name="background" extra="true">
+			<color>404040</color>
+			<colorEnd>ffffff</colorEnd>
+			<gradientType>horizontal</gradientType>
+		</image>
+
+
+    <imagegrid name="gamegrid">
+	  <pos>0.2408 0</pos>
+      <size>0.683 0.87</size>
+      <autoLayout>3 2</autoLayout>
+      <margin>0.05 0.050</margin>
+      <padding>0.05 0.1 0.05 0.06</padding>
+      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+	<imageSource>image</imageSource>
+     <showVideoAtDelay>2400</showVideoAtDelay>	  
+         <zIndex>9</zIndex>         		
+    </imagegrid>
+
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>0.06</backgroundCornerSize>	  
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>ffffff</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF50</backgroundCenterColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+      <color>D0D0D0</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+
+    <text name="gridtile_selected">
+      <color>00ff00</color>
+      <glowColor>101010</glowColor>
+      <glowSize>5</glowSize>
+    </text>
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>ffffff00</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
+			
+
+    <image name="gridtile.image">
+      <roundCorners>0.06</roundCorners>
+    </image>
+
+   <image name="gridtile.marquee">
+      <origin>0.5 0</origin>
+      <pos>0.5 1.175</pos>
+      <color>FFFFFFFF</color>
+      <size>0.8 0.40</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+     <origin>0.5 0</origin>
+      <pos>0.5 1.05</pos>
+      <color>FFFFFFFF</color>
+      <size>0.8 0.40</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF00</color>
+      <pos>0.5 1.05</pos>
+      <size>15 15</size>
+    </image>
+
+	
+   </view> 
+	
+</theme>

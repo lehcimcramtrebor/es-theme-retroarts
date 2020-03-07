@@ -53,52 +53,49 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include>./_gamelistviews/0_basic.xml</include>
 
 
-		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/1a_detailed_standard.xml</include>
+		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/1A_detailed_background.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/1e_black_detailed_standard.xml</include>
+		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/1B_detailed_black.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/1b_detailed_full_screen.xml</include>
+		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/1C_detailed_full_screen.xml</include>
 
 
-		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1c_video_standard.xml</include>
+		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1D_video_background.xml</include>
 
-		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1f_black_video_standard.xml</include>
+		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1E_video_black.xml</include>
 		
-		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1d_video_full_screen.xml</include>		
+		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1F_video_full_video.xml</include>		
 
 
-		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2a_grid_boxes.xml</include>
+		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2A_grid_boxes_background.xml</include>
 		
-		<include subset="Gamelist Gridview" name="Background Boxes + Marquees">./_gamelistviews/2a3_grid_boxes_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Black Boxes">./_gamelistviews/2c_black_grid_boxes.xml</include>
+		<include subset="Gamelist Gridview" name="Background Boxes + Marquees">./_gamelistviews/2B_grid_boxes_background_marquees.xml</include>		
 		
-		<include subset="Gamelist Gridview" name="Black Boxes + Marquees">./_gamelistviews/2a4_black_grid_boxes_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Boxes + Full Screen Videos">./_gamelistviews/2b_grid_boxes_full_video.xml</include>
+		<include subset="Gamelist Gridview" name="Background Screenshots">./_gamelistviews/2G_grid_screenshots_background.xml</include>
 		
-		<include subset="Gamelist Gridview" name="Boxes + Full Screen Videos + Marquees">./_gamelistviews/2a5_grid_boxes_full_video_marquees.xml</include>		
+		<include subset="Gamelist Gridview" name="Background Screenshots + Marquees">./_gamelistviews/2H_grid_screenshots_background_marquees.xml</include>		
 
+		<include subset="Gamelist Gridview" name="Background Horizontal Boxes">./_gamelistviews/3A_grid_horizontal_boxes.xml</include>
 
-		<include subset="Gamelist Gridview" name="Background Screenshots">./_gamelistviews/2a1_grid_screenshots.xml</include>
+		<include subset="Gamelist Gridview" name="Black Boxes">./_gamelistviews/2C_grid_boxes_black.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Black Boxes + Marquees">./_gamelistviews/2D_grid_boxes_black_marquees.xml</include>		
 
-		<include subset="Gamelist Gridview" name="Background Screenshots + Marquees">./_gamelistviews/2a6_grid_screenshots_marquees.xml</include>		
+		<include subset="Gamelist Gridview" name="Black Screenshots">./_gamelistviews/2I_grid_screenshots_black.xml</include>
 
-		<include subset="Gamelist Gridview" name="Black Screenshots">./_gamelistviews/2a2_black_grid_screenshots.xml</include>
+		<include subset="Gamelist Gridview" name="Black Screenshots + Marquees">./_gamelistviews/2J_grid_screenshots_black_marquees.xml</include>		
 
-		<include subset="Gamelist Gridview" name="Black Screenshots + Marquees">./_gamelistviews/2a7_black_grid_screenshots_marquees.xml</include>		
+		<include subset="Gamelist Gridview" name="Black Horizontal Boxes">./_gamelistviews/3B_grid_horizontal_boxes_black.xml</include>
 
-		<include subset="Gamelist Gridview" name="Screenshots + Full Screen Videos">./_gamelistviews/2b1_grid_screenshots_full_video.xml</include>
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes">./_gamelistviews/2E_grid_boxes_full_video.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes + Marquees">./_gamelistviews/2F_grid_boxes_full_video_marquees.xml</include>		
 
-		<include subset="Gamelist Gridview" name="Screenshots + Full Screen Videos + Marquees">./_gamelistviews/2b2_grid_screenshots_full_video_marquees.xml</include>		
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots">./_gamelistviews/2K_grid_screenshots_full_video.xml</include>
 
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots + Marquees">./_gamelistviews/2L_grid_screenshots_full_video_marquees.xml</include>		
 
-		<include subset="Gamelist Gridview" name="Background Horizontal Boxes">./_gamelistviews/3a_grid_horizontal_boxes.xml</include>
-
-		<include subset="Gamelist Gridview" name="Black Horizontal Boxes">./_gamelistviews/3c_black_grid_horizontal_boxes.xml</include>
-
-		<include subset="Gamelist Gridview" name="Horizontal Boxes + Full Screen Videos">./_gamelistviews/3b_grid_horizontal_boxes_full_video.xml</include>
-
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Horizontal Boxes">./_gamelistviews/3C_grid_horizontal_boxes_full_video.xml</include>
 	
 <!------STATIC EFFECTS------>
 
