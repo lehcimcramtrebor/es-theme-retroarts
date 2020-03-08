@@ -1,0 +1,235 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+
+<view name="grid">
+
+     <image name="md_thumbnail">
+        <pos>0.7825 0.43</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.27 0.8</maxSize>
+        <zIndex>7</zIndex>         
+      </image>        
+	  
+      <video name="md_video">
+		<pos>0.148 0.175</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.086 0.135</maxSize>
+        <zIndex>6</zIndex>
+		 <delay>0</delay>
+	  	 <default>./../_assets/no_video.mp4</default>		 
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>		
+      </video>
+
+			<image name="system_tv" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.1625 0.165</pos>
+				<maxSize>0.16 0.32</maxSize>			
+				<zIndex>7</zIndex>
+			</image>
+
+			<image name="gamelist_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.148 0.175</pos>
+				<path>./../_assets/frame.png</path>
+				<size>0.09 0.13</size>					
+				<color>000000</color>
+				<zIndex>2</zIndex>
+			</image>			
+			
+	     <image name="convector" extra="true">
+		 <path>./../_assets/convector.png</path>
+		 <color>FFFFFF</color>
+		 <origin>0.5 0.5</origin>
+         <pos>0.1625 0.55</pos>
+         <size>0.15755208333 0.41111111111</size>
+         <zIndex>5</zIndex>
+		 </image>     
+		 
+
+		  
+     <text name="md_description">
+		<color>000000</color>
+		<glowSize>1</glowSize>
+        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
+        <pos>0.5783 0.908</pos>
+        <size>0.25 0.073</size>
+		<alignment>center</alignment>
+        <fontSize>0.022</fontSize>
+        <zIndex>800</zIndex>         
+      </text>
+
+	  <image name="logo">
+		<origin>0.5 0.5</origin>
+		<pos>0.163 0.8</pos>
+		<maxSize>0.14 0.14</maxSize>
+		<zIndex>5</zIndex>
+      </image>   	 	
+
+		<image name="art_01" extra="true">
+		<visible>false</visible>
+		</image>   	
+		
+    <rating name="md_rating">
+			<pos>0.105 0.3</pos>
+			<size>0.1 0.042</size>
+			<zIndex>9</zIndex>
+    </rating>	
+  
+	  	    <datetime name="md_releasedate">
+			<color>ff7a00bb</color>      
+			<pos>0.097 0.495</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </datetime>
+
+
+	  
+	  	    <text name="md_developer">
+			<color>06b900bb</color>      
+			<pos>0.097 0.5595</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+	  
+
+	  
+	  	    <text name="md_publisher">
+			<color>ff7a00bb</color>      
+			<pos>0.097 0.627</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+
+	  
+	  	    <text name="md_genre">
+			<color>06b900bb</color>      
+			<pos>0.097 0.692</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.1631 0.4124</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.096 0.0858</maxSize>
+         <zIndex>6</zIndex>         
+      </image> 
+	  		
+	     <image name="g_players" extra="true">
+		 <origin>0.5 0.5</origin>
+         <pos>0.6 0.066</pos>
+         <size>0.06 0.10665</size>
+         <zIndex>10</zIndex>
+		 </image>     
+
+      <text name="md_players">
+         <pos>0.509 0.035</pos>
+         <zIndex>11</zIndex>         
+      </text>
+	  
+	     <image name="list_frame" extra="true">
+		 <colorEnd>000000</colorEnd>
+		 <gradientType>vertical</gradientType>
+		 <path>./../_assets/glass.jpg</path>
+		 <tile>true</tile>
+		 <origin>0.5 0</origin>
+         <pos>0.44 0</pos>
+         <size>0.40 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>606060</color>
+		 <origin>0.5 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+	     <image name="list_border_right" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>606060</color>
+		 <origin>0.5 0</origin>
+         <pos>0.6405 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+			
+		<image name="background" extra="true">
+			<color>909090</color>
+			<colorEnd>ffffff</colorEnd>
+			<gradientType>horizontal</gradientType>
+		</image>
+
+	  
+    <imagegrid name="gamegrid">
+	  <pos>0.2408 0</pos>
+      <size>0.40 0.87</size>
+      <padding>0.08 0 0.08 0</padding>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>1 5</autoLayout>
+      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+      <margin>0 0.025</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <imageSource>marquee</imageSource>
+	  <zIndex>9</zIndex>         		
+    </imagegrid>
+	
+    <gridtile name="default">
+      <padding>0 0</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageColor>999999</imageColor>
+      <reflexion>0.10 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <imageColor>ffffff</imageColor>	
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>0 0</padding>
+    </gridtile>
+    <text name="gridtile">
+     <color>00000000</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+    <text name="gridtile:selected">
+      <color>00ff00</color>
+      <glowColor>101010</glowColor>
+      <glowSize>2</glowSize>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.015</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+
+
+	
+
+
+</view>
+	
+</theme>
