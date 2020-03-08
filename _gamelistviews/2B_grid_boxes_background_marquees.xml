@@ -2,10 +2,136 @@
 
 	<formatVersion>4</formatVersion>
 	
-	<include>./2_grid_commons.xml</include>
 
 <view name="grid">
 
+	     <image name="convector" extra="true">
+		 <path>./../_assets/convector.png</path>
+		 <color>FFFFFF</color>
+		 <origin>0.5 0.5</origin>
+         <pos>0.155 0.44</pos>
+         <size>0.15755208333 0.41111111111</size>
+         <zIndex>5</zIndex>
+		 </image>     
+		 
+
+		  
+     <text name="md_description">
+		<color>000000</color>
+		<glowSize>1</glowSize>
+        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
+        <pos>0.5783 0.908</pos>
+        <size>0.25 0.073</size>
+		<alignment>center</alignment>
+        <fontSize>0.022</fontSize>
+        <zIndex>800</zIndex>         
+      </text>
+
+	  <image name="logo">
+		<origin>0.5 0.5</origin>
+		<pos>0.155 0.72</pos>
+		<maxSize>0.14 0.14</maxSize>
+		<zIndex>5</zIndex>
+      </image>   	
+
+		<image name="art_01" extra="true">
+		<origin>0.5 0.5</origin>
+		<maxSize>0.14 0.23</maxSize>
+		<pos>0.155 0.135</pos>
+		<zIndex>5</zIndex>
+		</image>   	
+
+    <rating name="md_rating">
+			<pos>0.097 0.80</pos>
+			<size>0.1 0.042</size>
+			<zIndex>9</zIndex>
+    </rating>	
+  
+	  	    <datetime name="md_releasedate">
+			<color>ff7a00bb</color>      
+			<pos>0.089 0.385</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </datetime>
+
+
+	  
+	  	    <text name="md_developer">
+			<color>06b900bb</color>      
+			<pos>0.089 0.4495</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+	  
+
+	  
+	  	    <text name="md_publisher">
+			<color>ff7a00bb</color>      
+			<pos>0.089 0.517</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+
+	  
+	  	    <text name="md_genre">
+			<color>06b900bb</color>      
+			<pos>0.089 0.582</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.1556 0.3024</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.096 0.0858</maxSize>
+         <zIndex>6</zIndex>         
+      </image> 
+	  		
+	     <image name="g_players" extra="true">
+		 <origin>0.5 0.5</origin>
+         <pos>0.885 0.066</pos>
+         <size>0.06 0.10665</size>
+         <zIndex>10</zIndex>
+		 </image>     
+
+      <text name="md_players">
+         <pos>0.795 0.035</pos>
+         <zIndex>11</zIndex>         
+      </text>
+	  
+	     <image name="list_frame" extra="true">
+		 <path>./../_assets/glass.jpg</path>
+		 <tile>true</tile>
+		 <origin>0 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.80 0.87</size>
+         <colorEnd>000000</colorEnd>
+		 <gradientType>vertical</gradientType>		 
+         <zIndex>3</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>606060</color>
+		 <origin>0.5 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
 			<image name="system_tv" extra="true">
 				<visible>false</visible>			
 			</image>
