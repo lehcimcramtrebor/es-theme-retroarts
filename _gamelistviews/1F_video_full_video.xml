@@ -173,7 +173,7 @@
 			</image>
       
       <video name="md_video">
-		 <color>909090</color>
+		 <color>ffffff</color>
          <delay>0</delay>		 
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>

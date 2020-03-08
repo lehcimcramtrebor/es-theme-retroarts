@@ -5,31 +5,38 @@
 
 <view name="grid">
 
-	     <image name="list_frame" extra="true">
-		 <path>./../_assets/glass.jpg</path>
-		 <tile>true</tile>
-		 <origin>0 0</origin>
-         <pos>0.2395 0</pos>
-         <size>0.80 0.87</size>
-         <colorEnd>000000</colorEnd>
-		 <gradientType>vertical</gradientType>		 
-         <zIndex>3</zIndex>
-		 </image>     
+      <video name="md_video">
+		<pos>0.148 0.175</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.086 0.135</maxSize>
+        <zIndex>6</zIndex>
+		 <delay>0</delay>
+	  	 <default>./../_assets/no_video.mp4</default>		 
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>		
+      </video>
 
-	     <image name="list_border_left" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <color>606060</color>
-		 <origin>0.5 0</origin>
-         <pos>0.2395 0</pos>
-         <size>0.001 0.87</size>
-         <zIndex>3</zIndex>
-		 </image>     
-		 		 
+			<image name="system_tv" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.1625 0.165</pos>
+				<maxSize>0.16 0.32</maxSize>			
+				<zIndex>7</zIndex>
+			</image>
+
+			<image name="gamelist_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.148 0.175</pos>
+				<path>./../_assets/frame.png</path>
+				<size>0.09 0.13</size>					
+				<color>000000</color>
+				<zIndex>2</zIndex>
+			</image>			
+			
 	     <image name="convector" extra="true">
 		 <path>./../_assets/convector.png</path>
 		 <color>FFFFFF</color>
 		 <origin>0.5 0.5</origin>
-         <pos>0.155 0.44</pos>
+         <pos>0.1625 0.55</pos>
          <size>0.15755208333 0.41111111111</size>
          <zIndex>5</zIndex>
 		 </image>     
@@ -49,27 +56,24 @@
 
 	  <image name="logo">
 		<origin>0.5 0.5</origin>
-		<pos>0.155 0.72</pos>
+		<pos>0.163 0.8</pos>
 		<maxSize>0.14 0.14</maxSize>
 		<zIndex>5</zIndex>
-      </image>   	
+      </image>   	 	
 
 		<image name="art_01" extra="true">
-		<origin>0.5 0.5</origin>
-		<maxSize>0.14 0.23</maxSize>
-		<pos>0.155 0.135</pos>
-		<zIndex>5</zIndex>
+		<visible>false</visible>
 		</image>   	
-
+		
     <rating name="md_rating">
-			<pos>0.097 0.80</pos>
+			<pos>0.105 0.3</pos>
 			<size>0.1 0.042</size>
 			<zIndex>9</zIndex>
     </rating>	
   
 	  	    <datetime name="md_releasedate">
 			<color>ff7a00bb</color>      
-			<pos>0.089 0.385</pos>
+			<pos>0.097 0.495</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -81,7 +85,7 @@
 	  
 	  	    <text name="md_developer">
 			<color>06b900bb</color>      
-			<pos>0.089 0.4495</pos>
+			<pos>0.097 0.5595</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -93,7 +97,7 @@
 	  
 	  	    <text name="md_publisher">
 			<color>ff7a00bb</color>      
-			<pos>0.089 0.517</pos>
+			<pos>0.097 0.627</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -105,7 +109,7 @@
 	  
 	  	    <text name="md_genre">
 			<color>06b900bb</color>      
-			<pos>0.089 0.582</pos>
+			<pos>0.097 0.692</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -114,7 +118,7 @@
       </text>
 
       <image name="md_marquee">
-         <pos>0.1556 0.3024</pos>
+         <pos>0.1631 0.4124</pos>
          <origin>0.5 0.5</origin>
          <maxSize>0.096 0.0858</maxSize>
          <zIndex>6</zIndex>         
@@ -130,10 +134,33 @@
       <text name="md_players">
          <pos>0.795 0.035</pos>
          <zIndex>11</zIndex>         
-      </text> 
+      </text>
+	  
+	     <image name="list_frame" extra="true">
+		 <path>./../_assets/glass.jpg</path>
+		 <tile>true</tile>
+		 <origin>0 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.80 0.87</size>
+         <colorEnd>000000</colorEnd>
+		 <gradientType>vertical</gradientType>		 
+         <zIndex>3</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <color>606060</color>
+		 <origin>0.5 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
 			
 		<image name="background" extra="true">
 			<color>909090</color>
+			<colorEnd>ffffff</colorEnd>
+			<gradientType>horizontal</gradientType>
 		</image>
 
 	  
@@ -205,9 +232,7 @@
       <size>0.50 0.2</size>
     </image>
 	
-			<image name="system_tv" extra="true">
-				<visible>false</visible>
-			</image>
+
 
 </view>
 	

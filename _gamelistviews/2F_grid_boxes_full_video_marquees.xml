@@ -141,7 +141,7 @@
 			</image>
       
       <video name="md_video">
-		 <color>909090</color>
+		 <color>ffffff</color>
          <delay>0</delay>		 
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>
@@ -209,7 +209,7 @@
      <origin>0.5 0</origin>
       <pos>0.5 1.01</pos>
       <color>FFFFFFFF</color>
-      <size>1 0.40</size>
+      <size>1.5 0.40</size>
     </image>
 
     <image name="gridtile.marquee:videoplaying">
