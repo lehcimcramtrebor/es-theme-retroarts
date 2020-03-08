@@ -55,22 +55,25 @@
       </text>
 
 	  <image name="logo">
-		<visible>false</visible>
-      </image>   	
+		<origin>0.5 0.5</origin>
+		<pos>0.163 0.8</pos>
+		<maxSize>0.14 0.14</maxSize>
+		<zIndex>5</zIndex>
+      </image>   	 	
 
 		<image name="art_01" extra="true">
 		<visible>false</visible>
 		</image>   	
 		
     <rating name="md_rating">
-			<pos>0.105 0.80</pos>
+			<pos>0.105 0.3</pos>
 			<size>0.1 0.042</size>
 			<zIndex>9</zIndex>
     </rating>	
   
 	  	    <datetime name="md_releasedate">
 			<color>ff7a00bb</color>      
-			<pos>0.08975 0.495</pos>
+			<pos>0.097 0.495</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -82,7 +85,7 @@
 	  
 	  	    <text name="md_developer">
 			<color>06b900bb</color>      
-			<pos>0.08975 0.5595</pos>
+			<pos>0.097 0.5595</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -94,7 +97,7 @@
 	  
 	  	    <text name="md_publisher">
 			<color>ff7a00bb</color>      
-			<pos>0.08975 0.627</pos>
+			<pos>0.097 0.627</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
@@ -106,7 +109,7 @@
 	  
 	  	    <text name="md_genre">
 			<color>06b900bb</color>      
-			<pos>0.08975 0.692</pos>
+			<pos>0.097 0.692</pos>
 			<size>0.12890625 0.020</size>
 			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
 			<fontSize>0.012</fontSize>
