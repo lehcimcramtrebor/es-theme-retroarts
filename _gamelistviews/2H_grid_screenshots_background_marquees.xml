@@ -20,8 +20,8 @@
 	  <pos>0.2408 0</pos>
       <size>0.683 0.87</size>
       <autoLayout>3 2</autoLayout>
-      <margin>0.05 0.050</margin>
-      <padding>0.05 0.1 0.05 0.06</padding>
+      <margin>0.05 0.1</margin>
+      <padding>0.05 0.1 0.05 0.1</padding>
       <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
 	<imageSource>image</imageSource>

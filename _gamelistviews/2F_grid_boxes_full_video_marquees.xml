@@ -30,8 +30,8 @@
 	  <pos>0.2408 0</pos>
       <size>0.683 0.87</size>
       <autoLayout>3 2</autoLayout>
-      <margin>0.05 0.050</margin>
-      <padding>0.05 0.1 0.05 0.06</padding>
+      <margin>0.05 0.1</margin>
+      <padding>0.05 0.1 0.05 0.1</padding>
       <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
          <zIndex>9</zIndex>         		
@@ -43,6 +43,7 @@
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>ffffff</imageColor>
+      <reflexion>0.10 0.0</reflexion>
     </gridtile>
 	
     <gridtile name="selected">
@@ -75,6 +76,7 @@
       <pos>0.5 1.01</pos>
       <color>FFFFFFFF</color>
       <size>1 0.40</size>
+      <reflexion>0.10 0.0</reflexion>
     </image>
 	
     <image name="gridtile.marquee:selected">

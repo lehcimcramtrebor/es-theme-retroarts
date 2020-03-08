@@ -45,6 +45,7 @@
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>ffffff</imageColor>
+      <reflexion>0.10 0.0</reflexion>
     </gridtile>
 	
     <gridtile name="selected">
