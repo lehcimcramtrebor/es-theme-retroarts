@@ -50,21 +50,21 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------GAMELISTS CONFIG------>
  
-		<include>./_gamelistviews/0_basic.xml</include>
+		<include>./_gamelistviews/basic.xml</include>
 
 
-		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/1A_detailed_background.xml</include>
+		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/0A_detailed_background.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/1B_detailed_black.xml</include>
+		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/0B_detailed_black.xml</include>
 
-		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/1C_detailed_full_screen.xml</include>
+		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/0C_detailed_full_screen.xml</include>
 
 
-		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1D_video_background.xml</include>
+		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1A_video_background.xml</include>
 
-		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1E_video_black.xml</include>
+		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1B_video_black.xml</include>
 		
-		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1F_video_full_video.xml</include>		
+		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1C_video_full_video.xml</include>		
 
 
 		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2A_grid_boxes_background.xml</include>
