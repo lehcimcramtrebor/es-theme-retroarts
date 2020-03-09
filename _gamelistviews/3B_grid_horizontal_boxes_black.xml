@@ -201,7 +201,7 @@
       <glowColor>101010</glowColor>
       <glowSize>5</glowSize>
       <backgroundColor>00000000</backgroundColor>
-      <fontSize>0.030</fontSize>
+      <fontSize>0.020</fontSize>
       <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
       <alignment>center</alignment>
       <size>1 0.24</size>
