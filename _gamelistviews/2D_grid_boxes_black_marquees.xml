@@ -232,5 +232,5 @@
 
    </view> 
 
-	
+<include>./../_systems/${system.theme}/custom_grid_boxes_marquees.xml</include>	
 </theme>

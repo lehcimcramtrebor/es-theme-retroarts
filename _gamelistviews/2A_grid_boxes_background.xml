@@ -213,5 +213,5 @@
 
    </view> 
 
-	
+<include>./../_systems/${system.theme}/custom_grid_boxes.xml</include>
 </theme>
