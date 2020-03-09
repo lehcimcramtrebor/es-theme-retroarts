@@ -7,14 +7,14 @@
 <view name="grid">
 
     <imagegrid name="gamegrid">
-<!--      <autoLayout>2 2</autoLayout>							-->
-<!--      <margin>0.05 0.1</margin>								-->
+      <autoLayout>5 3</autoLayout>
+      <margin>0.0 0.05</margin>
 <!--      <padding>0.05 0.1 0.05 0.1</padding>					-->
 <!--      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>	-->
     </imagegrid>
 
     <image name="gridtile.marquee:selected">
-<!--      <size>1.1 0.40</size>									-->
+      <size>1 0.30</size>
     </image>
 
    </view> 
