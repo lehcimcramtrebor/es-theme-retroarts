@@ -1,18 +1,9 @@
 # Retro'Arts V1.2 for Batocera
 
 
-Log:
-1.2
+4.0 ADD COMPATIBILITY FOR RETROBAT 3.0 & BATOCERA 5.25
 
--All files are reorganised
 
-1.1
-
--Add Wheels
-
--Better lisibility on gamelist description
-
--Infos in temporal convector are litle big
 	
 By Lehcim. ( lehcimcramtrebor.ztriw@gmail.com )
 
