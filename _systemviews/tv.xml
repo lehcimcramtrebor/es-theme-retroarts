@@ -11,7 +11,11 @@
 
 		<include subset="Carousel" name="Vertical Left">./tv_vl.xml</include>
 
-		<include subset="Carousel" name="Vertical Right">./tv_vr.xml</include>		
+		<include subset="Carousel" name="Vertical Right">./tv_vr.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Left">./tv_bwl.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Right">./tv_bwr.xml</include>		
 
 <view name="system">
 

@@ -38,7 +38,11 @@
      <text name="md_description">
 		<glowColor>e1c329</glowColor>
       </text>
-		
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>e1c329</color>
+		 </image>     
+						
    </view>
 
 	<view name="basic, detailed, video">
@@ -53,6 +57,10 @@
 
 	<view name="system">
 
+		<image name="system_glass" extra="true">
+			<color>e1c329</color>
+		</image>
+		
 		<text name="systemInfo">
 			<color>000000</color>	
 			<glowColor>e1c329</glowColor>

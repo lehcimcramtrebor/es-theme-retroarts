@@ -39,7 +39,11 @@
      <text name="md_description">
 		<glowColor>7deaea</glowColor>
       </text>
-		
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>7deaea</color>
+		 </image>     
+		 				
    </view>
 
 	<view name="basic, detailed, video">
@@ -54,6 +58,10 @@
 
 	<view name="system">
 
+		<image name="system_glass" extra="true">
+			<color>7deaea</color>
+		</image>
+		
 		<text name="systemInfo">
 			<color>000000</color>
 			<glowColor>7deaea</glowColor>

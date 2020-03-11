@@ -41,6 +41,10 @@
 	     <image name="list_frame" extra="true">
 		 <color>3030ff25</color>
 		 </image> 
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>062f5f</color>
+		 </image>     
 		 
      <text name="md_description">
 		<glowColor>ffcb0650</glowColor>
@@ -62,6 +66,10 @@
 
 	<view name="system">
 
+		<image name="system_glass" extra="true">
+			<color>062f5f</color>
+		</image>
+		
 		<text name="systemInfo">
 			<color>000000</color>
 			<glowColor>ffcb0650</glowColor>

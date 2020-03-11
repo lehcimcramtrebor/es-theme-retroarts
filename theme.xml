@@ -42,7 +42,12 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Carousel" name="Vertical Left">./_carousels/vertical_left.xml</include>
 
-		<include subset="Carousel" name="Vertical Right">./_carousels/vertical_right.xml</include>		
+		<include subset="Carousel" name="Vertical Right">./_carousels/vertical_right.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Left">./_carousels/big_wheel_left.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Right">./_carousels/big_wheel_right.xml</include>
+		
 
 <!------CONFIG FOR GRAPHIC STYLES------>
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.816 0.435</pos>
+    </video>
+	
+			<image name="art_01" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.83 0.62</pos>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<origin>0.5 0.5</origin>			
+				<pos>0.83 0.425</pos>
+			</image>
+
+			<image name="system_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.816 0.435</pos>
+			</image>			
+
+		<image name="system_glass" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>2</zIndex>                 
+			<path>./../_assets/system_glass_right.png</path>
+		</image>
+		
+</view>
+   
+
+  
+</theme>

@@ -14,6 +14,10 @@
 
 		<include subset="Carousel" name="Vertical Right">./standard_vr.xml</include>		
 
+		<include subset="Carousel" name="BIG Wheel Left">./standard_bwl.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Right">./standard_bwr.xml</include>
+
 <view name="system">
 
 			<image name="art_01" extra="true">
