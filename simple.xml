@@ -26,30 +26,11 @@ lehcimcramtrebor.ztriw@gmail.com
 
 	</view>
  
-	<view name="system">
-	
-		<image name="system_glass" extra="true">
-			<visible>false</visible>
-		</image>
-		
-	</view>
+
 	
 	<view name="system, basic, detailed, video, grid">
  		
-			<image name="screen_effect" extra="true">
-				<size>1 1</size>
-				<pos>0 0</pos>
-				<origin>0 0</origin>
-				<tile>true</tile>
-				<zIndex>10</zIndex>
-			</image>
-	
-	    <video name="tv_effect" extra="true">
-				<size>1 1</size>
-				<pos>0 0</pos>
-				<origin>0 0</origin>
-				<zIndex>11</zIndex>
-		</video>
+
 
 		<image name="background" extra="true">
 			<origin>0 0</origin>
@@ -83,7 +64,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<size>0.265 0.1</size>
 			<pos>0.7018 0.9453</pos>
 			<color>000000</color>
-			<zIndex>40</zIndex>
+			<zIndex>4</zIndex>
 		</image>
 
 		<image name="simple_back_lcd_frame" extra="true">
@@ -91,7 +72,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<origin>0.5 0.5</origin>
 			<size>0.27 0.108</size>
 			<pos>0.7018 0.9453</pos>
-			<zIndex>30</zIndex>
+			<zIndex>3</zIndex>
 		</image>
 		
 		<image name="simple_bottom_frame" extra="true">
@@ -100,7 +81,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<size>1 0.056</size>
 			<pos>0 1</pos>
 			<color>00000050</color>
-			<zIndex>30</zIndex>
+			<zIndex>3</zIndex>
 		</image>
 
 		<image name="simple_back_bottom_frame" extra="true">
@@ -108,7 +89,7 @@ lehcimcramtrebor.ztriw@gmail.com
 			<origin>0 0</origin>
 			<size>1 0.004</size>
 			<pos>0 0.94</pos>
-			<zIndex>20</zIndex>
+			<zIndex>2</zIndex>
 		</image>
 		
 		<image name="ring_bayer" extra="true">
@@ -129,67 +110,4 @@ lehcimcramtrebor.ztriw@gmail.com
 		
 	</view>
  
-	<view name="detailed, video, grid">
-
-	     <image name="g_players" extra="true">
-			<path>./_assets/players.png</path>
-		 </image>     
-
-		<text name="md_players">
-			<color>ffffff</color>
-			<glowColor>000000</glowColor>
-			<alignment>center</alignment>		 
-			<fontPath>./_assets/LOGO.TTF</fontPath>		 
-			<fontSize>0.04</fontSize>
-		</text>
-	  
-	</view>
- 
-   
-	<view name="menu">
-	
-		<menuText name="menufooter">
-			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
-			<fontSize>0.020</fontSize>
-			<color>000000ff</color>
-		</menuText>
-		
-		<menuText name="menutext">
-			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
-			<fontSize>0.027</fontSize>
-			<color>000000ff</color>
-			<separatorColor>808080aa</separatorColor>
-			<selectedColor>ffffffff</selectedColor>
-		</menuText>
-		
-		<menuTextSmall name="menutextsmall">
-			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>		
-			<fontSize>0.028</fontSize>
-			<color>ffffffff</color>
-		</menuTextSmall>
-		
-		<menuText name="menutitle">
-			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
-			<fontSize>0.050</fontSize>
-			<color>000000ff</color>
-		</menuText>
-		
-			<menuBackground name="menubg">
-				<color>999999aa</color>
-				<fadePath>./_arts/bg_menu_white.png</fadePath>
-			</menuBackground>
-						
-		<menuIcons name="menuicons">
-			<iconGames>./_assets/menu_icon_games.png</iconGames>
-			<iconControllers>./_assets/menu_icon_controllers.png</iconControllers>
-			<iconUI>./_assets/menu_icon_ui.png</iconUI>
-			<iconSound>./_assets/menu_icon_sound.png</iconSound>
-			<iconScraper>./_assets/menu_icon_scraper.png</iconScraper>
-			<iconAdvanced>./_assets/menu_icon_advanced.png</iconAdvanced>
-			<iconQuit>./_assets/menu_icon_quit.png</iconQuit>
-		</menuIcons>
-		
-	</view>
-
-
 </theme>

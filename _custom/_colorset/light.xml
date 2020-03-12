@@ -68,7 +68,7 @@
 		</text>		
 
 		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
-			<color>606060</color>
+			<color>ffffff</color>
 		</image>
 		
    </view>

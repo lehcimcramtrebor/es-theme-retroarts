@@ -376,7 +376,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		
 	</view>
 
-<!------SIMPLE MODE------>
+<!------SIMPLE MODE, MUST BE PLACED AT THE END OF THIS FILE------>
 
 		<include subset="Mode Simple" name="ON">./simple.xml</include>
 		<include subset="Mode Simple" name="OFF">./nope.xml</include>

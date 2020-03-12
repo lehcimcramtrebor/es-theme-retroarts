@@ -11,8 +11,10 @@
 		</carousel>
 
 		<image name="system_glass" extra="true">
-			<pos>-0.08 0</pos>
+			<pos>0 0</pos>
+			<path>./../_assets/system_simple_glass_left.png</path>
 		</image>
+		
 </view>
   
 </theme>

@@ -76,7 +76,7 @@
 		</text>		
 
 		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
-			<color>3030ff</color>
+			<color>062f5f</color>
 		</image>
 		
    </view>

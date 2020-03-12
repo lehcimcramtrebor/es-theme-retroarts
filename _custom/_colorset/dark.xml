@@ -57,7 +57,7 @@
 	<view name="system">
 
 		<image name="system_glass" extra="true">
-			<color>707070</color>
+			<color>101010</color>
 		</image>
 		
 		<text name="systemInfo">
