@@ -375,5 +375,10 @@ lehcimcramtrebor.ztriw@gmail.com
 		</menuIcons>
 		
 	</view>
+
+<!------SIMPLE MODE------>
+
+		<include subset="Mode Simple" name="ON">./simple.xml</include>
+		<include subset="Mode Simple" name="OFF">./nope.xml</include>
  
 </theme>

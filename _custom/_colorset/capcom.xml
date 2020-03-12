@@ -74,6 +74,11 @@
 			<color>000000</color>
 			<glowColor>ffcb0650</glowColor>
 		</text>		
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
+			<color>3030ff</color>
+		</image>
+		
    </view>
 
 	<view name="detailed, video, grid">

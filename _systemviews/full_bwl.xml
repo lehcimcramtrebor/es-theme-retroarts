@@ -21,6 +21,7 @@
 		</image>		
 </view>
    
+		<include subset="Mode Simple" name="ON">./simple_full_bwl.xml</include>
 
   
 </theme>

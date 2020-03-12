@@ -14,6 +14,7 @@
 			
 </view>
    
+		<include subset="Mode Simple" name="ON">./simple_full_vr.xml</include>
 
   
 </theme>

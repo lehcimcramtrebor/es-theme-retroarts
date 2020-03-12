@@ -29,6 +29,7 @@
 			
 </view>
    
+		<include subset="Mode Simple" name="ON">./simple_tv_vr.xml</include>
 
   
 </theme>
