@@ -199,7 +199,7 @@ lehcimcramtrebor.ztriw@gmail.com
 	<view name="system">
 
 			<text name="systemInfo">
-				<pos>0.198 0.91</pos>
+				<pos>0.202 0.913</pos>
 				<backgroundColor>00000000</backgroundColor>
 				<glowSize>1</glowSize>				
 				<fontPath>./_assets/DIGITAL.TTF</fontPath>
