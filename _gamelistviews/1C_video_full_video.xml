@@ -183,5 +183,7 @@
       </video>
 	  
    </view> 
+
+		<include subset="Mode Simple" name="ON">./1C_simple.xml</include>
 	
 </theme>

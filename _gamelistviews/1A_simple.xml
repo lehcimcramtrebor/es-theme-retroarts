@@ -3,7 +3,7 @@
 	<formatVersion>4</formatVersion>
 	
 
-<view name="detailed">
+<view name="video">
 
 	     <image name="convector" extra="true">
 		 <path>./../_assets/convector.png</path>
@@ -164,13 +164,15 @@
         <zIndex>2</zIndex>         
       </image>        
 	  
-      <image name="md_image">
+      <video name="md_video">
+		<color>808080</color>	  
 		<pos>0.8555 0.245</pos>
         <origin>0.5 0.5</origin>
         <maxSize>0.14 0.195</maxSize>
-		<default>./../_assets/noise.jpg</default>         
+         <delay>0</delay>		
+		<default>./../_assets/no_video.mp4</default>         
         <zIndex>3</zIndex>          
-      </image>
+      </video>
 	  
 			<image name="system_tv" extra="true">
 				<origin>0.5 0.5</origin>

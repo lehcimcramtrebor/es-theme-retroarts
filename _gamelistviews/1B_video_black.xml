@@ -191,5 +191,6 @@
 
    </view> 
 
+		<include subset="Mode Simple" name="ON">./1B_simple.xml</include>
 	
 </theme>

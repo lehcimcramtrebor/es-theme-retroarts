@@ -179,7 +179,6 @@
 
    </view>
    
+		<include subset="Mode Simple" name="ON">./0C_simple.xml</include>
 
-
-	
 </theme>
