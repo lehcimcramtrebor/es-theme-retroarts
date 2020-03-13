@@ -165,7 +165,7 @@
       </image>        
 	  
       <video name="md_video">
-		<color>808080</color>	  
+		<color>ffffff</color>	  
 		<pos>0.8555 0.245</pos>
         <origin>0.5 0.5</origin>
         <maxSize>0.14 0.195</maxSize>
