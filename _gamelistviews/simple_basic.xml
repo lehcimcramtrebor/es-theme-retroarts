@@ -5,10 +5,9 @@
 
 <view name="basic">
 
-		<image name="background" extra="true">
-			<color>404040</color>
-			<colorEnd>ffffff</colorEnd>
-			<gradientType>vertical</gradientType>
+		<image name="simple_back_lcd_frame, simple_lcd_frame, bayer" extra="true">
+			<visible>false</visible>
+
 		</image>
 		
 			<image name="system_tv" extra="true">
@@ -22,15 +21,15 @@
 		 <tile>true</tile>
 		 <origin>0.5 0</origin>
          <pos>0.5 0</pos>
-         <size>0.52 0.87</size>
-         <zIndex>3</zIndex>
+         <size>0.52 0.94</size>
+         <zIndex>2</zIndex>
 		 </image>     
 
 	     <image name="list_border_left" extra="true">
 		 <path>./../_assets/frame.png</path>
 		 <origin>0.5 0</origin>
          <pos>0.2395 0</pos>
-         <size>0.001 0.87</size>
+         <size>0.001 0.94</size>
          <zIndex>3</zIndex>
 		 </image>     
 		 
@@ -38,24 +37,13 @@
 		 <path>./../_assets/frame.png</path>
 		 <origin>0.5 0</origin>
          <pos>0.7605 0</pos>
-         <size>0.001 0.87</size>
+         <size>0.001 0.94</size>
          <zIndex>3</zIndex>
-		 </image>     
-		 
-     <text name="md_description">
-		<color>000000</color>
-		<glowSize>1</glowSize>
-        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
-        <pos>0.5783 0.908</pos>
-        <size>0.25 0.073</size>
-		<alignment>center</alignment>
-        <fontSize>0.022</fontSize>
-        <zIndex>800</zIndex>         
-      </text>
+		 </image>     		 
 	
      <textlist name="gamelist">
 		 <origin>0.5 0</origin>
-         <pos>0.5 0</pos>
+         <pos>0.5 0.023</pos>
          <size>0.52 0.87</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>909090</primaryColor>
@@ -68,25 +56,15 @@
       </textlist>
 	  
 	  <image name="logo">
-		<origin>0.5 0.5</origin>
-		<pos>0.155 0.44</pos>
-		<maxSize>0.14 0.14</maxSize>
-		<zIndex>5</zIndex>
+		<pos>0.12 0.44</pos>
+		<maxSize>0.16 0.16</maxSize>
       </image>   	
 
 		<image name="art_01" extra="true">
-		<visible>true</visible>
-		<origin>0.5 0.5</origin>
-		<maxSize>0.14 0.23</maxSize>
-		<pos>0.847 0.44</pos>
-		<zIndex>5</zIndex>
+		<maxSize>0.16 0.32</maxSize>
+		<pos>0.88 0.44</pos>
 		</image>   	
 
    </view> 
 
-  
-		<include subset="Mode Simple" name="ON">./simple_basic.xml</include>
-
-
-	
 </theme>
