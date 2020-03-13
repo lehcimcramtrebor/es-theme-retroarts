@@ -3,7 +3,11 @@
 <theme>
 	<formatVersion>4</formatVersion>
 		<view name="system, basic, detailed, video, grid">
-		
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
+			<color>4ed344</color>
+		</image>
+			
 		<helpsystem name="help">
 			<iconColor>00ff00</iconColor>
 		</helpsystem>
@@ -65,11 +69,7 @@
 			<color>000000</color>
 			<glowColor>4ed344</glowColor>
 		</text>		
-
-		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
-			<color>4ed344</color>
-		</image>
-		
+	
    </view>
 
 	<view name="detailed, video, grid">
