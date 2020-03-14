@@ -222,5 +222,7 @@
 
    </view> 
 
+<include subset="Mode Simple" name="ON">./2F_simple.xml</include>
+
 <include>./../_systems/${system.theme}/custom_grid_boxes_marquees.xml</include>	
 </theme>

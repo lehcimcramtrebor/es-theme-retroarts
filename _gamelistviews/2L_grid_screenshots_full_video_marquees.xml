@@ -214,5 +214,7 @@
 
 	
    </view> 
+
+<include subset="Mode Simple" name="ON">./2L_simple.xml</include>
 	
 </theme>

@@ -226,5 +226,7 @@
 	  
 
    </view> 
+
+<include subset="Mode Simple" name="ON">./3C_simple.xml</include>
 	
 </theme>

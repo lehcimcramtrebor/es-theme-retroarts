@@ -4,7 +4,7 @@
 	<formatVersion>4</formatVersion>
 		<view name="system, basic, detailed, video, grid">
 
-		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame, list_border_bottom" extra="true">
 			<color>30FF30</color>
 		</image>
 			
@@ -51,7 +51,7 @@
       </text>
 
 	     <image name="list_border_left, list_border_right" extra="true">
-			<color>008000</color>
+			<color>30FF30</color>
 		 </image>     
 		 
    </view>

@@ -32,7 +32,7 @@
          <pos>0.1225 0.62</pos>
          <size>0.15755208333 0.41111111111</size>
 		 </image>     
-		 
+
 
 	  <image name="logo">
 		<pos>0.123 0.87</pos>
@@ -97,6 +97,5 @@
 
    </view> 
 
-<include>./../_systems/${system.theme}/custom_grid_boxes.xml</include>
 
 </theme>

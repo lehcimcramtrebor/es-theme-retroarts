@@ -1,21 +1,19 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	
+
 
 <view name="grid">
 
-	     <image name="list_border_bottom" extra="true">
-		 <origin>0 0</origin>
-		 <path>./../_assets/frame.png</path>		 
-         <pos>0.2392 0.87</pos>
-         <size>0.6835 0.003</size>
-         <zIndex>3</zIndex>
-		 </image>     
-		
+     <image name="md_thumbnail">
+        <pos>0.82 0.46</pos>
+      </image>        
+	  
       <video name="md_video">
-		<pos>0.101 0.245</pos>
-        <maxSize>0.13 0.205</maxSize>	
+         <pos>0 0</pos>
+		 <origin>0 0 </origin>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
       </video>
 
 			<image name="system_tv" extra="true">
@@ -34,14 +32,18 @@
 		 </image>     
 		 
 
+
 	  <image name="logo">
 		<pos>0.123 0.87</pos>
 		<maxSize>0.14 0.14</maxSize>
-      </image>   	 	
+      </image>   	  	
 
 		<image name="art_01" extra="true">
-		<visible>false</visible>
-		</image>   	
+		<origin>0.5 0.5</origin>
+		<maxSize>0.16 0.32</maxSize>
+		<pos>0.1225 0.2</pos>
+		<zIndex>5</zIndex>
+		</image>   
 		
     <rating name="md_rating">
 			<pos>0.43 0.95</pos>
@@ -79,24 +81,35 @@
          <pos>0.1231 0.4824</pos>
          <maxSize>0.096 0.0858</maxSize>
          <zIndex>6</zIndex>         
-      </image> 
+      </image>  
 	  		
+	     <image name="g_players" extra="true">
+		 <origin>0.5 0.5</origin>
+         <pos>0.6 0.066</pos>
+         <size>0.06 0.10665</size>
+         <zIndex>10</zIndex>
+		 </image>     
+
+      <text name="md_players">
+         <pos>0.509 0.035</pos>
+         <zIndex>11</zIndex>         
+      </text>
 	  
 	     <image name="list_frame" extra="true">
-         <pos>0.2395 0</pos>
-         <size>0.683 0.87</size>
+         <size>0.40 0.94</size>
+         <zIndex>2</zIndex>
 		 </image>     
-     
+
+	     <image name="list_border_left" extra="true">
+         <size>0.001 0.94</size>
+         <zIndex>2</zIndex>
+		 </image>     
+		 
 	     <image name="list_border_right" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <origin>0.5 0</origin>
-         <pos>0.922 0</pos>
-         <size>0.001 0.87</size>
-         <zIndex>3</zIndex>
+         <size>0.001 0.94</size>
+         <zIndex>2</zIndex>
 		 </image>     
-
-   </view> 
-
-<include>./../_systems/${system.theme}/custom_grid_boxes.xml</include>
-
+		 
+</view>
+	
 </theme>

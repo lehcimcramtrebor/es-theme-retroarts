@@ -206,5 +206,7 @@
     </ninepatch>
    </view> 
 
+<include subset="Mode Simple" name="ON">./2C_simple.xml</include>
+
 <include>./../_systems/${system.theme}/custom_grid_boxes.xml</include>	
 </theme>

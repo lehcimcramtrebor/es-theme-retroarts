@@ -202,5 +202,7 @@
 
 	
    </view> 
+
+<include subset="Mode Simple" name="ON">./2K_simple.xml</include>
 	
 </theme>

@@ -14,8 +14,10 @@
 		 </image>     
 		
       <video name="md_video">
-		<pos>0.101 0.245</pos>
-        <maxSize>0.13 0.205</maxSize>	
+         <pos>0 0</pos>
+		 <origin>0 0 </origin>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
       </video>
 
 			<image name="system_tv" extra="true">
@@ -29,10 +31,9 @@
 			</image>			
 			
 	     <image name="convector" extra="true">
-         <pos>0.1225 0.62</pos>
+         <pos>0.1225 0.58</pos>
          <size>0.15755208333 0.41111111111</size>
-		 </image>     
-		 
+		 </image>        
 
 	  <image name="logo">
 		<pos>0.123 0.87</pos>
@@ -40,7 +41,10 @@
       </image>   	 	
 
 		<image name="art_01" extra="true">
-		<visible>false</visible>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.16 0.32</maxSize>
+		<pos>0.1225 0.2</pos>
+		<zIndex>5</zIndex>
 		</image>   	
 		
     <rating name="md_rating">
@@ -50,33 +54,33 @@
     </rating>	
   
 	  	    <datetime name="md_releasedate">
-			<pos>0.057 0.565</pos>
+			<pos>0.057 0.525</pos>
 			<size>0.12890625 0.020</size>
       </datetime>
 
 
 	  
 	  	    <text name="md_developer">
-			<pos>0.057 0.6295</pos>
+			<pos>0.057 0.5895</pos>
 			<size>0.12890625 0.020</size>
       </text>
 	  
 
 	  
 	  	    <text name="md_publisher">
-			<pos>0.057 0.697</pos>
+			<pos>0.057 0.657</pos>
 			<size>0.12890625 0.020</size>
       </text>
 
 
 	  
 	  	    <text name="md_genre">
-			<pos>0.057 0.762</pos>
+			<pos>0.057 0.722</pos>
 			<size>0.12890625 0.020</size>
       </text>
 
       <image name="md_marquee">
-         <pos>0.1231 0.4824</pos>
+         <pos>0.1231 0.4424</pos>
          <maxSize>0.096 0.0858</maxSize>
          <zIndex>6</zIndex>         
       </image> 
@@ -96,7 +100,5 @@
 		 </image>     
 
    </view> 
-
-<include>./../_systems/${system.theme}/custom_grid_boxes.xml</include>
 
 </theme>
