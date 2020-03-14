@@ -71,6 +71,8 @@ lehcimcramtrebor.ztriw@gmail.com
 		
 		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1C_video_full_video.xml</include>		
 
+		<include subset="Gamelist Video View" name="Full Screen Snaphots Videos">./_gamelistviews/1D_video_full_screenshot.xml</include>		
+
 
 		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2A_grid_boxes_background.xml</include>
 		
