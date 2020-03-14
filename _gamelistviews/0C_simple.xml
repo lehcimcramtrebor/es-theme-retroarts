@@ -93,6 +93,7 @@
       </image>        
 	  
       <image name="md_image">
+		<origin>0 0</origin>	  
          <pos>0 0</pos>
          <size>1 1</size>
          <zIndex>1</zIndex>         
