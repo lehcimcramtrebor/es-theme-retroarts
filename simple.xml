@@ -109,5 +109,14 @@ lehcimcramtrebor.ztriw@gmail.com
 		</image>
 		
 	</view>
+
+	<view name="detailed, video, grid">
+
+     <text name="md_description">
+        <pos>0.5783 0.904</pos>
+        <size>0.25 0.082</size>
+      </text>
+ 
+	</view>
  
 </theme>
