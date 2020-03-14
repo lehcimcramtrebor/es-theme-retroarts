@@ -12,6 +12,7 @@
 	     <image name="list_frame" extra="true">
          <pos>0.455 0</pos>
          <size>0.59 0.94</size>
+         <zIndex>2</zIndex>		 
 		 </image>     
 
 	     <image name="list_border_left" extra="true">
