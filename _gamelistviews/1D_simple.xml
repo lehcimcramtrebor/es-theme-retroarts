@@ -111,14 +111,12 @@
       </video>
 	  
 			<image name="system_tv" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.88 0.23</pos>
 				<maxSize>0.24 0.48</maxSize>			
 				<zIndex>7</zIndex>
 			</image>
 
 			<image name="gamelist_tv_back" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.8555 0.245</pos>
 				<size>0.13 0.195</size>					
 				<zIndex>2</zIndex>

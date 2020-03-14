@@ -46,60 +46,32 @@
 
     <rating name="md_rating">
 			<pos>0.017 0.86</pos>
-			<size>0.1 0.042</size>
     </rating>
   
 	  	    <datetime name="md_releasedate">
-			<color>ff7a00bb</color>      
 			<pos>0.009 0.415</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </datetime>
 
 
 	  
 	  	    <text name="md_developer">
-			<color>06b900bb</color>      
 			<pos>0.009 0.4795</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 	  
 
 	  
 	  	    <text name="md_publisher">
-			<color>ff7a00bb</color>      
 			<pos>0.009 0.547</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 
 
 	  
 	  	    <text name="md_genre">
-			<color>06b900bb</color>      
 			<pos>0.009 0.612</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 
       <image name="md_marquee">
          <pos>0.0756 0.3324</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.096 0.0858</maxSize>
-         <zIndex>6</zIndex>         
       </image>                           
 
 	     <image name="g_players" extra="true">
@@ -129,14 +101,12 @@
       </video>
 	  
 			<image name="system_tv" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.88 0.23</pos>
 				<maxSize>0.24 0.48</maxSize>			
 				<zIndex>7</zIndex>
 			</image>
 
 			<image name="gamelist_tv_back" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.8555 0.245</pos>
 				<size>0.13 0.195</size>					
 				<zIndex>2</zIndex>

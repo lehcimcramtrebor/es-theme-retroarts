@@ -6,149 +6,79 @@
 <view name="detailed">
 
 	     <image name="convector" extra="true">
-		 <path>./../_assets/convector.png</path>
-		 <color>FFFFFF</color>
-		 <origin>0.5 0.5</origin>
          <pos>0.075 0.47</pos>
-         <size>0.15755208333 0.41111111111</size>
-         <zIndex>5</zIndex>
 		 </image>     
 	
 	     <image name="list_frame" extra="true">
-		 <colorEnd>000000</colorEnd>
-		 <gradientType>vertical</gradientType>
-		 <path>./../_assets/glass.jpg</path>
-		 <tile>true</tile>
-		 <origin>0.5 0</origin>
          <pos>0.455 0</pos>
          <size>0.59 0.94</size>
          <zIndex>2</zIndex>
 		 </image>     
 
 	     <image name="list_border_left" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <origin>0.5 0</origin>
          <pos>0.1595 0</pos>
          <size>0.001 0.94</size>
          <zIndex>3</zIndex>
 		 </image>     
 		 
 	     <image name="list_border_right" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <origin>0.5 0</origin>
          <pos>0.7505 0</pos>
          <size>0.001 0.94</size>
          <zIndex>3</zIndex>
 		 </image>     
 		  
-     <text name="md_description">
-		<color>000000</color>
-		<glowSize>1</glowSize>
-        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
-        <pos>0.5783 0.908</pos>
-        <size>0.25 0.073</size>
-		<alignment>center</alignment>
-        <fontSize>0.022</fontSize>
-        <zIndex>800</zIndex>         
-      </text>
-	
      <textlist name="gamelist">
-		 <origin>0.5 0</origin>
          <pos>0.455 0.023</pos>
          <size>0.59 0.87</size>
-         <selectedColor>000000</selectedColor>
-         <primaryColor>909090</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>
-         <fontSize>0.050</fontSize>
-         <alignment>center</alignment>
-		 <lineSpacing>2</lineSpacing>
 		 <zIndex>4</zIndex>
       </textlist>
 	  	
 	  <image name="logo">
-		<origin>0.5 0.5</origin>
 		<pos>0.075 0.76</pos>
 		<maxSize>0.14 0.14</maxSize>
-		<zIndex>5</zIndex>
       </image>   	
 
 		<image name="art_01" extra="true">
-		<origin>0.5 0.5</origin>
 		<maxSize>0.14 0.23</maxSize>
 		<pos>0.075 0.135</pos>
-		<zIndex>5</zIndex>
 		</image>   	
 
     <rating name="md_rating">
 			<pos>0.017 0.86</pos>
-			<size>0.1 0.042</size>
-			<zIndex>9</zIndex>
     </rating>
   
 	  	    <datetime name="md_releasedate">
-			<color>ff7a00bb</color>      
 			<pos>0.009 0.415</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </datetime>
 
 
 	  
 	  	    <text name="md_developer">
-			<color>06b900bb</color>      
 			<pos>0.009 0.4795</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 	  
 
 	  
 	  	    <text name="md_publisher">
-			<color>ff7a00bb</color>      
 			<pos>0.009 0.547</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 
 
 	  
 	  	    <text name="md_genre">
-			<color>06b900bb</color>      
 			<pos>0.009 0.612</pos>
-			<size>0.12890625 0.020</size>
-			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
-			<fontSize>0.012</fontSize>
-			<alignment>center</alignment>
-			<zIndex>6</zIndex>
       </text>
 
       <image name="md_marquee">
          <pos>0.0756 0.3324</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.096 0.0858</maxSize>
-         <zIndex>6</zIndex>         
       </image>                 
 
 	     <image name="g_players" extra="true">
-		 <origin>1 1</origin>
          <pos>0.75 0.12</pos>
-         <size>0.06 0.10665</size>
-         <zIndex>8</zIndex>
 		 </image>     
 
       <text name="md_players">
          <pos>0.629 0.033</pos>
-         <zIndex>9</zIndex>         
       </text>
 	  
 		<image name="background" extra="true">
@@ -157,32 +87,25 @@
 		
      <image name="md_thumbnail">
         <pos>0.875 0.66</pos>
-        <origin>0.5 0.5</origin>
         <maxSize>0.23 0.45</maxSize>
         <zIndex>2</zIndex>         
       </image>        
 	  
       <image name="md_image">
 		<pos>0.8555 0.245</pos>
-        <origin>0.5 0.5</origin>
         <maxSize>0.14 0.195</maxSize>
-		<default>./../_assets/noise.jpg</default>         
         <zIndex>3</zIndex>          
       </image>
 	  
 			<image name="system_tv" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.88 0.23</pos>
 				<maxSize>0.24 0.48</maxSize>			
 				<zIndex>7</zIndex>
 			</image>
 
 			<image name="gamelist_tv_back" extra="true">
-				<origin>0.5 0.5</origin>
 				<pos>0.8555 0.245</pos>
-				<path>./../_assets/frame.png</path>
 				<size>0.13 0.195</size>					
-				<color>000000</color>
 				<zIndex>2</zIndex>
 			</image>			                  	
 

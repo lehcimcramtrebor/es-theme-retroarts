@@ -15,43 +15,26 @@
 			</image>
 
 	     <image name="list_frame" extra="true">
-		 <colorEnd>000000</colorEnd>
-		 <gradientType>vertical</gradientType>		 
-		 <path>./../_assets/glass.jpg</path>
-		 <tile>true</tile>
-		 <origin>0.5 0</origin>
          <pos>0.5 0</pos>
          <size>0.52 0.94</size>
          <zIndex>2</zIndex>
 		 </image>     
 
 	     <image name="list_border_left" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <origin>0.5 0</origin>
          <pos>0.2395 0</pos>
          <size>0.001 0.94</size>
          <zIndex>3</zIndex>
 		 </image>     
 		 
 	     <image name="list_border_right" extra="true">
-		 <path>./../_assets/frame.png</path>
-		 <origin>0.5 0</origin>
          <pos>0.7605 0</pos>
          <size>0.001 0.94</size>
          <zIndex>3</zIndex>
 		 </image>     		 
 	
      <textlist name="gamelist">
-		 <origin>0.5 0</origin>
          <pos>0.5 0.023</pos>
          <size>0.52 0.87</size>
-         <selectedColor>000000</selectedColor>
-         <primaryColor>909090</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>
-         <fontSize>0.050</fontSize>
-         <alignment>center</alignment>
-		 <lineSpacing>2</lineSpacing>
 		 <zIndex>4</zIndex>
       </textlist>
 	  

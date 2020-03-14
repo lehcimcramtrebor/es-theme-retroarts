@@ -49,33 +49,28 @@
   
 	  	    <datetime name="md_releasedate">
 			<pos>0.009 0.415</pos>
-			<size>0.12890625 0.020</size>
       </datetime>
 
 
 	  
 	  	    <text name="md_developer">      
 			<pos>0.009 0.4795</pos>
-			<size>0.12890625 0.020</size>
       </text>
 	  
 
 	  
 	  	    <text name="md_publisher">
 			<pos>0.009 0.547</pos>
-			<size>0.12890625 0.020</size>
       </text>
 
 
 	  
 	  	    <text name="md_genre">
 			<pos>0.009 0.612</pos>
-			<size>0.12890625 0.020</size>
       </text>
 
       <image name="md_marquee">
          <pos>0.0756 0.3324</pos>
-         <maxSize>0.096 0.0858</maxSize>   
       </image>                   
 
 	     <image name="g_players" extra="true">
