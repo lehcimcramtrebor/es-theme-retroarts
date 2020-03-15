@@ -5,16 +5,16 @@
 
 Customize your system videos:
 
-If you use thse 2 systemview options ( "Full screen videos" and "in TV Videos"
+If you use these 2 systemview options ( "Full screen videos" and "in TV Videos"
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-01.png)
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-02.png)
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-01.jpg)
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-02.jpg)
 
 You can personalize your videos, put a file named "custom.mp4" in any system folder and this will play this video and not random scraped video.
 
 Systems folders are in "_systems" folder
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-03.png)
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-03.jpg)
 	
 By Lehcim. ( lehcimcramtrebor.ztriw@gmail.com )
 
