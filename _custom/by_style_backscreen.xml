@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+<!------BACKCREENS--------------------------------------------------------------------------------------------------------->
+	
+		<include subset="Style" name="Dark">./_backscreen/dark.xml</include>	
+
+		<include subset="Style" name="Light">./_backscreen/light.xml</include>	
+
+		<include subset="Style" name="Scumm">./_backscreen/scumm.xml</include>	
+
+		<include subset="Style" name="Scumm Full">./_backscreen/scumm.xml</include>
+		
+		<include subset="Style" name="Smash">./_backscreen/smash.xml</include>	
+
+		<include subset="Style" name="Smash Full">./_backscreen/smash.xml</include>
+
+		<include subset="Style" name="Zelda">./_backscreen/zelda.xml</include>	
+
+		<include subset="Style" name="Zelda Full">./_backscreen/zelda.xml</include>
+
+		<include subset="Style" name="Capcom">./_backscreen/capcom.xml</include>	
+
+		<include subset="Style" name="Capcom Full">./_backscreen/capcom.xml</include>		
+
+</theme>

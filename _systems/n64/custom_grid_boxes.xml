@@ -1,0 +1,19 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+
+
+ 
+<view name="grid">
+
+    <imagegrid name="gamegrid">
+      <autoLayout>2 2</autoLayout>
+      <margin>0.1 0.1</margin>
+      <padding>0.1 0.1 0.1 0.1</padding>
+<!--      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>	-->
+    </imagegrid>
+
+   </view> 
+
+</theme>

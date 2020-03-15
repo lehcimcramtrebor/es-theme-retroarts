@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<origin>1 0</origin>
+        <pos>0.919 -0.06</pos>
+		<size>0.17 1</size>
+        <logoScale>1.559895832</logoScale>
+        <logoSize>0.10 0.10</logoSize>
+        <color>00000000</color>
+		<logoRotation>-25</logoRotation>
+		<logoRotationOrigin>2.5 0.5</logoRotationOrigin>
+		<logoAlignment>left</logoAlignment>
+        <maxLogoCount>7</maxLogoCount>
+		<zIndex>8</zIndex>
+		<defaultTransition>instant</defaultTransition>				
+		</carousel>
+
+
+
+</view>
+   
+		<include subset="Mode Simple" name="ON">./simple_wheel_right.xml</include>
+
+  
+</theme>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.825 0.45</pos>
+    </video>
+	
+			<image name="art_01" extra="true">
+			<origin>1 0.5</origin>
+			<pos>0.92 0.55</pos>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<origin>1 0.5</origin>			
+				<pos>0.92 0.44</pos>
+			</image>
+
+			<image name="system_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.825 0.45</pos>
+			</image>			
+			
+</view>
+   
+		<include subset="Mode Simple" name="ON">./simple_tv_wl.xml</include>
+
+  
+</theme>

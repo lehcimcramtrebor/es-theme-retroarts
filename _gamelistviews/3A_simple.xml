@@ -1,0 +1,101 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+
+<view name="grid">
+
+	     <image name="list_border_bottom" extra="true">
+		 <origin>0 0</origin>
+		 <path>./../_assets/frame.png</path>		 
+         <pos>0.2392 0.87</pos>
+         <size>0.6835 0.003</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		
+      <video name="md_video">
+		<pos>0.101 0.245</pos>
+        <maxSize>0.13 0.205</maxSize>	
+      </video>
+
+			<image name="system_tv" extra="true">
+				<pos>0.125 0.23</pos>
+				<maxSize>0.24 0.48</maxSize>			
+			</image>
+
+			<image name="gamelist_tv_back" extra="true">
+				<pos>0.101 0.245</pos>
+				<size>0.13 0.195</size>					
+			</image>			
+			
+	     <image name="convector" extra="true">
+         <pos>0.1225 0.62</pos>
+         <size>0.15755208333 0.41111111111</size>
+		 </image>     
+
+
+	  <image name="logo">
+		<pos>0.123 0.87</pos>
+		<maxSize>0.14 0.14</maxSize>
+      </image>   	 	
+
+		<image name="art_01" extra="true">
+		<visible>false</visible>
+		</image>   	
+		
+    <rating name="md_rating">
+			<pos>0.43 0.95</pos>
+			<size>0.1 0.042</size>
+			<zIndex>9</zIndex>
+    </rating>	
+  
+	  	    <datetime name="md_releasedate">
+			<pos>0.057 0.565</pos>
+			<size>0.12890625 0.020</size>
+      </datetime>
+
+
+	  
+	  	    <text name="md_developer">
+			<pos>0.057 0.6295</pos>
+			<size>0.12890625 0.020</size>
+      </text>
+	  
+
+	  
+	  	    <text name="md_publisher">
+			<pos>0.057 0.697</pos>
+			<size>0.12890625 0.020</size>
+      </text>
+
+
+	  
+	  	    <text name="md_genre">
+			<pos>0.057 0.762</pos>
+			<size>0.12890625 0.020</size>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.1231 0.4824</pos>
+         <maxSize>0.096 0.0858</maxSize>
+         <zIndex>6</zIndex>         
+      </image> 
+	  		
+	  
+	     <image name="list_frame" extra="true">
+         <pos>0.2395 0</pos>
+         <size>0.683 0.87</size>
+		 </image>     
+     
+	     <image name="list_border_right" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <origin>0.5 0</origin>
+         <pos>0.922 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+
+   </view> 
+
+
+</theme>

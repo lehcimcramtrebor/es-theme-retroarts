@@ -1,0 +1,122 @@
+<!--
+
+RETRO'ARTS THEME FOR RETROBAT / BATOCERA 5.25
+
+VERSION 4.0 MARCH 2020
+
+BY LEHCIM.
+
+lehcimcramtrebor.ztriw@gmail.com
+
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+	<view name="screen">
+
+    <text name="clock">
+      <color>FFFFFF</color>
+	</text>
+
+    <controllerActivity name="controllerActivity">
+      <pos>0.01 0.012</pos>
+    </controllerActivity>
+
+	</view>
+ 
+
+	
+	<view name="system, basic, detailed, video, grid">
+ 		
+
+
+		<image name="background" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>1</zIndex>                 
+		</image>
+			
+
+
+		<image name="screen_back" extra="true">
+			<visible>false</visible>
+		</image>
+		
+		<image name="screen_overlay" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="screen_frame" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<text name="os_logo" extra="true">
+		<pos>0.85 0.97</pos>
+
+		</text>
+		
+		<image name="simple_lcd_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.265 0.1</size>
+			<pos>0.7018 0.9453</pos>
+			<color>000000</color>
+			<zIndex>4</zIndex>
+		</image>
+
+		<image name="simple_back_lcd_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.27 0.108</size>
+			<pos>0.7018 0.9453</pos>
+			<zIndex>3</zIndex>
+		</image>
+		
+		<image name="simple_bottom_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0 1</origin>
+			<size>1 0.056</size>
+			<pos>0 1</pos>
+			<color>00000050</color>
+			<zIndex>3</zIndex>
+		</image>
+
+		<image name="simple_back_bottom_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0 0</origin>
+			<size>1 0.004</size>
+			<pos>0 0.94</pos>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<image name="ring_bayer" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+			<visible>false</visible>
+		</image>
+		
+		<image name="ring" extra="true">
+			<visible>false</visible>
+		</image>
+		
+	</view>
+
+	<view name="detailed, video, grid">
+
+     <text name="md_description">
+        <pos>0.5783 0.904</pos>
+        <size>0.25 0.082</size>
+      </text>
+ 
+	</view>
+ 
+</theme>

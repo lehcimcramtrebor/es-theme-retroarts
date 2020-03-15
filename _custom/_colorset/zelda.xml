@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+		<view name="system, basic, detailed, video, grid">
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame, list_border_bottom" extra="true">
+			<color>30FF30</color>
+		</image>
+			
+		<helpsystem name="help">
+			<iconColor>ff0000</iconColor>
+		</helpsystem>
+
+		<image name="ring_bayer" extra="true">
+         <color>aa9ff1</color>		 		
+         <colorEnd>5b53a3</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+		
+		<image name="bayer" extra="true">
+         <color>f3d218</color>
+		</image>
+
+		<image name="ring" extra="true">
+         <color>101010</color>		 		
+         <colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+         <color>aa9ff190</color>		 		
+         <colorEnd>5b53a390</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+         <color>f3d21870</color>
+		</image>
+		
+   </view>
+		
+		<view name="basic, detailed, video, grid">
+
+	     <image name="list_frame" extra="true">
+		 <color>30ff3025</color>
+		 </image>     
+		 
+     <text name="md_description">
+		<glowColor>f3d21850</glowColor>
+      </text>
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>30FF30</color>
+		 </image>     
+		 
+   </view>
+
+	<view name="basic, detailed, video">
+
+
+		 
+     <textlist name="gamelist">
+			<selectorColor>00e01a</selectorColor>
+			<selectorColorEnd>00800d</selectorColorEnd>
+			</textlist>
+	  
+   </view>
+
+	<view name="system">
+
+		<image name="system_glass" extra="true">
+			<color>30ff30</color>
+		</image>
+		
+		<text name="systemInfo">
+			<color>000000</color>
+			<glowColor>f3d21850</glowColor>
+		</text>		
+	
+   </view>
+
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+			<color>aa9ff1</color>
+		 </image>     
+
+   </view>
+
+	<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>00e01a</backgroundEdgeColor>
+    </gridtile>
+
+   </view>
+
+	<view name="menu">
+
+		<menuText name="menutext">
+			<selectorColor>00e01a</selectorColor>
+			<selectorColorEnd>00800d</selectorColorEnd>
+
+		</menuText>
+
+   </view>
+			
+</theme>

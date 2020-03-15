@@ -1,0 +1,232 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+
+<view name="grid">
+
+	     <image name="list_frame" extra="true">
+		 <path>./../_assets/glass.jpg</path>
+		 <tile>true</tile>
+		 <origin>0 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.80 0.87</size>
+         <colorEnd>000000</colorEnd>
+		 <gradientType>vertical</gradientType>		 
+         <zIndex>3</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+		 <path>./../_assets/frame.png</path>
+		 <origin>0.5 0</origin>
+         <pos>0.2395 0</pos>
+         <size>0.001 0.87</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 		 
+	     <image name="convector" extra="true">
+		 <path>./../_assets/convector.png</path>
+		 <color>FFFFFF</color>
+		 <origin>0.5 0.5</origin>
+         <pos>0.155 0.44</pos>
+         <size>0.15755208333 0.41111111111</size>
+         <zIndex>5</zIndex>
+		 </image>     
+		 
+
+		  
+     <text name="md_description">
+		<color>000000</color>
+		<glowSize>1</glowSize>
+        <fontPath>./../_assets/DIGITAL.TTF</fontPath>		 
+        <pos>0.5783 0.908</pos>
+        <size>0.25 0.073</size>
+		<alignment>center</alignment>
+        <fontSize>0.022</fontSize>
+        <zIndex>800</zIndex>         
+      </text>
+
+	  <image name="logo">
+		<origin>0.5 0.5</origin>
+		<pos>0.155 0.72</pos>
+		<maxSize>0.14 0.14</maxSize>
+		<zIndex>5</zIndex>
+      </image>   	
+
+		<image name="art_01" extra="true">
+		<origin>0.5 0.5</origin>
+		<maxSize>0.14 0.23</maxSize>
+		<pos>0.155 0.135</pos>
+		<zIndex>5</zIndex>
+		</image>   	
+
+    <rating name="md_rating">
+			<pos>0.097 0.80</pos>
+			<size>0.1 0.042</size>
+			<zIndex>9</zIndex>
+    </rating>	
+  
+	  	    <datetime name="md_releasedate">
+			<color>ff7a00bb</color>      
+			<pos>0.089 0.385</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </datetime>
+
+
+	  
+	  	    <text name="md_developer">
+			<color>06b900bb</color>      
+			<pos>0.089 0.4495</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+	  
+
+	  
+	  	    <text name="md_publisher">
+			<color>ff7a00bb</color>      
+			<pos>0.089 0.517</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+
+	  
+	  	    <text name="md_genre">
+			<color>06b900bb</color>      
+			<pos>0.089 0.582</pos>
+			<size>0.12890625 0.020</size>
+			<fontPath>./../_assets/DIGITAL.TTF</fontPath>		 			
+			<fontSize>0.012</fontSize>
+			<alignment>center</alignment>
+			<zIndex>6</zIndex>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.1556 0.3024</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.096 0.0858</maxSize>
+         <zIndex>6</zIndex>         
+      </image> 
+	  		
+	     <image name="g_players" extra="true">
+		 <origin>0.5 0.5</origin>
+         <pos>0.885 0.066</pos>
+         <size>0.06 0.10665</size>
+         <zIndex>10</zIndex>
+		 </image>     
+
+      <text name="md_players">
+         <pos>0.795 0.035</pos>
+         <zIndex>11</zIndex>         
+      </text> 
+			
+		<image name="background" extra="true">
+			<color>909090</color>
+		</image>
+
+	  
+    <imagegrid name="gamegrid">
+	  <pos>0.2408 0</pos>
+      <size>0.683 0.87</size>
+      <padding>0 0.12 0 0.25</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.4</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>9</zIndex>         		
+    </imagegrid>
+	
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>999999</imageColor>
+      <reflexion>0.5 0.0</reflexion>
+    </gridtile>
+    <gridtile name="selected">
+      <imageColor>ffffff</imageColor>	
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+    <text name="gridtile">
+     <color>00000000</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.030</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+    <text name="gridtile:selected">
+      <color>00ff00</color>
+      <glowColor>101010</glowColor>
+      <glowSize>5</glowSize>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.020</fontSize>
+      <fontPath>./../_assets/GOOSEBERRY.OTF</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+
+   <image name="gridtile.marquee">
+      <color>00000000</color>
+      <pos>0.5 1.2</pos>
+      <origin>0.5 0</origin>
+      <size>1 1</size>
+      <reflexion>0.5 0.0</reflexion>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <origin>0.5 0</origin>
+      <pos>0.5 1.05</pos>
+      <color>FFFFFFFF</color>
+      <size>1.4 0.8</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+      <origin>1 0.5</origin>
+      <color>FFFFFF00</color>
+      <pos>1 1.15</pos>
+      <size>0.50 0.2</size>
+    </image>
+	
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+			
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+
+      <video name="md_video">
+		 <color>ffffff</color>
+         <delay>0</delay>		 
+         <pos>0.94 0</pos>
+		 <origin>1 0 </origin>
+         <size>0.87 0.87</size>
+         <zIndex>2</zIndex>
+	  	 <default>./../_assets/noise.mp4</default>         
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+	  
+
+   </view> 
+
+<include subset="Mode Simple" name="ON">./3C_simple.xml</include>
+	
+</theme>

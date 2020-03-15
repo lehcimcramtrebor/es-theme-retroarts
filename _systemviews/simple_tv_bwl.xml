@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+    <video name="backgroundvideo" extra="true">
+		<origin>0.5 0.5</origin>
+		<pos>0.075 0.435</pos>		
+    </video>
+	
+			<image name="art_01" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.09 0.62</pos>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<origin>0.5 0.5</origin>			
+				<pos>0.09 0.425</pos>
+			</image>
+
+			<image name="system_tv_back" extra="true">
+				<origin>0.5 0.5</origin>
+				<pos>0.075 0.435</pos>
+			</image>			
+
+		
+</view>
+   
+
+  
+</theme>

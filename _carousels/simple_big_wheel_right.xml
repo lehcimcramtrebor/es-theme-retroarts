@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+      <carousel name="systemcarousel">
+        <pos>1 -0.06</pos>		
+		</carousel>
+
+		<image name="system_glass" extra="true">
+			<pos>0 0</pos>
+			<path>./../_assets/system_simple_glass_right.png</path>
+		</image>
+
+</view>
+   
+
+  
+</theme>

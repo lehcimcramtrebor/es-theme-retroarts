@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+		<include subset="Systems Music" name="On">./sound.xml</include>
+		<include subset="Systems Music" name="Off">./nope.xml</include>
+		
+	<view name="system, basic, detailed, video, grid">
+	
+		<text name="os_logo" extra="true">
+		<text>BATOCERA</text>
+		<fontPath>./_assets/LOGO.TTF</fontPath>
+		<fontSize>0.030</fontSize>
+		<origin>0 0.5</origin>
+		<pos>0.117 0.9125</pos>
+		<glowSize>1</glowSize>
+		<zIndex>600</zIndex>
+		</text>
+		
+	</view>
+
+	<view name="screen">
+
+    <controllerActivity name="controllerActivity">
+      <pos>0.09 0.018</pos>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./_assets/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+
+	</view>
+	
+</theme>

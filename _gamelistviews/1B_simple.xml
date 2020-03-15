@@ -1,0 +1,118 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+
+<view name="video">
+
+	     <image name="convector" extra="true">
+         <pos>0.075 0.47</pos>
+         <size>0.15755208333 0.41111111111</size>
+		 </image>     
+	
+	     <image name="list_frame" extra="true">
+         <pos>0.455 0</pos>
+         <size>0.59 0.94</size>
+         <zIndex>2</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+         <pos>0.1595 0</pos>
+         <size>0.001 0.94</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+	     <image name="list_border_right" extra="true">
+         <pos>0.7505 0</pos>
+         <size>0.001 0.94</size>
+         <zIndex>3</zIndex>
+		 </image>     
+	
+     <textlist name="gamelist">
+         <pos>0.455 0.023</pos>
+         <size>0.59 0.87</size>
+		 <zIndex>4</zIndex>
+      </textlist>
+	  	
+	  <image name="logo">
+		<pos>0.075 0.76</pos>
+		<maxSize>0.14 0.14</maxSize>
+      </image>   	
+
+		<image name="art_01" extra="true">
+		<maxSize>0.14 0.23</maxSize>
+		<pos>0.075 0.135</pos>
+		</image>   	
+
+    <rating name="md_rating">
+			<pos>0.017 0.86</pos>
+    </rating>
+  
+	  	    <datetime name="md_releasedate">
+			<pos>0.009 0.415</pos>
+      </datetime>
+
+
+	  
+	  	    <text name="md_developer">
+			<pos>0.009 0.4795</pos>
+      </text>
+	  
+
+	  
+	  	    <text name="md_publisher">
+			<pos>0.009 0.547</pos>
+      </text>
+
+
+	  
+	  	    <text name="md_genre">
+			<pos>0.009 0.612</pos>
+      </text>
+
+      <image name="md_marquee">
+         <pos>0.0756 0.3324</pos>
+      </image>                           
+
+	     <image name="g_players" extra="true">
+         <pos>0.75 0.12</pos>
+		 </image>     
+
+      <text name="md_players">
+         <pos>0.629 0.033</pos>      
+      </text>
+	  
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+		
+     <image name="md_thumbnail">
+        <pos>0.875 0.66</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.23 0.45</maxSize>
+        <zIndex>2</zIndex>         
+      </image>        
+	  
+      <video name="md_video">
+		<pos>0.8555 0.245</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.14 0.195</maxSize>
+        <zIndex>3</zIndex>          
+      </video>
+	  
+			<image name="system_tv" extra="true">
+				<pos>0.88 0.23</pos>
+				<maxSize>0.24 0.48</maxSize>			
+				<zIndex>7</zIndex>
+			</image>
+
+			<image name="gamelist_tv_back" extra="true">
+				<pos>0.8555 0.245</pos>
+				<size>0.13 0.195</size>					
+				<zIndex>2</zIndex>
+			</image>			                  	
+
+   </view> 
+
+	
+</theme>

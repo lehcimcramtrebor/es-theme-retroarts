@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+
+<!------STYLES------------------------------------------------------------------------------------------------------------->
+	
+		<include subset="Style" name="Dark">./_framescreen/dark.xml</include>	
+
+		<include subset="Style" name="Light">./_framescreen/bright.xml</include>	
+
+		<include subset="Style" name="Scumm">./_framescreen/dark.xml</include>	
+
+		<include subset="Style" name="Scumm Full">./_framescreen/dark.xml</include>
+		
+		<include subset="Style" name="Smash">./_framescreen/light.xml</include>	
+
+		<include subset="Style" name="Smash Full">./_framescreen/light.xml</include>
+
+		<include subset="Style" name="Zelda">./_framescreen/bright.xml</include>	
+
+		<include subset="Style" name="Zelda Full">./_framescreen/bright.xml</include>
+
+		<include subset="Style" name="Capcom">./_framescreen/blue_capcom.xml</include>	
+
+		<include subset="Style" name="Capcom Full">./_framescreen/blue_capcom.xml</include>
+		
+</theme>

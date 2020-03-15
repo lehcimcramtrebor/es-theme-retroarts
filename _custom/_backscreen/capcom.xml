@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+		
+	<view name="system, basic, detailed, video, grid">
+
+		<image name="screen_back" extra="true">
+			<color>ffcb06</color>
+			<colorEnd>ff1515</colorEnd>
+			<gradientType>vertical</gradientType>
+		</image>
+		
+	</view>
+		
+</theme>

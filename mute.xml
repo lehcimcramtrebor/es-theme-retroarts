@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system">
+		<sound name="bgsound">
+		<path>./_systems/${system.theme}/silence/</path>
+		</sound>
+	</view>		
+
+</theme>

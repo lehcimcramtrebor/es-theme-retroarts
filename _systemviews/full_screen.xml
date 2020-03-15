@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   
+		<include subset="Carousel" name="Wheel Left">./full_wl.xml</include>
+
+		<include subset="Carousel" name="Wheel Right">./full_wr.xml</include>
+
+		<include subset="Carousel" name="Legacy (Center)">./full_lg.xml</include>			
+
+		<include subset="Carousel" name="Vertical Left">./full_vl.xml</include>
+
+		<include subset="Carousel" name="Vertical Right">./full_vr.xml</include>		
+
+		<include subset="Carousel" name="BIG Wheel Left">./full_bwl.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Right">./full_bwr.xml</include>
+		
+<view name="system">
+		
+		<image name="background" extra="true">
+			<visible>false</visible>                 
+		</image>
+
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>                 
+		<origin>0.5 0</origin>
+		<pos>0.5 0</pos>
+		<size>0.87 0.87</size>
+		<delay>0</delay>
+	  		 <default>./../_assets/noise.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+      <color>ffffff</color>
+      <zIndex>1</zIndex>      
+    </video>
+	
+			<image name="art_01" extra="true">
+			<maxSize>0.16 0.32</maxSize>			
+			<zIndex>9</zIndex>
+			</image>
+
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+				
+</view>
+  
+</theme>

@@ -1,0 +1,53 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+
+<view name="basic">
+
+		<image name="simple_back_lcd_frame, simple_lcd_frame, bayer" extra="true">
+			<visible>false</visible>
+
+		</image>
+		
+			<image name="system_tv" extra="true">
+				<visible>false</visible>			
+			</image>
+
+	     <image name="list_frame" extra="true">
+         <pos>0.5 0</pos>
+         <size>0.52 0.94</size>
+         <zIndex>2</zIndex>
+		 </image>     
+
+	     <image name="list_border_left" extra="true">
+         <pos>0.2395 0</pos>
+         <size>0.001 0.94</size>
+         <zIndex>3</zIndex>
+		 </image>     
+		 
+	     <image name="list_border_right" extra="true">
+         <pos>0.7605 0</pos>
+         <size>0.001 0.94</size>
+         <zIndex>3</zIndex>
+		 </image>     		 
+	
+     <textlist name="gamelist">
+         <pos>0.5 0.023</pos>
+         <size>0.52 0.87</size>
+		 <zIndex>4</zIndex>
+      </textlist>
+	  
+	  <image name="logo">
+		<pos>0.12 0.44</pos>
+		<maxSize>0.16 0.16</maxSize>
+      </image>   	
+
+		<image name="art_01" extra="true">
+		<maxSize>0.16 0.32</maxSize>
+		<pos>0.88 0.44</pos>
+		</image>   	
+
+   </view> 
+
+</theme>

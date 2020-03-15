@@ -1,0 +1,385 @@
+<!--
+
+RETRO'ARTS THEME FOR BATOCERA 5.25
+
+VERSION 4.0 MARCH 2020
+
+BY LEHCIM.
+
+lehcimcramtrebor.ztriw@gmail.com
+
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+		<formatVersion>7</formatVersion>
+
+<!------OS CHOICE FOR LOGO, JUKEBOX, CONTROLLER ACTIVITY------>
+
+		<include>./batocera.xml</include>
+
+<!------SYSTEMVIEW TYPE CHOICE------>
+
+		<include subset="System View" name="Standard">./_systemviews/standard.xml</include>
+
+		<include subset="System View" name="Full Screen Videos">./_systemviews/full_screen.xml</include>
+		<include subset="System View" name="Full Screen Videos">./mute.xml</include>
+
+		<include subset="System View" name="in'TV Videos">./_systemviews/tv.xml</include>
+		<include subset="System View" name="in'TV Videos">./mute.xml</include>
+
+<!------CAROUSEL CHOICE------>
+   
+		<include subset="Carousel" name="Wheel Left">./_carousels/wheel_left.xml</include>
+
+		<include subset="Carousel" name="Wheel Right">./_carousels/wheel_right.xml</include>
+
+		<include subset="Carousel" name="Legacy (Center)">./_carousels/legacy.xml</include>			
+
+		<include subset="Carousel" name="Vertical Left">./_carousels/vertical_left.xml</include>
+
+		<include subset="Carousel" name="Vertical Right">./_carousels/vertical_right.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Left">./_carousels/big_wheel_left.xml</include>
+
+		<include subset="Carousel" name="BIG Wheel Right">./_carousels/big_wheel_right.xml</include>
+		
+
+<!------CONFIG FOR GRAPHIC STYLES------>
+
+  		<include>./_custom/custom_config.xml</include>
+
+<!------GAMELISTS CONFIG------>
+ 
+		<include>./_gamelistviews/basic.xml</include>
+
+
+		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/0A_detailed_background.xml</include>
+
+		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/0B_detailed_black.xml</include>
+
+		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/0C_detailed_full_screen.xml</include>
+
+
+		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1A_video_background.xml</include>
+
+		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1B_video_black.xml</include>
+		
+		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1C_video_full_video.xml</include>		
+
+		<include subset="Gamelist Video View" name="Full Screen Snaphots Videos">./_gamelistviews/1D_video_full_screenshot.xml</include>		
+
+
+		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2A_grid_boxes_background.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Background Boxes + Marquees">./_gamelistviews/2B_grid_boxes_background_marquees.xml</include>		
+		
+		<include subset="Gamelist Gridview" name="Background Screenshots">./_gamelistviews/2G_grid_screenshots_background.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Background Screenshots + Marquees">./_gamelistviews/2H_grid_screenshots_background_marquees.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Background Horizontal Boxes">./_gamelistviews/3A_grid_horizontal_boxes.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Background Wheel">./_gamelistviews/4A_grid_wheel_background.xml</include>
+
+		<include subset="Gamelist Gridview" name="Black Boxes">./_gamelistviews/2C_grid_boxes_black.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Black Boxes + Marquees">./_gamelistviews/2D_grid_boxes_black_marquees.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Black Screenshots">./_gamelistviews/2I_grid_screenshots_black.xml</include>
+
+		<include subset="Gamelist Gridview" name="Black Screenshots + Marquees">./_gamelistviews/2J_grid_screenshots_black_marquees.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Black Horizontal Boxes">./_gamelistviews/3B_grid_horizontal_boxes_black.xml</include>
+
+		<include subset="Gamelist Gridview" name="Black Wheel">./_gamelistviews/4B_grid_wheel_black.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes">./_gamelistviews/2E_grid_boxes_full_video.xml</include>
+		
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes + Marquees">./_gamelistviews/2F_grid_boxes_full_video_marquees.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots">./_gamelistviews/2K_grid_screenshots_full_video.xml</include>
+
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots + Marquees">./_gamelistviews/2L_grid_screenshots_full_video_marquees.xml</include>		
+
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Horizontal Boxes">./_gamelistviews/3C_grid_horizontal_boxes_full_video.xml</include>
+
+		<include subset="Gamelist Gridview" name="Full Screen Videos + Wheel">./_gamelistviews/4C_grid_wheel_full_video.xml</include>		
+	
+<!------STATIC EFFECTS------>
+
+		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+
+		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
+
+		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
+
+		<include subset="Screen Effects" name="Scanlines Fine">./_effects/screen_effect_scanlines_fine.xml</include>	
+
+		<include subset="Screen Effects" name="Vertical Scanlines Fine">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore">./_effects/screen_effect_phosphore.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
+
+		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
+
+<!------VIDEO EFFECTS------>
+
+
+		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
+
+		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+
+		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
+
+		<include subset="Video Effect" name="GLITCH">./_effects/tv_effect_glitch.xml</include>						
+
+		<include subset="Video Effect" name="VHS GLITCH">./_effects/tv_effect_vhs_glitch.xml</include>
+
+		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
+
+		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+
+<!------ICONSETS CONFIG------>
+		
+		<include subset="iconset" name="Standard">./_iconsets/nope.xml</include>		
+
+		<include subset="iconset" name="Arcade">./_iconsets/iconset_arcade.xml</include>
+
+		<include subset="iconset" name="Psx">./_iconsets/iconset_psx.xml</include>
+
+		<include subset="iconset" name="Snes">./_iconsets/iconset_snes.xml</include>
+
+		<include subset="iconset" name="Snes Alt">./_iconsets/iconset_snesalt.xml</include>
+
+		<include subset="iconset" name="Xbox">./_iconsets/iconset_xbox.xml</include>	
+
+		<include subset="iconset" name="Xbox One">./_iconsets/iconset_xboxone.xml</include>	
+
+<!------NUMBER OF PLAYERS ON/OFF------>
+
+		<include subset="Number of Players" name="Yes">./nope.xml</include>	
+
+		<include subset="Number of Players" name="No">./_desactivated/nb_players.xml</include>	
+
+<!------CONSOLE ARTS ON/OFF------>
+
+		<include subset="Systems Arts" name="Yes">./nope.xml</include>	
+
+		<include subset="Systems Arts" name="No">./_desactivated/arts.xml</include>
+
+<!------LOGOS STYLES & REGIONS------>
+
+		<include subset="System logos" name="Carbon Europe">./_logos/carbon_logo.xml</include>
+
+		<include subset="System logos" name="Carbon World">./_logos/world_carbon_logo.xml</include>
+
+		<include subset="System logos" name="Simple Europe">./_logos/simple_logo.xml</include>
+
+		<include subset="System logos" name="Simple World">./_logos/world_simple_logo.xml</include>
+
+
+<!------THEME------>
+
+	<view name="screen">
+
+    <text name="clock">
+      <color>777777FF</color>
+	  <fontPath>./_assets/DIGITAL.TTF</fontPath>
+      <fontSize>0.016</fontSize>
+      <pos>0.948 0.955</pos>
+      <size>0.05 0.058</size>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+
+	</view>
+ 
+	<view name="system">
+
+			<text name="systemInfo">
+				<pos>0.202 0.913</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<glowSize>1</glowSize>				
+				<fontPath>./_assets/DIGITAL.TTF</fontPath>
+				<fontSize>0.026</fontSize>
+				<zIndex>999</zIndex>	     
+			</text>		
+
+	</view>
+	
+	<view name="system, basic, detailed, video, grid">
+ 		
+			<image name="screen_effect" extra="true">
+				<size>1 1</size>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<tile>true</tile>
+				<zIndex>10</zIndex>
+			</image>
+	
+	    <video name="tv_effect" extra="true">
+				<size>1 1</size>
+				<pos>0 0</pos>
+				<origin>0 0</origin>
+				<zIndex>11</zIndex>
+		</video>
+
+		<image name="background" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.87 0.87</size>
+			<zIndex>1</zIndex>                 
+			<path>./_systems/${system.theme}/wallpaper.jpg</path>
+		</image>
+			
+		<image name="art_01" extra="true">
+			<path>./_systems/${system.theme}/console.png</path>
+		</image>
+
+		<helpsystem name="help">
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
+			<fontSize>0.014</fontSize>     
+			<pos>0.02 0.965</pos>      
+			<textColor>ffffff</textColor>
+		</helpsystem>
+
+
+		<image name="screen_back" extra="true">
+			<path>./_assets/screen_back.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>498</zIndex>
+		</image>
+		
+		<image name="screen_overlay" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>500</zIndex>
+		</image>
+
+		<image name="screen_frame" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>        
+			<color>FFFFFF</color>
+			<zIndex>499</zIndex>
+		</image>
+
+		<image name="bayer" extra="true">
+			<path>./_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.575 0.903</pos>
+			<size>0.255 0.083</size>        
+			<tile>true</tile>
+			<zIndex>496</zIndex>
+		</image>
+
+		<image name="ring_bayer" extra="true">
+			<path>./_assets/bayer.png</path>		
+			<origin>0 0</origin>
+			<pos>0.473 0.895</pos>
+			<size>0.055 0.095</size>        
+			<tile>true</tile>
+			<zIndex>495</zIndex>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+			<path>./_assets/bloom_ring.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.941</pos>
+			<size>0.0781 0.1389</size>        
+			<zIndex>501</zIndex>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+			<path>./_assets/bloom_lcd.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.7015 0.9441</pos>
+			<size>0.27615 0.1255</size>        
+			<zIndex>502</zIndex>
+		</image>
+		
+		<image name="ring" extra="true">
+			<path>./_assets/ring_retroarts.png</path>		
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9425</pos>
+			<size>0.04271 0.09398</size>        
+			<zIndex>497</zIndex>
+		</image>
+		
+	</view>
+ 
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+		 </image>     
+
+		<text name="md_players">
+			<color>ffffff</color>
+			<glowColor>000000</glowColor>
+			<alignment>center</alignment>		 
+			<fontPath>./_assets/LOGO.TTF</fontPath>		 
+			<fontSize>0.04</fontSize>
+		</text>
+	  
+	</view>
+ 
+   
+	<view name="menu">
+	
+		<menuText name="menufooter">
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
+			<fontSize>0.020</fontSize>
+			<color>000000ff</color>
+		</menuText>
+		
+		<menuText name="menutext">
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
+			<fontSize>0.027</fontSize>
+			<color>000000ff</color>
+			<separatorColor>808080aa</separatorColor>
+			<selectedColor>ffffffff</selectedColor>
+		</menuText>
+		
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>		
+			<fontSize>0.028</fontSize>
+			<color>ffffffff</color>
+		</menuTextSmall>
+		
+		<menuText name="menutitle">
+			<fontPath>./_assets/GOOSEBERRY.OTF</fontPath>
+			<fontSize>0.050</fontSize>
+			<color>000000ff</color>
+		</menuText>
+		
+			<menuBackground name="menubg">
+				<color>999999aa</color>
+				<fadePath>./_arts/bg_menu_white.png</fadePath>
+			</menuBackground>
+						
+		<menuIcons name="menuicons">
+			<iconGames>./_assets/menu_icon_games.png</iconGames>
+			<iconControllers>./_assets/menu_icon_controllers.png</iconControllers>
+			<iconUI>./_assets/menu_icon_ui.png</iconUI>
+			<iconSound>./_assets/menu_icon_sound.png</iconSound>
+			<iconScraper>./_assets/menu_icon_scraper.png</iconScraper>
+			<iconAdvanced>./_assets/menu_icon_advanced.png</iconAdvanced>
+			<iconQuit>./_assets/menu_icon_quit.png</iconQuit>
+		</menuIcons>
+		
+	</view>
+
+<!------SIMPLE MODE, MUST BE PLACED AT THE END OF THIS FILE------>
+
+		<include subset="Mode Simple" name="OFF">./nope.xml</include>
+ 		<include subset="Mode Simple" name="ON">./simple.xml</include>
+
+</theme>

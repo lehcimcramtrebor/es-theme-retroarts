@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<view name="system, basic, detailed, video, grid">
+
+		<image name="screen_overlay" extra="true">
+			<path>./../../_assets/paint_zelda.png</path>
+		</image>	  
+
+		<text name="os_logo" extra="true">
+		<color>fdc900</color>
+		<glowColor>101010</glowColor>
+		</text>
+
+		<image name="system_tv" extra="true">
+			<path>./../../_assets/tv_green.png</path>
+		</image>		
+				
+	</view>		
+
+	<view name="detailed, video, grid">
+	
+    <rating name="md_rating">
+      <filledPath>./../../_assets/triforce_f.png</filledPath>	
+      <unfilledPath>./../../_assets/triforce_u.png</unfilledPath>
+    </rating>
+
+	</view>		
+	
+</theme>

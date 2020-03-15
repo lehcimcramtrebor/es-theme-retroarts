@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+		
+<view name="system">
+
+			<image name="art_01" extra="true">
+			<origin>1 0.5</origin>
+			<pos>0.99 0.48.25</pos>
+			</image>
+			
+</view>
+   
+
+  
+</theme>

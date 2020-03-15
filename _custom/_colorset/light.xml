@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+		<view name="system, basic, detailed, video, grid">
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame, list_border_bottom" extra="true">
+			<color>ffffff</color>
+		</image>
+			
+		<helpsystem name="help">
+			<iconColor>ffffff</iconColor>
+		</helpsystem>
+
+		<image name="ring_bayer" extra="true">
+         <color>909090</color>
+		</image>
+		
+		<image name="bayer" extra="true">
+         <color>7deaea</color>
+		</image>
+
+		<image name="ring" extra="true">
+         <color>101010</color>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+         <color>909090</color>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+         <color>7deaea70</color>
+		</image>
+		
+   </view>
+		
+		<view name="basic, detailed, video, grid">
+
+	     <image name="list_frame" extra="true">
+		 <color>7deaea25</color>
+		 </image>  
+		 
+     <text name="md_description">
+		<glowColor>7deaea50</glowColor>
+      </text>
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>ffffff</color>
+		 </image>     
+		 	  		
+   </view>
+
+	<view name="basic, detailed, video">
+
+   
+		 
+     <textlist name="gamelist">
+         <selectorColor>7deaea</selectorColor>
+      </textlist>
+	  
+   </view>
+
+	<view name="system">
+
+		<image name="system_glass" extra="true">
+			<color>ffffff</color>
+		</image>
+		
+		<text name="systemInfo">
+			<color>000000</color>
+			<glowColor>7deaea50</glowColor>
+		</text>		
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
+			<color>ffffff</color>
+		</image>
+		
+   </view>
+
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+			<color>7deaea</color>
+		 </image>     
+
+   </view>
+
+	<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>7deaea</backgroundEdgeColor>
+    </gridtile>
+
+   </view>
+
+	<view name="menu">
+
+		<menuText name="menutext">
+			<selectorColor>2aa5a5</selectorColor>
+		</menuText>
+
+   </view>
+			
+</theme>

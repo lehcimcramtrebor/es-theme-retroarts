@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>4</formatVersion>
+		<view name="system, basic, detailed, video, grid">
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame, list_border_bottom" extra="true">
+			<color>FF3030</color>
+		</image>
+			
+		<helpsystem name="help">
+			<iconColor>00ff00</iconColor>
+		</helpsystem>
+
+		<image name="ring_bayer" extra="true">
+         <color>ffff00</color>
+         <colorEnd>ffff00</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+		
+		<image name="bayer" extra="true">
+         <color>7dea30</color>
+		</image>
+
+		<image name="ring" extra="true">
+         <color>101010</color>		 		
+         <colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+
+		<image name="bloom_ring" extra="true">
+         <color>ffff2090</color>
+         <colorEnd>ffff00</colorEnd>
+		<gradientType>vertical</gradientType>
+		</image>
+
+		<image name="bloom_lcd" extra="true">
+         <color>7dea3070</color>
+		</image>
+		
+   </view>
+		
+		<view name="basic, detailed, video, grid">
+	     <image name="list_frame" extra="true">
+		 <color>ff303025</color>
+		 </image>  
+		 
+     <text name="md_description">
+		<glowColor>7dea30</glowColor>
+      </text>
+
+	     <image name="list_border_left, list_border_right" extra="true">
+			<color>FF3030</color>
+		 </image>     
+		 	  		
+   </view>
+
+	<view name="basic, detailed, video">
+
+   
+	
+     <textlist name="gamelist">
+         <selectorColor>ff3030</selectorColor>
+         <selectorColorEnd>ff0000</selectorColorEnd>		 
+      </textlist>
+
+   </view>
+
+	<view name="system">
+
+		<image name="system_glass" extra="true">
+			<color>ff3030</color>
+		</image>
+		
+		<text name="systemInfo">
+			<color>000000</color>
+			<glowColor>7dea30</glowColor>
+		</text>		
+
+		<image name="simple_back_lcd_frame, simple_back_bottom_frame" extra="true">
+			<color>FF3030</color>
+		</image>
+		
+   </view>
+
+	<view name="detailed, video, grid">
+
+	     <image name="g_players" extra="true">
+			<path>./_assets/players.png</path>
+			<color>ffff00</color>
+			<colorEnd>ffff20</colorEnd>
+			<gradientType>vertical</gradientType>			
+		 </image>     
+
+   </view>
+
+	<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>ff3030</backgroundEdgeColor>
+    </gridtile>
+
+   </view>
+
+	<view name="menu">
+
+		<menuText name="menutext">
+			<selectorColor>7dea00</selectorColor>
+			<selectorColorEnd>009000</selectorColorEnd>
+		</menuText>
+
+   </view>
+			
+</theme>
