@@ -110,7 +110,7 @@ lehcimcramtrebor.ztriw@gmail.com
 	
 <!------STATIC EFFECTS------>
 
-		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+<!--		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
 
 		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
 
@@ -125,10 +125,9 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
 
 		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
-
+-->
 <!------VIDEO EFFECTS------>
-
-
+<!--
 		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
 
 		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
@@ -142,7 +141,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
 
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
-
+-->
 <!------ICONSETS CONFIG------>
 		
 		<include subset="iconset" name="Standard">./_iconsets/nope.xml</include>		
