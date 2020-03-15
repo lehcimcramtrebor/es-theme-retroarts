@@ -47,5 +47,8 @@
 				<zIndex>2</zIndex>
 			</image>			
 </view>
+
+		<include>./custom_video.xml</include>
+
   
 </theme>
