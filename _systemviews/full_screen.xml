@@ -33,7 +33,7 @@
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
       <color>ffffff</color>
-      <zIndex>1</zIndex>      
+      <zIndex>3</zIndex>      
     </video>
 	
 			<image name="art_01" extra="true">
