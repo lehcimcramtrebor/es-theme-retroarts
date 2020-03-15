@@ -18,9 +18,9 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <!------OS CHOICE FOR LOGO, JUKEBOX, CONTROLLER ACTIVITY------>
 
-		<include subset="Os" name="Batocera">./batocera.xml</include>
-
 		<include subset="Os" name="Retrobat">./retrobat.xml</include>
+
+		<include subset="Os" name="Batocera">./batocera.xml</include>
 
 <!------SYSTEMVIEW TYPE CHOICE------>
 
