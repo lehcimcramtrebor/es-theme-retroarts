@@ -7,7 +7,7 @@
 	
 By Lehcim. ( lehcimcramtrebor.ztriw@gmail.com )
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/raw/Screenshots/01.png)
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/01.png)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/blob/Screenshots/01.png)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/blob/Screenshots/01.png)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/blob/Screenshots/01.png)
