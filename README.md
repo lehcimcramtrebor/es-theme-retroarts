@@ -19,7 +19,7 @@ Systems folders are in "_systems" folder
 
 For Batocera,
 
-If you have the know audio bug (don't play audio scrapped games) you can turn OFF music in these 2 modes ( "Full screen videos" and "in TV Videos") by deleting
+If you have the know audio bug (don't play audio scrapped games) you can turn ON music in these 2 modes ( "Full screen videos" and "in TV Videos") by deleting
 or renaming the "mute.xml" file at theme root folder.
 
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/mute.jpg)
