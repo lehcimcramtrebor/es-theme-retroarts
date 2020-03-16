@@ -5,7 +5,7 @@
 
 Customize your system videos:
 
-If you use these 2 systemview options ( "Full screen videos" and "in TV Videos"
+If you use these 2 systemview options ( "Full screen videos" and "in TV Videos")
 
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-01.jpg)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-02.jpg)
@@ -15,6 +15,14 @@ You can personalize your videos, put a file named "custom.mp4" in any system fol
 Systems folders are in "_systems" folder
 
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-03.jpg)
+
+
+For Batocera,
+
+If you have the know audio bug (don't play audio scrapped games) you can turn on music in these 2 modes ( "Full screen videos" and "in TV Videos") by deleting
+or renaming the "mute.xml" file at theme root folder.
+
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/mute.jpg)
 	
 By Lehcim. ( lehcimcramtrebor.ztriw@gmail.com )
 
