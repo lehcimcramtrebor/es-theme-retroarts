@@ -24,7 +24,8 @@
 		</image>
 
     <video name="backgroundvideo" extra="true">
-		<path>{random}</path>                 
+
+		<path>{random}</path>             
 		<origin>0.5 0</origin>
 		<pos>0.5 0</pos>
 		<size>0.87 0.87</size>
@@ -33,7 +34,7 @@
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
       <color>ffffff</color>
-      <zIndex>3</zIndex>      
+      <zIndex>5</zIndex>      
     </video>
 	
 			<image name="art_01" extra="true">
