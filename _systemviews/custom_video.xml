@@ -8,7 +8,7 @@
 
 
     <video name="backgroundvideo" extra="true">
-		<path>./../_systems/${system.theme}/custom.mp4</path>                 
+		<path>./../CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 
     </video>
 
 				

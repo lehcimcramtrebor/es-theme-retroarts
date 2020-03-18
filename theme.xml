@@ -232,8 +232,9 @@ lehcimcramtrebor.ztriw@gmail.com
 			<origin>0.5 0</origin>
 			<pos>0.5 0</pos>
 			<size>0.87 0.87</size>
-			<zIndex>1</zIndex>                 
+			<zIndex>1</zIndex>
 			<path>./_systems/${system.theme}/wallpaper.jpg</path>
+			<path>./CUSTOMIZE_YOUR_THEME/backgrounds/${system.theme}.jpg</path>						
 		</image>
 			
 		<image name="art_01" extra="true">
