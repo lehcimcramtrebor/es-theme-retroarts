@@ -3,18 +3,25 @@
 
 4.0 ADD COMPATIBILITY FOR RETROBAT 3.0 & BATOCERA 5.25
 
-Customize your system videos:
 
-If you use these 2 systemview options ( "Full screen videos" and "in TV Videos")
+You can simply personalize your backgrounds, videos or musics. Put a file named "sytem_theme.mp4", "sytem_theme.ogg", "sytem_theme.mp3" or "sytem_theme.jpg" 
+in musics, backgrounds or video folder in "CUSTOMIZE_YOUR_THEME" at root folder.
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-01.jpg)
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-02.jpg)
+For examples:
 
-You can personalize your videos, put a file named "custom.mp4" in any system folder and this will play this video and not random scraped video.
+To customize Super Nintendo background, put a file named snes.jpg in "CUSTOMIZE_YOUR_THEME/backgrounds/"
 
-Systems folders are in "_systems" folder
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/jpg.jpg)
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/custom-03.jpg)
+
+To customize Megadrive music, put a file named megadrive.ogg or megadrive.mp3 in "CUSTOMIZE_YOUR_THEME/musics/"
+
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/mp3.jpg)
+
+
+To customize Master System video, put a file named mastersystem.mp4 in "CUSTOMIZE_YOUR_THEME/videos/"
+
+![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-retroarts/Screenshots/mp4.jpg)
 
 
 For Batocera,
