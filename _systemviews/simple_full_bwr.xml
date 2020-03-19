@@ -24,6 +24,7 @@
 		<pos>0 0</pos>
 		<size>1 1</size>
 		<delay>0.6</delay>
+      <effect>none</effect>		
 	  		 <default>./../_assets/noise.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>

@@ -24,6 +24,7 @@
 		<path>{random}</path>
 		<path>./../CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
 		<delay>0.6</delay>
+      <effect>none</effect>		
 	  		 <default>./../_assets/no_video.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
