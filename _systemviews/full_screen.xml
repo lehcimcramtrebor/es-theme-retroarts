@@ -25,7 +25,8 @@
 
     <video name="backgroundvideo" extra="true">
 
-		<path>{random}</path>             
+		<path>{random}</path>
+		<path>./../CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
 		<origin>0.5 0</origin>
 		<pos>0.5 0</pos>
 		<size>0.87 0.87</size>
