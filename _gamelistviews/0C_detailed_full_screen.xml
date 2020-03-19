@@ -172,7 +172,7 @@
 		<origin>1 0</origin>
          <pos>0.94 0</pos>
          <size>0.87 0.87</size>
-         <delay>0</delay>
+         <delay>1</delay>
 		 <default>./../_assets/noise.jpg</default>         
          <zIndex>1</zIndex>         
       </image>	  	
