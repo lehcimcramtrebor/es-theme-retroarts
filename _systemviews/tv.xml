@@ -23,7 +23,7 @@
 		<size>0.09 0.13</size>	
 		<path>{random}</path>
 		<path>./../CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
-		<delay>0</delay>
+		<delay>0.6</delay>
 	  		 <default>./../_assets/no_video.mp4</default>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
