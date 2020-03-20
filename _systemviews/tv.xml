@@ -17,6 +17,9 @@
 
 		<include subset="Carousel" name="BIG Wheel Right">./tv_bwr.xml</include>		
 
+		<include subset="Music 'in TV' systemview" name="OFF">./../mute.xml</include>
+
+		<include subset="Music 'in TV' systemview" name="ON">./nope.xml</include>
 <view name="system">
 
     <video name="backgroundvideo" extra="true">

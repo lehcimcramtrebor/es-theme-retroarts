@@ -16,6 +16,10 @@
 		<include subset="Carousel" name="BIG Wheel Left">./full_bwl.xml</include>
 
 		<include subset="Carousel" name="BIG Wheel Right">./full_bwr.xml</include>
+
+		<include subset="Music in 'Full Screen' systemview" name="OFF">./../mute.xml</include>
+
+		<include subset="Music in 'Full Screen' systemview" name="ON">./nope.xml</include>
 		
 <view name="system">
 		
