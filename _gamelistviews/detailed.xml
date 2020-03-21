@@ -1,9 +1,9 @@
-<theme defaultView="video">
+<theme>
 
 	<formatVersion>4</formatVersion>
 	
 
-<view name="video">
+<view name="detailed">
 
 	     <image name="convector" extra="true">
 		 <path>./../_assets/convector.png</path>
@@ -152,28 +152,26 @@
       </text>
 	  
 		<image name="background" extra="true">
-			<visible>false</visible>
+			<color>404040</color>
+			<colorEnd>ffffff</colorEnd>
+			<gradientType>vertical</gradientType>
 		</image>
 		
      <image name="md_thumbnail">
-        <pos>0.915 0.85</pos>
-        <origin>1 1</origin>
+        <pos>0.84 0.59</pos>
+        <origin>0.5 0.5</origin>
         <maxSize>0.145 0.45</maxSize>
         <zIndex>7</zIndex>         
       </image>        
 	  
-      <video name="md_video">
+      <image name="md_image">
         <pos>0.8237 0.19</pos>
         <origin>0.5 0.5</origin>
         <maxSize>0.086 0.135</maxSize>
-        <zIndex>6</zIndex>
-      <effect>none</effect>		
-		 <delay>1</delay>
-	  	 <default>./../_assets/no_video.mp4</default>		 
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>false</showSnapshotDelay>		
-      </video>
-
+		<default>./../_assets/noise.jpg</default>         
+        <zIndex>3</zIndex>          
+      </image>
+	  
 			<image name="system_tv" extra="true">
 				<origin>0.5 0.5</origin>
 				<pos>0.84 0.18</pos>
@@ -188,10 +186,10 @@
 				<size>0.09 0.13</size>					
 				<color>000000</color>
 				<zIndex>2</zIndex>
-			</image>			
+			</image>			                  	
 
    </view> 
 
-		<include subset="Mode Simple" name="ON">./1B_simple.xml</include>
+		<include subset="Mode Simple" name="ON">./simple_detailed.xml</include>
 	
 </theme>
