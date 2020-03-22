@@ -1,4 +1,4 @@
-<theme>
+<theme defaultView="grid">
 
 	<formatVersion>4</formatVersion>
 	
@@ -11,6 +11,7 @@
         <maxSize>0.086 0.135</maxSize>
         <zIndex>6</zIndex>
 		 <delay>1</delay>
+      <effect>none</effect>		 
 	  	 <default>./../_assets/no_video.mp4</default>		 
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>		

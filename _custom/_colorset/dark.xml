@@ -97,5 +97,19 @@
 		</menuText>
 
    </view>
-			
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Background)">./no_edges.xml</include>
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Black)">./no_edges.xml</include>
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Full Screen Videos)">./no_edges.xml</include>
+
+
+		
+		<include subset="Gamelist View" name="Wheel (Background)">./no_edges.xml</include>
+
+		<include subset="Gamelist View" name="Wheel (Black)">./no_edges.xml</include>		
+
+		<include subset="Gamelist View" name="Wheel (Full Screen Videos)">./no_edges.xml</include>
+		
 </theme>
