@@ -6,6 +6,8 @@
 	<view name="system">
 		<sound name="bgsound">
 		<path>./_systems/${system.theme}/system.ogg</path>
+		<path>./CUSTOMIZE_YOUR_THEME/musics/${system.theme}.ogg</path>
+		<path>./CUSTOMIZE_YOUR_THEME/musics/${system.theme}.mp3</path>				
 		</sound>
 	</view>		
 
