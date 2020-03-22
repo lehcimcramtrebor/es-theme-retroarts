@@ -1,4 +1,4 @@
-<theme>
+<theme defaultView="grid">
 
 	<formatVersion>4</formatVersion>
 
@@ -14,7 +14,8 @@
 	  
       <video name="md_video">
 		 <color>ffffff</color>
-         <delay>1</delay>		 
+         <delay>1</delay>
+      <effect>none</effect>		 
          <pos>0.94 0</pos>
 		 <origin>1 0 </origin>
          <size>0.87 0.87</size>
