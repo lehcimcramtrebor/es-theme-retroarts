@@ -1,8 +1,7 @@
-# Retro'Arts V4 for Retrobat/Batocera 5.25
+# Retro'Arts V4 for Batocera 5.25
 
 
 4.1 COMPATIBILITY FOR BATOCERA 5.25
-
 
 
 SYSTEM VIEW:
