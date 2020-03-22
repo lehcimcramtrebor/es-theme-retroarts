@@ -2,7 +2,7 @@
 
 RETRO'ARTS THEME FOR RETROBAT / BATOCERA 5.25
 
-VERSION 4.0 MARCH 2020
+VERSION 4.1 MARCH 2020
 
 BY LEHCIM.
 
@@ -12,9 +12,11 @@ lehcimcramtrebor.ztriw@gmail.com
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme>
+<theme >
 
 		<formatVersion>7</formatVersion>
+
+
 
 <!------OS CHOICE FOR LOGO, JUKEBOX, CONTROLLER ACTIVITY------>
 
@@ -22,16 +24,96 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Os" name="Batocera">./batocera.xml</include>
 
+
+
 <!------SYSTEMVIEW TYPE CHOICE------>
 
 		<include subset="System View" name="Standard">./_systemviews/standard.xml</include>
 
 		<include subset="System View" name="Full Screen Videos">./_systemviews/full_screen.xml</include>
-		<include subset="System View" name="Full Screen Videos">./mute.xml</include>
 
 		<include subset="System View" name="in'TV Videos">./_systemviews/tv.xml</include>
-		<include subset="System View" name="in'TV Videos">./mute.xml</include>
 
+
+
+<!------GAMELISTS CONFIG------>
+
+		<include>./_gamelistviews/basic.xml</include>
+		<include>./_gamelistviews/detailed.xml</include>
+		<include>./_gamelistviews/video.xml</include>
+
+
+	
+		<include subset="Gamelist View" name="Boxes (Background)">./_gamelistviews/2A_grid_boxes_background.xml</include>
+
+		<include subset="Gamelist View" name="Boxes (Black)">./_gamelistviews/2C_grid_boxes_black.xml</include>
+
+		<include subset="Gamelist View" name="Boxes (Full Screen Videos)">./_gamelistviews/2E_grid_boxes_full_video.xml</include>
+		
+
+
+		<include subset="Gamelist View" name="Boxes + Marquees (Background)">./_gamelistviews/2B_grid_boxes_background_marquees.xml</include>		
+
+		<include subset="Gamelist View" name="Boxes + Marquees (Black)">./_gamelistviews/2D_grid_boxes_black_marquees.xml</include>		
+
+		<include subset="Gamelist View" name="Boxes + Marquees (Full Screen Videos)">./_gamelistviews/2F_grid_boxes_full_video_marquees.xml</include>		
+
+
+		
+		<include subset="Gamelist View" name="Screenshots + Marquees (Background)">./_gamelistviews/2H_grid_screenshots_background_marquees.xml</include>		
+
+		<include subset="Gamelist View" name="Screenshots + Marquees (Black)">./_gamelistviews/2J_grid_screenshots_black_marquees.xml</include>		
+
+		<include subset="Gamelist View" name="Screenshots + Marquees (Full Screen Videos)">./_gamelistviews/2L_grid_screenshots_full_video_marquees.xml</include>		
+
+
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Background)">./_gamelistviews/3A_grid_horizontal_boxes.xml</include>
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Black)">./_gamelistviews/3B_grid_horizontal_boxes_black.xml</include>
+
+		<include subset="Gamelist View" name="Horizontal Boxes (Full Screen Videos)">./_gamelistviews/3C_grid_horizontal_boxes_full_video.xml</include>
+
+
+		
+		<include subset="Gamelist View" name="Wheel (Background)">./_gamelistviews/4A_grid_wheel_background.xml</include>
+
+		<include subset="Gamelist View" name="Wheel (Black)">./_gamelistviews/4B_grid_wheel_black.xml</include>		
+
+		<include subset="Gamelist View" name="Wheel (Full Screen Videos)">./_gamelistviews/4C_grid_wheel_full_video.xml</include>		
+
+
+
+		<include subset="Gamelist View" name="Screenshots (Background)">./_gamelistviews/2G_grid_screenshots_background.xml</include>
+
+		<include subset="Gamelist View" name="Screenshots (Black)">./_gamelistviews/2I_grid_screenshots_black.xml</include>
+
+		<include subset="Gamelist View" name="Screenshots (Full Screen Videos)">./_gamelistviews/2K_grid_screenshots_full_video.xml</include>
+
+
+		
+		<include subset="Gamelist View" name="Detailed (Background)">./_gamelistviews/0A_detailed_background.xml</include>
+
+		<include subset="Gamelist View" name="Detailed (Black)">./_gamelistviews/0B_detailed_black.xml</include>
+
+		<include subset="Gamelist View" name="Detailed (Full Screen)">./_gamelistviews/0C_detailed_full_screen.xml</include>
+
+
+
+		<include subset="Gamelist View" name="Video (Background)">./_gamelistviews/1A_video_background.xml</include>
+
+		<include subset="Gamelist View" name="Video (Black)">./_gamelistviews/1B_video_black.xml</include>
+		
+		<include subset="Gamelist View" name="Video (Full Screen)">./_gamelistviews/1C_video_full_video.xml</include>		
+
+		<include subset="Gamelist View" name="Video (Full Screen Snaphots)">./_gamelistviews/1D_video_full_screenshot.xml</include>	
+		
+		
+
+		<include subset="Gamelist View" name="Basic">./_gamelistviews/defaultview_basic.xml</include>
+
+
+	
 <!------CAROUSEL CHOICE------>
    
 		<include subset="Carousel" name="Wheel Left">./_carousels/wheel_left.xml</include>
@@ -49,67 +131,13 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="Carousel" name="BIG Wheel Right">./_carousels/big_wheel_right.xml</include>
 		
 
+
 <!------CONFIG FOR GRAPHIC STYLES------>
 
   		<include>./_custom/custom_config.xml</include>
 
-<!------GAMELISTS CONFIG------>
- 
-		<include>./_gamelistviews/basic.xml</include>
 
 
-		<include subset="Gamelist Detailed View" name="Background Standard">./_gamelistviews/0A_detailed_background.xml</include>
-
-		<include subset="Gamelist Detailed View" name="Black Standard">./_gamelistviews/0B_detailed_black.xml</include>
-
-		<include subset="Gamelist Detailed View" name="Full Screen Snapshots">./_gamelistviews/0C_detailed_full_screen.xml</include>
-
-
-		<include subset="Gamelist Video View" name="Background Standard">./_gamelistviews/1A_video_background.xml</include>
-
-		<include subset="Gamelist Video View" name="Black Standard">./_gamelistviews/1B_video_black.xml</include>
-		
-		<include subset="Gamelist Video View" name="Full Screen Videos">./_gamelistviews/1C_video_full_video.xml</include>		
-
-		<include subset="Gamelist Video View" name="Full Screen Snaphots Videos">./_gamelistviews/1D_video_full_screenshot.xml</include>		
-
-
-		<include subset="Gamelist Gridview" name="Background Boxes">./_gamelistviews/2A_grid_boxes_background.xml</include>
-		
-		<include subset="Gamelist Gridview" name="Background Boxes + Marquees">./_gamelistviews/2B_grid_boxes_background_marquees.xml</include>		
-		
-		<include subset="Gamelist Gridview" name="Background Screenshots">./_gamelistviews/2G_grid_screenshots_background.xml</include>
-		
-		<include subset="Gamelist Gridview" name="Background Screenshots + Marquees">./_gamelistviews/2H_grid_screenshots_background_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Background Horizontal Boxes">./_gamelistviews/3A_grid_horizontal_boxes.xml</include>
-		
-		<include subset="Gamelist Gridview" name="Background Wheel">./_gamelistviews/4A_grid_wheel_background.xml</include>
-
-		<include subset="Gamelist Gridview" name="Black Boxes">./_gamelistviews/2C_grid_boxes_black.xml</include>
-		
-		<include subset="Gamelist Gridview" name="Black Boxes + Marquees">./_gamelistviews/2D_grid_boxes_black_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Black Screenshots">./_gamelistviews/2I_grid_screenshots_black.xml</include>
-
-		<include subset="Gamelist Gridview" name="Black Screenshots + Marquees">./_gamelistviews/2J_grid_screenshots_black_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Black Horizontal Boxes">./_gamelistviews/3B_grid_horizontal_boxes_black.xml</include>
-
-		<include subset="Gamelist Gridview" name="Black Wheel">./_gamelistviews/4B_grid_wheel_black.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes">./_gamelistviews/2E_grid_boxes_full_video.xml</include>
-		
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Boxes + Marquees">./_gamelistviews/2F_grid_boxes_full_video_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots">./_gamelistviews/2K_grid_screenshots_full_video.xml</include>
-
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Screenshots + Marquees">./_gamelistviews/2L_grid_screenshots_full_video_marquees.xml</include>		
-
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Horizontal Boxes">./_gamelistviews/3C_grid_horizontal_boxes_full_video.xml</include>
-
-		<include subset="Gamelist Gridview" name="Full Screen Videos + Wheel">./_gamelistviews/4C_grid_wheel_full_video.xml</include>		
-	
 <!------STATIC EFFECTS------>
 
 		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
@@ -128,6 +156,8 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
 
+
+
 <!------VIDEO EFFECTS------>
 
 		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
@@ -143,6 +173,8 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="Video Effect" name="SCRATCHES">./_effects/tv_effect_scratches.xml</include>						
 
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+
+
 
 <!------ICONSETS CONFIG------>
 		
@@ -160,17 +192,23 @@ lehcimcramtrebor.ztriw@gmail.com
 
 		<include subset="iconset" name="Xbox One">./_iconsets/iconset_xboxone.xml</include>	
 
+
+
 <!------NUMBER OF PLAYERS ON/OFF------>
 
 		<include subset="Number of Players" name="Yes">./nope.xml</include>	
 
 		<include subset="Number of Players" name="No">./_desactivated/nb_players.xml</include>	
 
+
+
 <!------CONSOLE ARTS ON/OFF------>
 
 		<include subset="Systems Arts" name="Yes">./nope.xml</include>	
 
 		<include subset="Systems Arts" name="No">./_desactivated/arts.xml</include>
+
+
 
 <!------LOGOS STYLES & REGIONS------>
 
@@ -181,6 +219,7 @@ lehcimcramtrebor.ztriw@gmail.com
 		<include subset="System logos" name="Simple Europe">./_logos/simple_logo.xml</include>
 
 		<include subset="System logos" name="Simple World">./_logos/world_simple_logo.xml</include>
+
 
 
 <!------THEME------>
@@ -232,8 +271,9 @@ lehcimcramtrebor.ztriw@gmail.com
 			<origin>0.5 0</origin>
 			<pos>0.5 0</pos>
 			<size>0.87 0.87</size>
-			<zIndex>1</zIndex>                 
+			<zIndex>1</zIndex>
 			<path>./_systems/${system.theme}/wallpaper.jpg</path>
+			<path>./CUSTOMIZE_YOUR_THEME/backgrounds/${system.theme}.jpg</path>						
 		</image>
 			
 		<image name="art_01" extra="true">
